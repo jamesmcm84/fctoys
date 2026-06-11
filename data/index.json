@@ -5,6 +5,7 @@
    "id": "kenner",
    "name": "Kenner",
    "file": "data/kenner.json",
+   "years": "1947–2000",
    "figureCount": 23,
    "series": [
     {
