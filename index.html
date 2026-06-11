@@ -237,6 +237,8 @@ const seriesFigs = s=> s.subseries.flatMap(ss=>ss.figures);
 const matchFig = (f,ql)=> !ql || (f.name+" "+(f.variant||"")+" "+(f.feature||"")).toLowerCase().includes(ql);
 const byName = (a,b)=> (a.name||"").localeCompare(b.name||"", undefined, {numeric:true, sensitivity:"base"})
                     || (a.variant||"").localeCompare(b.variant||"", undefined, {numeric:true, sensitivity:"base"});
+const mfrFigs = x => (x.series||[]).reduce((n,s)=>n+(s.figureCount||0),0);
+const ownedInSeries = (mfrId,seriesId)=> collection.own.filter(id=> id.indexOf(mfrId+"/"+seriesId+"/")===0).length;
 
 const camIcon = `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="3.5"/></svg>`;
 const photoIcon = `<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="m21 17-5-5-9 7"/></svg>`;
@@ -277,7 +279,7 @@ async function renderDirectory(){
 
   const groups = {};
   mfrs.forEach(x=>{ const k=x.name[0].toUpperCase(); (groups[k]=groups[k]||[]).push(x); });
-  const totalFigs = m.manufacturers.reduce((n,x)=>n+(x.figureCount||0),0);
+  const totalFigs = m.manufacturers.reduce((n,x)=>n+mfrFigs(x),0);
 
   let body = Object.keys(groups).sort().map(k=>`
     <div class="azhdr">${k}</div>
@@ -285,7 +287,7 @@ async function renderDirectory(){
       <a class="mfrcard" href="#/${encodeURIComponent(x.id)}">
         <div class="mn">${esc(x.name)}</div>
         <div class="ms">${esc(x.years||"Years n/a")}</div>
-        <div class="mc">${(x.series||[]).length} line${(x.series||[]).length!==1?"s":""} · ${x.figureCount||0} figures</div>
+        <div class="mc">${(x.series||[]).length} line${(x.series||[]).length!==1?"s":""} · ${mfrFigs(x)} figures</div>
       </a>`).join("")}</div>`).join("");
   if(!mfrs.length) body = `<div class="empty">No manufacturers match “${esc(q)}”.</div>`;
 
@@ -302,49 +304,61 @@ function offlineNotice(){
 
 /* ---------- Manufacturer + Series ---------- */
 async function renderManufacturer(mfrId, seriesId){
-  $("#content").innerHTML = `<div class="loading">Loading ${esc(mfrId)}…</div>`;
-  let data;
-  try { data = await Catalog.getManufacturer(mfrId); }
-  catch(e){ return offlineNotice(); }
-  if(!data){ layout({rail:false}); $("#content").innerHTML = `<div class="empty">Unknown manufacturer.</div>`; return; }
-
+  let manifest; try{ manifest = await Catalog.getManifest(); }catch(e){ return offlineNotice(); }
+  const entry = (manifest.manufacturers||[]).find(x=>x.id===mfrId);
+  if(!entry){ layout({rail:false}); $("#content").innerHTML = `<div class="empty">Unknown manufacturer.</div>`; return; }
   layout({rail:true});
-  renderRail(data, seriesId);
+  renderRail(mfrId, entry, seriesId);
   const ql = q.trim().toLowerCase();
 
-  if(ql){
-    let count=0, blocks="";
-    data.series.forEach(s=> s.subseries.forEach(ss=>{
-      const mm = ss.figures.filter(f=>matchFig(f,ql)); if(!mm.length) return;
-      count+=mm.length; blocks += listBlock(`${s.name} · ${ss.name}`, ss.year, mm);
-    }));
-    $("#content").innerHTML = crumbs([["Database","#/"],[data.name,null]]) +
-      `<div class="hero"><div class="eyebrow">Search · ${esc(data.name)}</div><h1>Results</h1>
-       <p>${count} figure${count!==1?"s":""} match “${esc(q)}”.</p></div>` +
-      (blocks || `<div class="empty">No figures match “${esc(q)}”.</div>`);
-    return;
-  }
-
-  const series = seriesId ? data.series.find(s=>s.id===seriesId) : null;
-  if(!series){
-    // manufacturer landing: series index
-    $("#content").innerHTML = crumbs([["Database","#/"],[data.name,null]]) +
-      `<div class="hero"><div class="eyebrow">${esc(data.name)}</div><h1>${esc(data.name)} toy lines</h1>
-       <p>${data.series.length} line${data.series.length!==1?"s":""} catalogued. Pick one to dig in.</p></div>
-       <div class="linelist">${data.series.slice().sort(byName).map(s=>{
-          const figs=seriesFigs(s), owned=figs.filter(f=>has("own",f.id)).length, pct=figs.length?Math.round(owned/figs.length*100):0;
+  // Landing: list every line from the manifest (no figure data needed)
+  if(!seriesId && !ql){
+    const lines = (entry.series||[]).slice().sort(byName);
+    $("#content").innerHTML = crumbs([["Database","#/"],[entry.name,null]]) +
+      `<div class="hero"><div class="eyebrow">${esc(entry.name)}</div><h1>${esc(entry.name)} toy lines</h1>
+       <p>${lines.length} line${lines.length!==1?"s":""} · ${mfrFigs(entry)} figures catalogued.</p></div>
+       <div class="linelist">${lines.map(s=>{
+          const total=s.figureCount||0, owned=ownedInSeries(mfrId,s.id), pct=total?Math.round(owned/total*100):0;
           return `<a class="linecard" href="#/${encodeURIComponent(mfrId)}/${encodeURIComponent(s.id)}">
             <div class="lc-main"><div class="lc-name">${esc(s.name)}</div><div class="lc-year">${esc(s.years||"")}</div></div>
-            <div class="lc-right"><div class="meter"><i style="width:${pct}%"></i></div><div class="lc-cnt">${owned}/${figs.length} owned</div></div>
+            <div class="lc-right"><div class="meter"><i style="width:${pct}%"></i></div><div class="lc-cnt">${owned}/${total} owned</div></div>
             <span class="lc-chev">›</span></a>`;
        }).join("")}</div>`;
     return;
   }
 
+  // Everything below needs the figure data file
+  $("#content").innerHTML = `<div class="loading">Loading ${esc(entry.name)}…</div>`;
+  let data; try{ data = await Catalog.getManufacturer(mfrId); }catch(e){ return offlineNotice(); }
+  data = data || {series:[]};
+
+  if(ql){
+    let count=0, blocks="";
+    (data.series||[]).forEach(s=> s.subseries.forEach(ss=>{
+      const mm = ss.figures.filter(f=>matchFig(f,ql)); if(!mm.length) return;
+      count+=mm.length; blocks += listBlock(`${s.name} · ${ss.name}`, ss.year, mm);
+    }));
+    $("#content").innerHTML = crumbs([["Database","#/"],[entry.name,"#/"+encodeURIComponent(mfrId)]]) +
+      `<div class="hero"><div class="eyebrow">Search · ${esc(entry.name)}</div><h1>Results</h1>
+       <p>${count} figure${count!==1?"s":""} match “${esc(q)}”.</p></div>` +
+      (blocks || `<div class="empty">No figures match “${esc(q)}” in catalogued lines.</div>`);
+    return;
+  }
+
+  const series = (data.series||[]).find(s=>s.id===seriesId);
+  const meta = (entry.series||[]).find(s=>s.id===seriesId);
+  if(!series){
+    const nm = meta?meta.name:seriesId, yr = meta?meta.years:"", fc = meta?(meta.figureCount||0):0;
+    $("#content").innerHTML = crumbs([["Database","#/"],[entry.name,"#/"+encodeURIComponent(mfrId)],[nm,null]]) +
+      `<div class="hero"><div class="eyebrow">${esc(entry.name)}${yr?" · "+esc(yr):""}</div><h1>${esc(nm)}</h1></div>
+       <div class="empty"><b>Not catalogued yet.</b><br>This line is listed (${fc} figure${fc!==1?"s":""}) but its data hasn't been added to <code>data/${esc(mfrId)}.json</code> yet.</div>`;
+    return;
+  }
+
   const figs=seriesFigs(series), owned=figs.filter(f=>has("own",f.id)).length, wanted=figs.filter(f=>has("want",f.id)).length;
   const sections = series.subseries.map(ss=> listBlock(ss.name, ss.year, ss.figures)).join("");
-  $("#content").innerHTML = crumbs([["Database","#/"],[data.name,"#/"+encodeURIComponent(mfrId)],[series.name,null]]) +
-    `<div class="hero"><div class="eyebrow">${esc(data.name)} · ${esc(series.years||"")}</div>
+  $("#content").innerHTML = crumbs([["Database","#/"],[entry.name,"#/"+encodeURIComponent(mfrId)],[series.name,null]]) +
+    `<div class="hero"><div class="eyebrow">${esc(entry.name)} · ${esc(series.years||"")}</div>
      <h1>${esc(series.name)}</h1><p>${esc(series.blurb||"")}</p>
      <div class="stats">
        <div class="stat"><b>${figs.length}</b><span>Catalogued</span></div>
@@ -352,13 +366,13 @@ async function renderManufacturer(mfrId, seriesId){
        <div class="stat want"><b>${wanted}</b><span>Wanted</span></div>
      </div></div>${sections}`;
 }
-function renderRail(data, seriesId){
-  $("#railTitle").textContent = data.name + " · Lines";
-  $("#seriesList").innerHTML = data.series.slice().sort(byName).map(s=>{
-    const figs=seriesFigs(s), owned=figs.filter(f=>has("own",f.id)).length, pct=figs.length?Math.round(owned/figs.length*100):0;
-    return `<a class="series-btn${s.id===seriesId?" active":""}" href="#/${encodeURIComponent(data.id)}/${encodeURIComponent(s.id)}">
+function renderRail(mfrId, entry, seriesId){
+  $("#railTitle").textContent = entry.name + " · Lines";
+  $("#seriesList").innerHTML = (entry.series||[]).slice().sort(byName).map(s=>{
+    const total=s.figureCount||0, owned=ownedInSeries(mfrId,s.id), pct=total?Math.round(owned/total*100):0;
+    return `<a class="series-btn${s.id===seriesId?" active":""}" href="#/${encodeURIComponent(mfrId)}/${encodeURIComponent(s.id)}">
       <div class="nm">${esc(s.name)}</div><div class="yr">${esc(s.years||"")}</div>
-      <div class="meter"><i style="width:${pct}%"></i></div><div class="cnt">${owned}/${figs.length} owned</div></a>`;
+      <div class="meter"><i style="width:${pct}%"></i></div><div class="cnt">${owned}/${total} owned</div></a>`;
   }).join("");
 }
 function crumbs(items){
@@ -373,7 +387,7 @@ async function renderCollection(){
   layout({rail:false});
   const ids = [...collection.own, ...collection.want];
   let manifest; try{ manifest = await Catalog.getManifest(); }catch(e){ return offlineNotice(); }
-  const totalCat = manifest.manufacturers.reduce((n,x)=>n+(x.figureCount||0),0);
+  const totalCat = manifest.manufacturers.reduce((n,x)=>n+mfrFigs(x),0);
   const ownedAll = collection.own.length, wantedAll = collection.want.length;
   const pct = totalCat? Math.round(ownedAll/totalCat*100):0;
 
