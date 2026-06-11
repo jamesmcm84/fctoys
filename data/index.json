@@ -6,7 +6,6 @@
    "name": "Kenner",
    "file": "data/kenner.json",
    "years": "1947–2000",
-   "figureCount": 243,
    "series": [
     {
      "id": "dark-knight-collection",
@@ -36,14 +35,37 @@
      "id": "batman-forever",
      "name": "Batman Forever",
      "years": "1995",
-     "figureCount": 40,
-     "partial": true
+     "figureCount": 51
     },
     {
      "id": "batman-and-robin",
      "name": "Batman & Robin",
      "years": "1997–1998",
      "figureCount": 73
+    },
+    {
+     "id": "action-masters",
+     "name": "Action Masters",
+     "years": "1994",
+     "figureCount": 16
+    },
+    {
+     "id": "alien-resurrection",
+     "name": "Alien Resurrection",
+     "years": "1997",
+     "figureCount": 9
+    },
+    {
+     "id": "aliens",
+     "name": "Aliens",
+     "years": "1979–1998",
+     "figureCount": 59
+    },
+    {
+     "id": "apollo-13",
+     "name": "Apollo 13",
+     "years": "1995",
+     "figureCount": 1
     }
    ]
   }
