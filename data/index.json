@@ -1,0 +1,19 @@
+{
+ "generated": "2026-06-11",
+ "manufacturers": [
+  {
+   "id": "kenner",
+   "name": "Kenner",
+   "file": "data/kenner.json",
+   "figureCount": 23,
+   "series": [
+    {
+     "id": "dark-knight-collection",
+     "name": "Dark Knight Collection",
+     "years": "1990–1991",
+     "figureCount": 23
+    }
+   ]
+  }
+ ]
+}
