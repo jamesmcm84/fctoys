@@ -1,0 +1,363 @@
+{
+ "id": "kenner",
+ "name": "Kenner",
+ "series": [
+  {
+   "id": "dark-knight-collection",
+   "name": "Dark Knight Collection",
+   "years": "1990–1991",
+   "blurb": "Kenner's 5-inch Batman line tied to the 1989 film, running across two waves plus deluxe figures and a fleet of vehicles. Bruce Wayne by day; by night, the vigilante of Gotham. 23 catalogued pieces.",
+   "subseries": [
+    {
+     "name": "Crime Master · Deluxe Edition",
+     "year": 1990,
+     "figures": [
+      {
+       "id": "kenner/dark-knight-collection/batman-blast-shield",
+       "ref": 1974,
+       "name": "Batman (Blast Shield)",
+       "year": 1990,
+       "feature": "Double Barrel Bola missile really fires!",
+       "mfgNum": "63460",
+       "upc": "0 76281 63540 8",
+       "age": "4 & Up",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_BatmanBlastShield-CrimeMaster-Front.jpg"
+        },
+        {
+         "label": "Back",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_BatmanBlastShield-CrimeMaster-Back.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/dark-knight-collection/batman-claw-climber",
+       "ref": 1975,
+       "name": "Batman (Claw Climber)",
+       "year": 1990,
+       "feature": "Climbs like a bat! Wings move and missile fires!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_BatmanClawClimber-CrimeMaster-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/dark-knight-collection/batman-night-glider",
+       "ref": 1976,
+       "name": "Batman (Night Glider)",
+       "year": 1990,
+       "feature": "Giant Glider has moveable wings and capture hook!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_BatmanNightGlider-CrimeMaster-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Series 1",
+     "year": 1990,
+     "figures": [
+      {
+       "id": "kenner/dark-knight-collection/batman-crime-attack",
+       "ref": 1963,
+       "name": "Batman (Crime Attack)",
+       "year": 1990,
+       "feature": "Spring-loaded launcher fires Batarang and claw at criminals.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_BatmanCrimeAttack-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/dark-knight-collection/batman-iron-winch",
+       "ref": 1964,
+       "name": "Batman (Iron Winch)",
+       "year": 1990,
+       "feature": "Batarang winch reels criminals in.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_BatmanIronWinch-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/dark-knight-collection/batman-shadow-wing",
+       "ref": 1965,
+       "name": "Batman (Shadow Wing)",
+       "year": 1990,
+       "feature": "Cape-spreading pop-up arms and handcuffs.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_BatmanShadowWing-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/dark-knight-collection/batman-tec-shield-black-pull",
+       "ref": 1966,
+       "name": "Batman (Tec-Shield)",
+       "year": 1990,
+       "variant": "Black Pull",
+       "feature": "Flight Pack escape; golden shield suit resists extreme heat and chemicals.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_BatmanTecShield-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/dark-knight-collection/batman-tec-shield-gold-pull",
+       "ref": 1967,
+       "name": "Batman (Tec-Shield)",
+       "year": 1990,
+       "variant": "Gold Pull",
+       "feature": "Flight Pack escape; golden shield suit resists extreme heat and chemicals.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_BatmanTecShield-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/dark-knight-collection/batman-wall-scaler",
+       "ref": 1968,
+       "name": "Batman (Wall Scaler)",
+       "year": 1990,
+       "feature": "Climbing Action Pack scales walls; blue night suit.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_BatmanWallScaler-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/dark-knight-collection/bruce-wayne",
+       "ref": 1969,
+       "name": "Bruce Wayne",
+       "year": 1990,
+       "feature": "Answers the Batcave communicator and suits up as Batman. (Card text partial.)",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_BruceWayne-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/dark-knight-collection/joker-sky-escape",
+       "ref": 1970,
+       "name": "Joker (Sky Escape)",
+       "year": 1990,
+       "feature": "Copter Pack escape; face changes color in ice-cold water!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_JokerSkyEscape-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_JokerSkyEscape1.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Series 2",
+     "year": 1991,
+     "figures": [
+      {
+       "id": "kenner/dark-knight-collection/batman-powerwing",
+       "ref": 1971,
+       "name": "Batman (Powerwing)",
+       "year": 1991,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_BatmanPowerWing-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/dark-knight-collection/batman-thunder-whip",
+       "ref": 1972,
+       "name": "Batman (Thunder Whip)",
+       "year": 1991,
+       "feature": "Spinning arm makes weapons whirl!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_BatmanThunderWhip-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/dark-knight-collection/joker-knock-out",
+       "ref": 1973,
+       "name": "Joker (Knock-Out)",
+       "year": 1991,
+       "feature": "With bazooka and \"POW\"erful weapon.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_JokerKnockOut-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Vehicles",
+     "year": 1991,
+     "figures": [
+      {
+       "id": "kenner/dark-knight-collection/batcopter",
+       "ref": 1977,
+       "name": "Batcopter",
+       "year": 1991,
+       "feature": "Launching missile nose cone, capture winch and criminal spinner.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_Batcopter-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_Batcopter-Loose1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/dark-knight-collection/batcycle",
+       "ref": 1978,
+       "name": "Batcycle",
+       "year": 1991,
+       "feature": "Fires rapid-action rockets; fits any Dark Knight Collection Batman. (Card text partial.)",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_Batcycle-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_Batcycle-Loose1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/dark-knight-collection/batjet",
+       "ref": 1979,
+       "name": "Batjet",
+       "year": 1991,
+       "feature": "Blast-off attack missile; wings spread for gliding or pull back for dive attacks. (Card text partial.)",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_Batjet-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/dark-knight-collection/batmobile",
+       "ref": 1980,
+       "name": "Batmobile",
+       "year": 1991,
+       "feature": "Launching turbo missile and pop-out exhaust “flame.” (Card text partial.)",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_Batmobile-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_Batmobile-Loose1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/dark-knight-collection/batwing",
+       "ref": 1981,
+       "name": "Batwing",
+       "year": 1991,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_Batwing-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/dark-knight-collection/bola-bullet",
+       "ref": 1982,
+       "name": "Bola Bullet",
+       "year": 1991,
+       "feature": "With launching bola snare. (Card text partial.)",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_BolaBullet-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/dark-knight-collection/joker-cycle",
+       "ref": 1983,
+       "name": "Joker Cycle",
+       "year": 1991,
+       "feature": "Front Joker mask fires at enemies.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_JokerCycle-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_JokerCycle1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/dark-knight-collection/skyblade",
+       "ref": 1984,
+       "name": "Skyblade",
+       "year": 1991,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_Skyblade-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/dark-knight-collection/strikewing",
+       "ref": 1985,
+       "name": "Strikewing",
+       "year": 1991,
+       "feature": "Firing \"heat-seeking\" missile; wings flip for attack dives. (Card text partial.)",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_Strikewing-Front.jpg"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
