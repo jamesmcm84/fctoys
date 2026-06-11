@@ -276,12 +276,12 @@ async function renderDirectory(){
     <div class="dirgrid">${groups[k].map(x=>`
       <a class="mfrcard" href="#/${encodeURIComponent(x.id)}">
         <div class="mn">${esc(x.name)}</div>
-        <div class="ms">${(x.series||[]).slice(0,3).map(s=>esc(s.name)).join(" · ")||"—"}</div>
-        <div class="mc">${(x.series||[]).length} series · ${x.figureCount||0} figures</div>
+        <div class="ms">${esc(x.years||"Years n/a")}</div>
+        <div class="mc">${(x.series||[]).length} line${(x.series||[]).length!==1?"s":""} · ${x.figureCount||0} figures</div>
       </a>`).join("")}</div>`).join("");
   if(!mfrs.length) body = `<div class="empty">No manufacturers match “${esc(q)}”.</div>`;
 
-  $("#content").innerHTML = `<div class="hero"><div class="eyebrow">Database</div><h1>Toy lines</h1>
+  $("#content").innerHTML = `<div class="hero"><div class="eyebrow">Database</div><h1>Toy Lines</h1>
     <p>Browse the archive by manufacturer. ${m.manufacturers.length} ${m.manufacturers.length===1?"company":"companies"} · ${totalFigs} figures catalogued and counting.</p></div>${body}`;
 }
 function offlineNotice(){
@@ -321,8 +321,8 @@ async function renderManufacturer(mfrId, seriesId){
   if(!series){
     // manufacturer landing: series index
     $("#content").innerHTML = crumbs([["Database","#/"],[data.name,null]]) +
-      `<div class="hero"><div class="eyebrow">${esc(data.name)}</div><h1>${esc(data.name)} series</h1>
-       <p>${data.series.length} series catalogued. Pick one to dig in.</p></div>
+      `<div class="hero"><div class="eyebrow">${esc(data.name)}</div><h1>${esc(data.name)} toy lines</h1>
+       <p>${data.series.length} line${data.series.length!==1?"s":""} catalogued. Pick one to dig in.</p></div>
        <div class="seriesgrid">${data.series.map(s=>{
           const figs=seriesFigs(s), owned=figs.filter(f=>has("own",f.id)).length, pct=figs.length?Math.round(owned/figs.length*100):0;
           return `<a class="scard" href="#/${encodeURIComponent(mfrId)}/${encodeURIComponent(s.id)}">
@@ -345,7 +345,7 @@ async function renderManufacturer(mfrId, seriesId){
      </div></div>${sections}`;
 }
 function renderRail(data, seriesId){
-  $("#railTitle").textContent = data.name + " · Series";
+  $("#railTitle").textContent = data.name + " · Lines";
   $("#seriesList").innerHTML = data.series.map(s=>{
     const figs=seriesFigs(s), owned=figs.filter(f=>has("own",f.id)).length, pct=figs.length?Math.round(owned/figs.length*100):0;
     return `<a class="series-btn${s.id===seriesId?" active":""}" href="#/${encodeURIComponent(data.id)}/${encodeURIComponent(s.id)}">
