@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Figure Collections — An action figure archive by toy line</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --blue:#1CA9E2;--blue-d:#1488ba;--blue-tint:#e6f6fd;
+    --red:#E5202A;--red-d:#bd141d;
+    --ink:#14181F;--ink-band:#1b212c;
+    --canvas:#EEF1F6;--surface:#FFFFFF;--line:#E0E5EE;
+    --txt:#14181F;--txt-dim:#5C6573;
+    --radius:10px;--shadow:0 8px 22px rgba(20,30,55,.10);
+    --have:var(--blue);--want:var(--red);font-synthesis:none;
+  }
+  *{box-sizing:border-box} html,body{margin:0}
+  body{background:var(--canvas);color:var(--txt);font-family:"Inter",system-ui,sans-serif;-webkit-font-smoothing:antialiased;min-height:100vh}
+  a{color:inherit} button{font-family:inherit;cursor:pointer}
+  .hidden{display:none!important}
+  .brandstripe{height:5px;background:linear-gradient(90deg,var(--blue) 0 36%,var(--red) 36% 100%)}
+
+  header.site{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+  .bar{max-width:1240px;margin:0 auto;padding:11px 20px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+  .logo{display:flex;align-items:center;text-decoration:none}
+  .fc-logo{display:inline-flex;flex-direction:column;gap:3px;line-height:.84;font-family:"Archivo Black",sans-serif;letter-spacing:-.5px}
+  .fc-fig,.fc-col{color:#fff;font-size:17px;padding:4px 8px 5px;align-self:flex-start}
+  .fc-fig{background:var(--blue)} .fc-col{background:var(--red);margin-left:15px}
+  .mainnav{display:flex;gap:6px;align-items:center}
+  .navlink{border:0;background:none;font-weight:700;font-size:14px;color:var(--txt-dim);padding:8px 13px;border-radius:8px;display:flex;align-items:center;gap:8px;transition:.12s;text-decoration:none}
+  .navlink:hover{color:var(--ink);background:#eaeef4}
+  .navlink.active{color:#fff;background:var(--ink)}
+  .badge{font-family:"IBM Plex Mono",monospace;font-size:10px;font-weight:600;background:var(--blue);color:#fff;border-radius:999px;padding:1px 7px;min-width:18px;text-align:center}
+  .search{margin-left:auto;position:relative}
+  .search input{background:var(--surface);border:1px solid var(--line);color:var(--txt);border-radius:999px;padding:9px 16px 9px 38px;width:230px;font-size:13px;outline:none;transition:border-color .15s,width .2s}
+  .search input:focus{border-color:var(--blue);width:270px}
+  .search svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);opacity:.45}
+
+  main{max-width:1240px;margin:0 auto;padding:24px 20px 80px;display:grid;grid-template-columns:248px 1fr;gap:26px;align-items:start}
+  main.solo{grid-template-columns:1fr}
+  .rail{position:sticky;top:96px}
+  .rail h2{font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;color:var(--txt-dim);margin:0 0 10px 4px}
+  .series-btn{display:block;width:100%;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:12px 13px;margin-bottom:8px;color:var(--txt);transition:.15s;text-decoration:none}
+  .series-btn:hover{border-color:#c9d2df;transform:translateY(-1px)}
+  .series-btn.active{border-color:var(--blue);background:var(--blue-tint)}
+  .series-btn .nm{font-weight:700;font-size:14px;line-height:1.25}
+  .series-btn .yr{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--txt-dim);margin-top:3px}
+  .meter{height:5px;border-radius:3px;background:#e3e8f0;margin-top:9px;overflow:hidden}
+  .meter > i{display:block;height:100%;background:var(--blue);width:0;transition:width .4s}
+  .series-btn .cnt{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--txt-dim);margin-top:5px}
+
+  .crumbs{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--txt-dim);margin-bottom:14px}
+  .crumbs a{color:var(--blue-d);text-decoration:none} .crumbs a:hover{text-decoration:underline}
+  .crumbs .sep{opacity:.5;margin:0 6px}
+
+  .hero{margin-bottom:8px}
+  .eyebrow{display:inline-block;background:var(--red);color:#fff;padding:4px 10px;border-radius:3px;font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:1px;text-transform:uppercase;font-weight:600}
+  .hero h1{font-family:"Archivo Black",sans-serif;font-size:40px;line-height:.98;margin:12px 0 12px;letter-spacing:-1px}
+  .hero p{color:var(--txt-dim);max-width:62ch;font-size:14px;line-height:1.6;margin:0}
+  .hero .stats{display:flex;gap:26px;margin-top:18px;flex-wrap:wrap}
+  .stat{display:flex;flex-direction:column}
+  .stat b{font-family:"Archivo Black",sans-serif;font-size:24px}
+  .stat span{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--txt-dim);margin-top:2px}
+  .stat.have b{color:var(--blue)} .stat.want b{color:var(--red)}
+  .bigmeter{height:8px;border-radius:4px;background:#e0e6ef;overflow:hidden;max-width:420px;margin-top:18px}
+  .bigmeter > i{display:block;height:100%;background:var(--blue)}
+
+  /* Directory */
+  .dirgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;margin-top:8px}
+  .azhdr{font-family:"Archivo Black",sans-serif;font-size:14px;color:var(--blue);margin:26px 0 10px;letter-spacing:.4px}
+  .mfrcard{display:block;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 16px 14px;text-decoration:none;color:var(--ink);transition:.14s}
+  .mfrcard:hover{border-color:var(--blue);transform:translateY(-2px);box-shadow:var(--shadow)}
+  .mfrcard .mn{font-family:"Archivo Black",sans-serif;font-size:18px;letter-spacing:-.3px}
+  .mfrcard .ms{font-size:12px;color:var(--txt-dim);margin-top:6px;line-height:1.5}
+  .mfrcard .mc{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--blue-d);background:var(--blue-tint);display:inline-block;padding:3px 8px;border-radius:999px;margin-top:10px}
+
+  /* Series index cards */
+  .seriesgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-top:6px}
+  .scard{display:block;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px;text-decoration:none;color:var(--ink);transition:.14s}
+  .scard:hover{border-color:var(--blue);transform:translateY(-2px);box-shadow:var(--shadow)}
+  .scard .sn{font-family:"Archivo Black",sans-serif;font-size:17px;letter-spacing:-.3px}
+  .scard .sy{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--txt-dim);margin-top:4px}
+  .scard .meter{margin-top:12px} .scard .cnt{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--txt-dim);margin-top:6px}
+
+  .sub{margin-top:30px}
+  .sub-hdr{display:flex;align-items:center;gap:12px;margin-bottom:13px}
+  .sub-hdr h3{background:var(--blue);color:#fff;font-family:"Archivo Black",sans-serif;font-size:13px;letter-spacing:.4px;margin:0;padding:6px 12px;border-radius:4px}
+  .sub-hdr h3.red{background:var(--red)}
+  .sub-hdr .rule{flex:1;height:2px;background:var(--line)}
+  .sub-hdr .yr{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--txt-dim)}
+
+  .list{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+  .row{display:flex;align-items:center;gap:14px;padding:11px 15px;border-bottom:1px solid var(--line);cursor:pointer;transition:background .12s;position:relative}
+  .row:last-child{border-bottom:0} .row:hover{background:var(--blue-tint)}
+  .row.owned{box-shadow:inset 4px 0 var(--blue)} .row.wanted{box-shadow:inset 4px 0 var(--red)}
+  .row .rid{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--txt-dim);width:46px;flex:none}
+  .row .rmain{flex:1;min-width:0}
+  .row .rname{font-weight:700;font-size:14px;line-height:1.2}
+  .row .rname .var{color:var(--txt-dim);font-weight:600}
+  .row .rfeat{font-size:11.5px;color:var(--txt-dim);line-height:1.35;margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .row .rctx{font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--txt-dim);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .cam{display:inline-flex;align-items:center;gap:5px;font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--blue-d);background:var(--blue-tint);padding:4px 9px;border-radius:999px;flex:none}
+  .cam.none{color:var(--txt-dim);background:#f2f4f8}
+  .rtog{display:flex;gap:6px;flex:none}
+  .pill{border:1px solid var(--line);background:#f7f9fc;color:var(--txt-dim);border-radius:6px;padding:5px 11px;font-size:11px;font-weight:600;display:flex;align-items:center;justify-content:center;gap:5px;transition:.12s;min-width:60px}
+  .pill:hover{border-color:#c4cdda}
+  .pill.on.have{background:var(--blue);border-color:var(--blue);color:#fff}
+  .pill.on.want{background:var(--red);border-color:var(--red);color:#fff}
+  .empty{color:var(--txt-dim);font-size:14px;padding:46px 30px;text-align:center;border:1px dashed var(--line);border-radius:var(--radius);background:var(--surface);line-height:1.6}
+  .empty b{color:var(--ink)} .empty code{font-family:"IBM Plex Mono",monospace;background:var(--canvas);padding:2px 6px;border-radius:4px}
+  .empty .pill{display:inline-flex;margin-top:14px;background:var(--ink);color:#fff;border-color:var(--ink);padding:9px 16px}
+  .loading{color:var(--txt-dim);font-family:"IBM Plex Mono",monospace;font-size:13px;padding:40px;text-align:center}
+
+  .scrim{position:fixed;inset:0;background:rgba(15,22,40,.55);backdrop-filter:blur(3px);z-index:50;display:none;align-items:center;justify-content:center;padding:20px}
+  .scrim.open{display:flex}
+  .detail{background:var(--surface);color:var(--ink);border-radius:14px;max-width:820px;width:100%;max-height:92vh;overflow:auto;box-shadow:0 24px 60px rgba(0,0,0,.4);position:relative;display:grid;grid-template-columns:1.05fr 1fr}
+  .detail .close{position:absolute;top:12px;right:12px;z-index:6;background:var(--ink);color:#fff;border:0;border-radius:50%;width:32px;height:32px;font-size:16px;line-height:1}
+  .gallery{display:flex;flex-direction:column;background:var(--canvas);border-right:1px solid var(--line)}
+  .gmain{position:relative;flex:1;display:flex;align-items:center;justify-content:center;min-height:330px;padding:20px;background:#fff}
+  .gmain img{max-width:100%;max-height:430px;object-fit:contain}
+  .gph{color:#aab2c0;font-family:"IBM Plex Mono",monospace;font-size:12px;text-align:center;line-height:1.6}
+  .gnav{position:absolute;top:50%;transform:translateY(-50%);background:rgba(20,24,31,.5);color:#fff;border:0;width:34px;height:34px;border-radius:50%;font-size:20px;line-height:1;display:flex;align-items:center;justify-content:center;transition:background .12s}
+  .gnav:hover{background:var(--ink)} .gnav.prev{left:10px} .gnav.next{right:10px}
+  .glabel{position:absolute;bottom:12px;left:50%;transform:translateX(-50%);font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:#fff;background:rgba(20,24,31,.62);padding:3px 10px;border-radius:999px}
+  .gthumbs{display:flex;gap:8px;padding:12px 14px;border-top:1px solid var(--line);flex-wrap:wrap;background:var(--surface)}
+  .gthumb{width:46px;height:60px;border:2px solid var(--line);border-radius:5px;overflow:hidden;background:#fff;padding:0;flex:none}
+  .gthumb img{width:100%;height:100%;object-fit:contain;padding:3px} .gthumb.active{border-color:var(--blue)}
+  .info{padding:26px 26px 24px;display:flex;flex-direction:column;gap:14px}
+  .crumb{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--txt-dim);letter-spacing:.4px} .crumb b{color:var(--blue-d)}
+  .detail h2{font-family:"Archivo Black",sans-serif;font-size:25px;line-height:1.02;margin:0;letter-spacing:-.5px}
+  .burst{position:relative;background:var(--blue);color:#fff;border-radius:8px;padding:13px 15px;font-weight:600;font-size:13px;line-height:1.45;box-shadow:0 4px 0 var(--blue-d)}
+  .burst .lbl{display:block;font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:1.5px;text-transform:uppercase;opacity:.75;margin-bottom:4px}
+  .spec{width:100%;border-collapse:collapse;font-size:12.5px}
+  .spec td{padding:7px 0;border-bottom:1px solid var(--line);vertical-align:top}
+  .spec td:first-child{font-family:"IBM Plex Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.8px;color:var(--txt-dim);width:120px;padding-right:10px}
+  .spec td:last-child{font-weight:500}
+  .dtoggles{display:flex;gap:10px;margin-top:4px} .dtoggles .pill{flex:1;padding:10px;font-size:13px}
+
+  footer{max-width:1240px;margin:0 auto;padding:0 20px 50px;color:var(--txt-dim);font-size:12px}
+  footer .fl{display:flex;gap:10px;align-items:center;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:18px}
+  footer code{font-family:"IBM Plex Mono",monospace;background:#fff;border:1px solid var(--line);padding:2px 6px;border-radius:4px;color:var(--blue-d)}
+
+  @media (max-width:860px){
+    main{grid-template-columns:1fr;gap:18px}
+    .rail{position:static} .rail .series-list{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}
+    .series-btn{min-width:200px;margin-bottom:0}
+    .detail{grid-template-columns:1fr} .gallery{border-right:0;border-bottom:1px solid var(--line)}
+    .hero h1{font-size:31px} .row .rfeat,.row .rctx{display:none}
+    .search{order:3;width:100%;margin-left:0} .search input{width:100%} .search input:focus{width:100%}
+  }
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+  :focus-visible{outline:2px solid var(--blue);outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="brandstripe"></div>
+<header class="site">
+  <div class="bar">
+    <a class="logo" href="#/" aria-label="Figure Collections home">
+      <span class="fc-logo"><span class="fc-fig">FIGURE</span><span class="fc-col">COLLECTIONS</span></span>
+    </a>
+    <nav class="mainnav">
+      <a class="navlink" data-nav="database" href="#/">Database</a>
+      <a class="navlink" data-nav="collection" href="#/collection">My Collection <span class="badge" id="collCount">0</span></a>
+    </nav>
+    <div class="search">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="search" type="search" placeholder="Search figures…" aria-label="Search">
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <aside class="rail hidden" id="rail"><h2 id="railTitle">Series</h2><div class="series-list" id="seriesList"></div></aside>
+  <section id="content"><div class="loading">Loading…</div></section>
+</main>
+
+<footer><div class="fl"><span>Figure Collections — the catalog lives in <code>/data</code>. Add a company by dropping in a JSON file and one manifest line.</span></div></footer>
+
+<div class="scrim" id="scrim" role="dialog" aria-modal="true" aria-label="Figure details"><div class="detail" id="detail"></div></div>
+
+<script>
+/* =====================================================================
+   Catalog — the seam between the app and the data.
+   Today it fetches static JSON from /data. To move to a backend later
+   (e.g. Cloudflare D1 + Worker), reimplement these three methods only.
+   ===================================================================== */
+const Catalog = (()=>{
+  const DIR = "data/";
+  let manifest = null; const mfrCache = {};
+  async function getManifest(){
+    if(manifest) return manifest;
+    const r = await fetch(DIR+"index.json"); if(!r.ok) throw new Error("manifest "+r.status);
+    manifest = await r.json(); return manifest;
+  }
+  async function getManufacturer(id){
+    if(mfrCache[id]) return mfrCache[id];
+    const m = await getManifest();
+    const entry = (m.manufacturers||[]).find(x=>x.id===id); if(!entry) return null;
+    const r = await fetch(entry.file || (DIR+id+".json")); if(!r.ok) throw new Error("mfr "+r.status);
+    mfrCache[id] = await r.json(); return mfrCache[id];
+  }
+  function cached(id){ return mfrCache[id] || null; }
+  return { getManifest, getManufacturer, cached };
+})();
+
+/* ---------- collection (per-device; swap store for a backend later) ---------- */
+const store = {
+  get(k){ try{ return JSON.parse(localStorage.getItem(k)) }catch(e){ return null } },
+  set(k,v){ try{ localStorage.setItem(k, JSON.stringify(v)) }catch(e){} }
+};
+let collection = store.get("fc-collection") || { own:[], want:[] };
+const has = (set,id)=> collection[set].includes(id);
+function toggle(set,id){
+  const i = collection[set].indexOf(id);
+  if(i>=0) collection[set].splice(i,1);
+  else { collection[set].push(id); const o=set==="own"?"want":"own"; const j=collection[o].indexOf(id); if(j>=0) collection[o].splice(j,1); }
+  store.set("fc-collection", collection);
+}
+
+let route = { view:"database", mfrId:null, seriesId:null };
+let q = "";
+let gal = { imgs:[], i:0 };
+
+const $ = s=>document.querySelector(s);
+const esc = s=> (s||"").replace(/[&<>"]/g, c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fullOf = u=> u.replace("thumb_","");
+const seriesFigs = s=> s.subseries.flatMap(ss=>ss.figures);
+const matchFig = (f,ql)=> !ql || (f.name+" "+(f.variant||"")+" "+(f.feature||"")).toLowerCase().includes(ql);
+
+const camIcon = `<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="3.5"/></svg>`;
+const photoIcon = `<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="5" width="18" height="14" rx="2"/><circle cx="9" cy="11" r="2"/><path d="m21 17-5-5-9 7"/></svg>`;
+
+/* ---------- shared bits ---------- */
+function rowHTML(f, ctx){
+  const owned=has("own",f.id), wanted=has("want",f.id);
+  const cls = owned?" owned": wanted?" wanted":"";
+  const name = esc(f.name) + (f.variant?` <span class="var">· ${esc(f.variant)}</span>`:"");
+  const n = (f.images||[]).length;
+  const sub = ctx ? `<div class="rctx">${esc(ctx)}</div>` : `<div class="rfeat">${esc(f.feature||"")||"—"}</div>`;
+  const ref = f.ref ? "#"+f.ref : "";
+  return `<div class="row${cls}" data-fig="${esc(f.id)}" tabindex="0" role="button" aria-label="${esc(f.name)} — open photos">
+    <span class="rid">${ref}</span>
+    <div class="rmain"><div class="rname">${name}</div>${sub}</div>
+    <span class="cam${n?"":" none"}">${camIcon}${n}</span>
+    <div class="rtog">
+      <button class="pill have${owned?" on":""}" data-toggle="own" data-id="${esc(f.id)}">${owned?"✓ Own":"Own"}</button>
+      <button class="pill want${wanted?" on":""}" data-toggle="want" data-id="${esc(f.id)}">${wanted?"✓ Want":"Want"}</button>
+    </div></div>`;
+}
+function listBlock(title, year, figs, redHdr, ctxEach){
+  return `<section class="sub"><div class="sub-hdr"><h3${redHdr?' class="red"':''}>${esc(title)}</h3><span class="rule"></span>${year?`<span class="yr">${year}</span>`:""}</div>
+    <div class="list">${figs.map(f=>rowHTML(f, ctxEach? ctxEach(f):undefined)).join("")}</div></section>`;
+}
+
+/* ---------- Directory (search-first) ---------- */
+async function renderDirectory(){
+  layout({rail:false});
+  let m;
+  try { m = await Catalog.getManifest(); }
+  catch(e){ return offlineNotice(); }
+  const ql = q.trim().toLowerCase();
+  let mfrs = m.manufacturers.slice();
+  if(ql) mfrs = mfrs.filter(x=> (x.name+" "+(x.series||[]).map(s=>s.name).join(" ")).toLowerCase().includes(ql));
+  mfrs.sort((a,b)=> a.name.localeCompare(b.name));
+
+  const groups = {};
+  mfrs.forEach(x=>{ const k=x.name[0].toUpperCase(); (groups[k]=groups[k]||[]).push(x); });
+  const totalFigs = m.manufacturers.reduce((n,x)=>n+(x.figureCount||0),0);
+
+  let body = Object.keys(groups).sort().map(k=>`
+    <div class="azhdr">${k}</div>
+    <div class="dirgrid">${groups[k].map(x=>`
+      <a class="mfrcard" href="#/${encodeURIComponent(x.id)}">
+        <div class="mn">${esc(x.name)}</div>
+        <div class="ms">${(x.series||[]).slice(0,3).map(s=>esc(s.name)).join(" · ")||"—"}</div>
+        <div class="mc">${(x.series||[]).length} series · ${x.figureCount||0} figures</div>
+      </a>`).join("")}</div>`).join("");
+  if(!mfrs.length) body = `<div class="empty">No manufacturers match “${esc(q)}”.</div>`;
+
+  $("#content").innerHTML = `<div class="hero"><div class="eyebrow">Database</div><h1>Toy lines</h1>
+    <p>Browse the archive by manufacturer. ${m.manufacturers.length} ${m.manufacturers.length===1?"company":"companies"} · ${totalFigs} figures catalogued and counting.</p></div>${body}`;
+}
+function offlineNotice(){
+  layout({rail:false});
+  $("#content").innerHTML = `<div class="hero"><div class="eyebrow">Database</div><h1>Catalog not loaded</h1></div>
+    <div class="empty">The app couldn't read <code>data/index.json</code>. The catalog files need to be served over http — they won't load from a double-clicked file.<br><br>
+    <b>Locally:</b> run <code>python3 -m http.server</code> in this folder, then open <code>http://localhost:8000</code>.<br>
+    <b>Deployed:</b> push to GitHub Pages and it just works.</div>`;
+}
+
+/* ---------- Manufacturer + Series ---------- */
+async function renderManufacturer(mfrId, seriesId){
+  $("#content").innerHTML = `<div class="loading">Loading ${esc(mfrId)}…</div>`;
+  let data;
+  try { data = await Catalog.getManufacturer(mfrId); }
+  catch(e){ return offlineNotice(); }
+  if(!data){ layout({rail:false}); $("#content").innerHTML = `<div class="empty">Unknown manufacturer.</div>`; return; }
+
+  layout({rail:true});
+  renderRail(data, seriesId);
+  const ql = q.trim().toLowerCase();
+
+  if(ql){
+    let count=0, blocks="";
+    data.series.forEach(s=> s.subseries.forEach(ss=>{
+      const mm = ss.figures.filter(f=>matchFig(f,ql)); if(!mm.length) return;
+      count+=mm.length; blocks += listBlock(`${s.name} · ${ss.name}`, ss.year, mm);
+    }));
+    $("#content").innerHTML = crumbs([["Database","#/"],[data.name,null]]) +
+      `<div class="hero"><div class="eyebrow">Search · ${esc(data.name)}</div><h1>Results</h1>
+       <p>${count} figure${count!==1?"s":""} match “${esc(q)}”.</p></div>` +
+      (blocks || `<div class="empty">No figures match “${esc(q)}”.</div>`);
+    return;
+  }
+
+  const series = seriesId ? data.series.find(s=>s.id===seriesId) : null;
+  if(!series){
+    // manufacturer landing: series index
+    $("#content").innerHTML = crumbs([["Database","#/"],[data.name,null]]) +
+      `<div class="hero"><div class="eyebrow">${esc(data.name)}</div><h1>${esc(data.name)} series</h1>
+       <p>${data.series.length} series catalogued. Pick one to dig in.</p></div>
+       <div class="seriesgrid">${data.series.map(s=>{
+          const figs=seriesFigs(s), owned=figs.filter(f=>has("own",f.id)).length, pct=figs.length?Math.round(owned/figs.length*100):0;
+          return `<a class="scard" href="#/${encodeURIComponent(mfrId)}/${encodeURIComponent(s.id)}">
+            <div class="sn">${esc(s.name)}</div><div class="sy">${esc(s.years||"")}</div>
+            <div class="meter"><i style="width:${pct}%"></i></div>
+            <div class="cnt">${owned}/${figs.length} owned</div></a>`;
+       }).join("")}</div>`;
+    return;
+  }
+
+  const figs=seriesFigs(series), owned=figs.filter(f=>has("own",f.id)).length, wanted=figs.filter(f=>has("want",f.id)).length;
+  const sections = series.subseries.map(ss=> listBlock(ss.name, ss.year, ss.figures)).join("");
+  $("#content").innerHTML = crumbs([["Database","#/"],[data.name,"#/"+encodeURIComponent(mfrId)],[series.name,null]]) +
+    `<div class="hero"><div class="eyebrow">${esc(data.name)} · ${esc(series.years||"")}</div>
+     <h1>${esc(series.name)}</h1><p>${esc(series.blurb||"")}</p>
+     <div class="stats">
+       <div class="stat"><b>${figs.length}</b><span>Catalogued</span></div>
+       <div class="stat have"><b>${owned}</b><span>Owned</span></div>
+       <div class="stat want"><b>${wanted}</b><span>Wanted</span></div>
+     </div></div>${sections}`;
+}
+function renderRail(data, seriesId){
+  $("#railTitle").textContent = data.name + " · Series";
+  $("#seriesList").innerHTML = data.series.map(s=>{
+    const figs=seriesFigs(s), owned=figs.filter(f=>has("own",f.id)).length, pct=figs.length?Math.round(owned/figs.length*100):0;
+    return `<a class="series-btn${s.id===seriesId?" active":""}" href="#/${encodeURIComponent(data.id)}/${encodeURIComponent(s.id)}">
+      <div class="nm">${esc(s.name)}</div><div class="yr">${esc(s.years||"")}</div>
+      <div class="meter"><i style="width:${pct}%"></i></div><div class="cnt">${owned}/${figs.length} owned</div></a>`;
+  }).join("");
+}
+function crumbs(items){
+  return `<div class="crumbs">${items.map((it,i)=>{
+    const sep = i<items.length-1?`<span class="sep">▸</span>`:"";
+    return (it[1]?`<a href="${it[1]}">${esc(it[0])}</a>`:`<span>${esc(it[0])}</span>`)+sep;
+  }).join("")}</div>`;
+}
+
+/* ---------- My Collection (loads only the manufacturers it needs) ---------- */
+async function renderCollection(){
+  layout({rail:false});
+  const ids = [...collection.own, ...collection.want];
+  let manifest; try{ manifest = await Catalog.getManifest(); }catch(e){ return offlineNotice(); }
+  const totalCat = manifest.manufacturers.reduce((n,x)=>n+(x.figureCount||0),0);
+  const ownedAll = collection.own.length, wantedAll = collection.want.length;
+  const pct = totalCat? Math.round(ownedAll/totalCat*100):0;
+
+  if(!ids.length){
+    $("#content").innerHTML = `<div class="hero"><div class="eyebrow">My Collection</div><h1>Nothing here yet</h1>
+      <p>Mark figures Owned or Wanted from the Database and they'll gather here with your overall completion.</p></div>
+      <div class="empty">Your collection is empty.<br><a class="pill" href="#/">Browse the Database</a></div>`;
+    return;
+  }
+  $("#content").innerHTML = `<div class="loading">Gathering your collection…</div>`;
+  const mfrIds = [...new Set(ids.map(id=>id.split("/")[0]))];
+  await Promise.all(mfrIds.map(id=>Catalog.getManufacturer(id).catch(()=>null)));
+
+  const resolve = id=>{
+    const d = Catalog.cached(id.split("/")[0]); if(!d) return null;
+    for(const s of d.series) for(const ss of s.subseries){ const f=ss.figures.find(x=>x.id===id); if(f) return {f, ctx:`${d.name} · ${s.name} · ${ss.name}`}; }
+    return null;
+  };
+  const ql = q.trim().toLowerCase();
+  const pick = arr => arr.map(resolve).filter(Boolean).filter(o=> !ql || (o.f.name+" "+(o.f.variant||"")+" "+(o.f.feature||"")+" "+o.ctx).toLowerCase().includes(ql));
+  const own = pick(collection.own), want = pick(collection.want);
+
+  const ownBlock = collection.own.length
+    ? listBlock(`Owned (${own.length})`, null, own.map(o=>o.f), false, f=> own.find(o=>o.f.id===f.id).ctx)
+    : "";
+  const wantBlock = collection.want.length
+    ? listBlock(`Wishlist (${want.length})`, null, want.map(o=>o.f), true, f=> want.find(o=>o.f.id===f.id).ctx)
+    : "";
+
+  $("#content").innerHTML = `<div class="hero"><div class="eyebrow">My Collection</div><h1>Your shelf</h1>
+    <p>Across every catalogued toy line. ${ownedAll} owned of ${totalCat} — ${pct}% complete.</p>
+    <div class="stats">
+      <div class="stat have"><b>${ownedAll}</b><span>Owned</span></div>
+      <div class="stat want"><b>${wantedAll}</b><span>Wishlist</span></div>
+      <div class="stat"><b>${pct}%</b><span>Complete</span></div>
+    </div><div class="bigmeter"><i style="width:${pct}%"></i></div></div>${ownBlock}${wantBlock}`;
+}
+
+/* ---------- gallery + detail ---------- */
+function showImg(i){
+  if(!gal.imgs.length) return;
+  gal.i=(i+gal.imgs.length)%gal.imgs.length;
+  const im=gal.imgs[gal.i], img=$("#gimg");
+  if(img){ img.onerror=function(){ this.onerror=null; this.src=im.url; }; img.src=fullOf(im.url); img.alt=im.label; }
+  const lbl=$("#glabel"); if(lbl) lbl.textContent=im.label;
+  document.querySelectorAll(".gthumb").forEach((t,idx)=> t.classList.toggle("active", idx===gal.i));
+}
+function findLoaded(id){
+  const d = Catalog.cached(id.split("/")[0]); if(!d) return null;
+  for(const s of d.series) for(const ss of s.subseries){ const f=ss.figures.find(x=>x.id===id); if(f) return {fig:f, mfrName:d.name, seriesName:s.name, ssName:ss.name}; }
+  return null;
+}
+function openDetail(id){
+  const r = findLoaded(id); if(!r) return;
+  const {fig, mfrName, seriesName, ssName} = r;
+  gal = { imgs: fig.images||[], i:0 };
+  const owned=has("own",fig.id), wanted=has("want",fig.id), multi=gal.imgs.length>1;
+  const galleryHTML = gal.imgs.length ? `
+    <div class="gmain">${multi?`<button class="gnav prev" aria-label="Previous photo">‹</button>`:""}
+      <img id="gimg" alt="">${multi?`<button class="gnav next" aria-label="Next photo">›</button>`:""}
+      <span class="glabel" id="glabel"></span></div>
+    ${multi?`<div class="gthumbs">${gal.imgs.map((im,idx)=>`<button class="gthumb" data-i="${idx}" aria-label="${esc(im.label)}"><img src="${im.url}" alt="${esc(im.label)}"></button>`).join("")}</div>`:""}`
+    : `<div class="gmain"><div class="gph">${photoIcon}<br>No photos yet</div></div>`;
+  const trow=(k,v)=> v?`<tr><td>${k}</td><td>${esc(v)}</td></tr>`:"";
+  const burst = fig.feature?`<div class="burst"><span class="lbl">On the card</span>${esc(fig.feature)}</div>`:"";
+  $("#detail").innerHTML = `
+    <button class="close" id="closeBtn" aria-label="Close">✕</button>
+    <div class="gallery">${galleryHTML}</div>
+    <div class="info">
+      <div class="crumb"><b>${esc(mfrName)}</b> ▸ ${esc(seriesName)} ▸ ${esc(ssName)}</div>
+      <h2>${esc(fig.name)}${fig.variant?` <span style="font-size:15px;color:var(--txt-dim)">(${esc(fig.variant)})</span>`:""}</h2>
+      ${burst}
+      <table class="spec">${trow("Catalog ID", esc(fig.id))}${trow("Source ref", fig.ref?"#"+fig.ref:"")}${trow("Year",fig.year)}${trow("Manufacturer",mfrName)}
+        ${trow("Manufacturer #",fig.mfgNum)}${trow("UPC",fig.upc)}${trow("Age",fig.age)}
+        ${trow("Photos", gal.imgs.length? gal.imgs.map(x=>x.label).join(", "):"")}</table>
+      <div class="dtoggles">
+        <button class="pill have${owned?" on":""}" data-toggle="own" data-id="${esc(fig.id)}">${owned?"✓ In collection":"Add to collection"}</button>
+        <button class="pill want${wanted?" on":""}" data-toggle="want" data-id="${esc(fig.id)}">${wanted?"✓ On wishlist":"Add to wishlist"}</button>
+      </div></div>`;
+  if(gal.imgs.length) showImg(0);
+  $("#scrim").classList.add("open"); $("#closeBtn").focus();
+}
+function closeDetail(){ $("#scrim").classList.remove("open"); }
+
+/* ---------- layout + nav chrome ---------- */
+function layout({rail}){ $("#rail").classList.toggle("hidden", !rail); $("#main").classList.toggle("solo", !rail); }
+function chrome(){
+  document.querySelectorAll(".navlink").forEach(a=> a.classList.toggle("active",
+    (a.dataset.nav==="collection") === (route.view==="collection")));
+  $("#collCount").textContent = collection.own.length;
+  $("#search").placeholder = route.view==="collection" ? "Search my collection…" : "Search figures…";
+}
+
+/* ---------- router ---------- */
+function parseHash(){
+  const parts = location.hash.replace(/^#\/?/,"").split("/").map(decodeURIComponent).filter(Boolean);
+  if(parts[0]==="collection") return { view:"collection", mfrId:null, seriesId:null };
+  return { view:"database", mfrId:parts[0]||null, seriesId:parts[1]||null };
+}
+async function render(){
+  route = parseHash();
+  chrome();
+  if(route.view==="collection") return renderCollection();
+  if(!route.mfrId) return renderDirectory();
+  return renderManufacturer(route.mfrId, route.seriesId);
+}
+
+/* ---------- events ---------- */
+window.addEventListener("hashchange", render);
+document.addEventListener("click", e=>{
+  const tg = e.target.closest("[data-toggle]");
+  if(tg){ e.preventDefault(); e.stopPropagation(); toggle(tg.dataset.toggle, tg.dataset.id);
+    chrome(); render(); if($("#scrim").classList.contains("open")) openDetail(tg.dataset.id); return; }
+  if(e.target.closest(".gnav.prev")){ showImg(gal.i-1); return; }
+  if(e.target.closest(".gnav.next")){ showImg(gal.i+1); return; }
+  const th=e.target.closest(".gthumb"); if(th){ showImg(+th.dataset.i); return; }
+  const r=e.target.closest(".row"); if(r){ openDetail(r.dataset.fig); return; }
+  if(e.target.id==="closeBtn" || e.target===$("#scrim")) closeDetail();
+});
+document.addEventListener("keydown", e=>{
+  if(e.key==="Escape") closeDetail();
+  if($("#scrim").classList.contains("open") && gal.imgs.length>1){
+    if(e.key==="ArrowLeft") showImg(gal.i-1); if(e.key==="ArrowRight") showImg(gal.i+1);
+  }
+  const c=document.activeElement;
+  if(e.key==="Enter" && c && c.classList.contains("row")) openDetail(c.dataset.fig);
+});
+$("#search").addEventListener("input", e=>{ q=e.target.value; render(); });
+
+render();
+</script>
+</body>
+</html>
