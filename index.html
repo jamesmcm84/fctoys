@@ -27,8 +27,8 @@
   .bar{max-width:1240px;margin:0 auto;padding:11px 20px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
   .logo{display:flex;align-items:center;text-decoration:none}
   .fc-logo{display:inline-flex;flex-direction:column;gap:3px;line-height:.84;font-family:"Archivo Black",sans-serif;letter-spacing:-.5px}
-  .fc-fig,.fc-col{color:#fff;font-size:17px;padding:4px 8px 5px;align-self:flex-start}
-  .fc-fig{background:var(--blue)} .fc-col{background:var(--red);margin-left:15px}
+  .fc-fig,.fc-col{color:#fff;font-size:25px;padding:5px 11px 6px;align-self:flex-start}
+  .fc-fig{background:var(--blue)} .fc-col{background:var(--red);margin-left:0}
   .mainnav{display:flex;gap:6px;align-items:center}
   .navlink{border:0;background:none;font-weight:700;font-size:14px;color:var(--txt-dim);padding:8px 13px;border-radius:8px;display:flex;align-items:center;gap:8px;transition:.12s;text-decoration:none}
   .navlink:hover{color:var(--ink);background:#eaeef4}
@@ -56,6 +56,9 @@
   .crumbs{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--txt-dim);margin-bottom:14px}
   .crumbs a{color:var(--blue-d);text-decoration:none} .crumbs a:hover{text-decoration:underline}
   .crumbs .sep{opacity:.5;margin:0 6px}
+  .backbtn{display:inline-flex;align-items:center;gap:7px;background:var(--surface);border:1px solid var(--line);border-radius:9px;padding:8px 14px 8px 12px;font-weight:800;font-size:13px;color:var(--txt);text-decoration:none;margin-bottom:16px;transition:.13s}
+  .backbtn:hover{border-color:var(--blue);color:var(--blue-d);transform:translateX(-2px)}
+  .backbtn .arr{font-size:17px;line-height:1;margin-top:-1px}
 
   .hero{margin-bottom:8px}
   .eyebrow{display:inline-block;background:var(--red);color:#fff;padding:4px 10px;border-radius:3px;font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:1px;text-transform:uppercase;font-weight:600}
@@ -149,8 +152,7 @@
 
   @media (max-width:860px){
     main{grid-template-columns:1fr;gap:18px}
-    .rail{position:static} .rail .series-list{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}
-    .series-btn{min-width:200px;margin-bottom:0}
+    .rail{position:static}
     .detail{grid-template-columns:1fr} .gallery{border-right:0;border-bottom:1px solid var(--line)}
     .hero h1{font-size:31px} .row .rfeat,.row .rctx{display:none}
     .linecard .lc-right{width:110px} .linecard .lc-chev{display:none}
@@ -250,9 +252,7 @@ function rowHTML(f, ctx){
   const name = esc(f.name) + (f.variant?` <span class="var">· ${esc(f.variant)}</span>`:"");
   const n = (f.images||[]).length;
   const sub = ctx ? `<div class="rctx">${esc(ctx)}</div>` : `<div class="rfeat">${esc(f.feature||"")||"—"}</div>`;
-  const ref = f.ref ? "#"+f.ref : "";
   return `<div class="row${cls}" data-fig="${esc(f.id)}" tabindex="0" role="button" aria-label="${esc(f.name)} — open photos">
-    <span class="rid">${ref}</span>
     <div class="rmain"><div class="rname">${name}</div>${sub}</div>
     <span class="cam${n?"":" none"}">${camIcon}${n}</span>
     <div class="rtog">
@@ -307,15 +307,14 @@ async function renderManufacturer(mfrId, seriesId){
   let manifest; try{ manifest = await Catalog.getManifest(); }catch(e){ return offlineNotice(); }
   const entry = (manifest.manufacturers||[]).find(x=>x.id===mfrId);
   if(!entry){ layout({rail:false}); $("#content").innerHTML = `<div class="empty">Unknown manufacturer.</div>`; return; }
-  layout({rail:true});
-  renderRail(mfrId, entry, seriesId);
+  layout({rail:false});
   const ql = q.trim().toLowerCase();
 
   // Landing: list every line from the manifest (no figure data needed)
   if(!seriesId && !ql){
     const lines = (entry.series||[]).slice().sort(byName);
     $("#content").innerHTML = crumbs([["Database","#/"],[entry.name,null]]) +
-      `<div class="hero"><div class="eyebrow">${esc(entry.name)}</div><h1>${esc(entry.name)} toy lines</h1>
+      `<div class="hero"><div class="eyebrow">${esc(entry.name)}</div><h1>${esc(entry.name)} Toy Lines</h1>
        <p>${lines.length} line${lines.length!==1?"s":""} · ${mfrFigs(entry)} figures catalogued.</p></div>
        <div class="linelist">${lines.map(s=>{
           const total=s.figureCount||0, owned=ownedInSeries(mfrId,s.id), pct=total?Math.round(owned/total*100):0;
@@ -338,7 +337,7 @@ async function renderManufacturer(mfrId, seriesId){
       const mm = ss.figures.filter(f=>matchFig(f,ql)); if(!mm.length) return;
       count+=mm.length; blocks += listBlock(`${s.name} · ${ss.name}`, ss.year, mm);
     }));
-    $("#content").innerHTML = crumbs([["Database","#/"],[entry.name,"#/"+encodeURIComponent(mfrId)]]) +
+    $("#content").innerHTML = backBtn(mfrId, entry.name) +
       `<div class="hero"><div class="eyebrow">Search · ${esc(entry.name)}</div><h1>Results</h1>
        <p>${count} figure${count!==1?"s":""} match “${esc(q)}”.</p></div>` +
       (blocks || `<div class="empty">No figures match “${esc(q)}” in catalogued lines.</div>`);
@@ -349,7 +348,7 @@ async function renderManufacturer(mfrId, seriesId){
   const meta = (entry.series||[]).find(s=>s.id===seriesId);
   if(!series){
     const nm = meta?meta.name:seriesId, yr = meta?meta.years:"", fc = meta?(meta.figureCount||0):0;
-    $("#content").innerHTML = crumbs([["Database","#/"],[entry.name,"#/"+encodeURIComponent(mfrId)],[nm,null]]) +
+    $("#content").innerHTML = backBtn(mfrId, entry.name) +
       `<div class="hero"><div class="eyebrow">${esc(entry.name)}${yr?" · "+esc(yr):""}</div><h1>${esc(nm)}</h1></div>
        <div class="empty"><b>Not catalogued yet.</b><br>This line is listed (${fc} figure${fc!==1?"s":""}) but its data hasn't been added to <code>data/${esc(mfrId)}.json</code> yet.</div>`;
     return;
@@ -357,7 +356,7 @@ async function renderManufacturer(mfrId, seriesId){
 
   const figs=seriesFigs(series), owned=figs.filter(f=>has("own",f.id)).length, wanted=figs.filter(f=>has("want",f.id)).length;
   const sections = series.subseries.map(ss=> listBlock(ss.name, ss.year, ss.figures)).join("");
-  $("#content").innerHTML = crumbs([["Database","#/"],[entry.name,"#/"+encodeURIComponent(mfrId)],[series.name,null]]) +
+  $("#content").innerHTML = backBtn(mfrId, entry.name) +
     `<div class="hero"><div class="eyebrow">${esc(entry.name)} · ${esc(series.years||"")}</div>
      <h1>${esc(series.name)}</h1><p>${esc(series.blurb||"")}</p>
      <div class="stats">
@@ -366,14 +365,8 @@ async function renderManufacturer(mfrId, seriesId){
        <div class="stat want"><b>${wanted}</b><span>Wanted</span></div>
      </div></div>${sections}`;
 }
-function renderRail(mfrId, entry, seriesId){
-  $("#railTitle").textContent = entry.name + " · Lines";
-  $("#seriesList").innerHTML = (entry.series||[]).slice().sort(byName).map(s=>{
-    const total=s.figureCount||0, owned=ownedInSeries(mfrId,s.id), pct=total?Math.round(owned/total*100):0;
-    return `<a class="series-btn${s.id===seriesId?" active":""}" href="#/${encodeURIComponent(mfrId)}/${encodeURIComponent(s.id)}">
-      <div class="nm">${esc(s.name)}</div><div class="yr">${esc(s.years||"")}</div>
-      <div class="meter"><i style="width:${pct}%"></i></div><div class="cnt">${owned}/${total} owned</div></a>`;
-  }).join("");
+function backBtn(mfrId, name){
+  return `<a class="backbtn" href="#/${encodeURIComponent(mfrId)}"><span class="arr">‹</span> ${esc(name)} Toy Lines</a>`;
 }
 function crumbs(items){
   return `<div class="crumbs">${items.map((it,i)=>{
@@ -460,7 +453,7 @@ function openDetail(id){
       <div class="crumb"><b>${esc(mfrName)}</b> ▸ ${esc(seriesName)} ▸ ${esc(ssName)}</div>
       <h2>${esc(fig.name)}${fig.variant?` <span style="font-size:15px;color:var(--txt-dim)">(${esc(fig.variant)})</span>`:""}</h2>
       ${burst}
-      <table class="spec">${trow("Catalog ID", esc(fig.id))}${trow("Source ref", fig.ref?"#"+fig.ref:"")}${trow("Year",fig.year)}${trow("Manufacturer",mfrName)}
+      <table class="spec">${trow("Catalog ID", esc(fig.id))}${trow("Year",fig.year)}${trow("Manufacturer",mfrName)}
         ${trow("Manufacturer #",fig.mfgNum)}${trow("UPC",fig.upc)}${trow("Age",fig.age)}
         ${trow("Photos", gal.imgs.length? gal.imgs.map(x=>x.label).join(", "):"")}</table>
       <div class="dtoggles">
