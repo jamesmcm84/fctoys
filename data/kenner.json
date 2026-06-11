@@ -276,7 +276,7 @@
        "ref": 1980,
        "name": "Batmobile",
        "year": 1991,
-       "feature": "Launching turbo missile and pop-out exhaust “flame.” (Card text partial.)",
+       "feature": "Launching turbo missile and pop-out exhaust \"flame.\" (Card text partial.)",
        "images": [
         {
          "label": "Front",
@@ -352,6 +352,3374 @@
         {
          "label": "Front",
          "url": "https://www.figurerealm.com/galleries/darkknightcollection/thumb_Strikewing-Front.jpg"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "batman-returns",
+   "name": "Batman Returns",
+   "years": "1991–1994",
+   "blurb": "Kenner's 5-inch line tied to the 1992 Tim Burton film, spanning two main waves, deluxe electronic figures, playsets, vehicles, and Toys 'R Us exclusives. 37 catalogued pieces.",
+   "subseries": [
+    {
+     "name": "16\" Scale",
+     "year": 1992,
+     "figures": [
+      {
+       "id": "kenner/batman-returns/batman-16-scale",
+       "ref": 46320,
+       "name": "Batman",
+       "year": 1992,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_Batman-16Scale-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Deluxe Electronic Figures",
+     "year": 1993,
+     "figures": [
+      {
+       "id": "kenner/batman-returns/batman-fire-bolt",
+       "ref": 2381,
+       "name": "Batman (Fire Bolt)",
+       "year": 1993,
+       "feature": "Firebolt Batman has 8 different electronic weapon sounds!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_BatmanFireBolt-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/batman-rocket-blast",
+       "ref": 2382,
+       "name": "Batman (Rocket Blast)",
+       "year": 1993,
+       "feature": "Rocket Blast Batman has blast-off and laser weapon sounds!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_BatmanRocketBlast-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Playsets",
+     "year": 1992,
+     "figures": [
+      {
+       "id": "kenner/batman-returns/arctic-world-race-n-chase",
+       "ref": 2408,
+       "name": "Arctic World Race N' Chase",
+       "year": 1992,
+       "feature": "Over 4 feet of race and chase action! Includes: Two Vehicle Power Launcher, Penguin Commando Crash Through Gates, Trip-Action Stunt Bridge, The Penguin's Duck Vehicle, Batmobile.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_ArcticWorld-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/batcave-command-center",
+       "ref": 46339,
+       "name": "Batcave Command Center",
+       "year": 1992,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_Batcave-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_Batcave1.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Series 1",
+     "year": 1992,
+     "figures": [
+      {
+       "id": "kenner/batman-returns/batman-aero-strike",
+       "ref": 2385,
+       "name": "Batman (Aero Strike)",
+       "year": 1992,
+       "feature": "With Ultrasonic Armor and Firing Rocket!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_BatmanAeroStrike-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/batman-air-attack",
+       "ref": 2383,
+       "name": "Batman (Air Attack)",
+       "year": 1992,
+       "feature": "With Camouflage Artillery Gear! Air Attack Batman figure has camouflage artillery gear for top secret missions.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_BatmanAirAttack-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/batman-arctic",
+       "ref": 2384,
+       "name": "Batman (Arctic)",
+       "year": 1992,
+       "feature": "With Polar Armor and Ice Blaster Weapon! Arctic Batman figure battles the Penguin with freeze-proof polar armor and ice blaster weapon.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_BatmanArctic-Series1-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_BatmanArctic-Series1-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/batman-crime-attack",
+       "ref": 2386,
+       "name": "Batman (Crime Attack)",
+       "year": 1992,
+       "feature": "With Firing Claw and Batarang!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_BatmanCrimeAttack-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/batman-deep-dive",
+       "ref": 2387,
+       "name": "Batman (Deep Dive)",
+       "year": 1992,
+       "feature": "With Torpedo Launching Scuba Gear! Deep Dive Batman figure, with high visibility scuba gear, can soar on his sea sled and fire a sonic torpedo.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_BatmanDeepDive-Series1-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/batman-laser",
+       "ref": 2388,
+       "name": "Batman (Laser)",
+       "year": 1992,
+       "feature": "With Missile Firing Radar Dish! Laser Batman figure has a silver waffled suit and a radar dish weapon that can fire a missile!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_BatmanLaser-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/batman-powerwing",
+       "ref": 2389,
+       "name": "Batman (Powerwing)",
+       "year": 1992,
+       "feature": "Firing Wing Can Hang Upside Down! Powerwing Batman figure has a copper suit and firing wing vehicle! Wing can cling upside down to most flat, smooth surfaces.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_BatmanPowerWing-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/batman-shadow-wing",
+       "ref": 2390,
+       "name": "Batman (Shadow Wing)",
+       "year": 1992,
+       "feature": "With Pop-up Arms and Capture Cuffs!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_BatmanShadowWing-Series1-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/batman-sky-winch",
+       "ref": 2391,
+       "name": "Batman (Sky Winch)",
+       "year": 1992,
+       "feature": "Batarang Winch Reels Criminals in!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_BatmanSkyWinch-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/batman-thunderwhip",
+       "ref": 2392,
+       "name": "Batman (Thunderwhip)",
+       "year": 1992,
+       "feature": "With Turbo Weapon Spinning Arm! Thunderwhip Batman figure has a special spinning arm and can whirl either his Batarang whip or star shield weapon to ward off danger.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_BatmanThunderwhip-Series1-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/bruce-wayne",
+       "ref": 2393,
+       "name": "Bruce Wayne",
+       "year": 1992,
+       "feature": "With Quick Change Batman Armor! When danger approaches, Bruce Wayne can change into Batman!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_BruceWayne-Series1-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/catwoman",
+       "ref": 2394,
+       "name": "Catwoman",
+       "year": 1992,
+       "feature": "With Whipping Arm Action and Taser Gun! Catwoman is a feline fiend! Poised for danger, the Catwoman figure has a special whip action arm and a taser gun.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_Catwoman-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/penguin",
+       "ref": 2395,
+       "name": "Penguin",
+       "year": 1992,
+       "feature": "With Blast-Off Umbrella Launcher! The Penguin figure whirls up trouble with his blast off umbrella launcher. Launcher attaches on the back for quick escapes or an arm for firing umbrella missile.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_Penguin-Series1-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/penguin-commandos",
+       "ref": 2396,
+       "name": "Penguin Commandos",
+       "year": 1992,
+       "feature": "With Mind Control Gear and Firing Missile! Each package comes with two Penguin Commandos and their mind control gear.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_PenguinCommandos-Series1-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/robin",
+       "ref": 2397,
+       "name": "Robin",
+       "year": 1991,
+       "feature": "With Launching Grappling Hook! Robin figure can use his firing grappling hook launcher to escape danger.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_Robin-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Series 2",
+     "year": 1994,
+     "figures": [
+      {
+       "id": "kenner/batman-returns/batman-hydro-charge",
+       "ref": 2398,
+       "name": "Batman (Hydro Charge)",
+       "year": 1994,
+       "feature": "With Water Blast Missile!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_BatmanHydroCharge-Series2-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/batman-jungle-tracker",
+       "ref": 2399,
+       "name": "Batman (Jungle Tracker)",
+       "year": 1994,
+       "feature": "With Shoulder Mount Launcher!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_BatmanJungleTracker-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/batman-night-climber",
+       "ref": 2400,
+       "name": "Batman (Night Climber)",
+       "year": 1994,
+       "feature": "With Quick-Climbing Hook!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_BatmanNightClimber-Series2-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Toys 'R Us Exclusives",
+     "year": 1991,
+     "figures": [
+      {
+       "id": "kenner/batman-returns/batman-bola-strike",
+       "ref": 2409,
+       "name": "Batman (Bola Strike)",
+       "year": 1991,
+       "feature": "Double Barrel Bola missile really fires!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_BatmanBolaStrike-ToysRUs-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/batman-claw-climber",
+       "ref": 2410,
+       "name": "Batman (Claw Climber)",
+       "year": 1991,
+       "feature": "Climbs like a bat! Wings move and missile fires!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_BatmanClawClimber-ToysRUs-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/batman-polar-blast",
+       "ref": 2411,
+       "name": "Batman (Polar Blast)",
+       "year": 1991,
+       "feature": "Giant Glider has moveable wings and capture hook!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_BatmanPolarBlast-ToysRUs-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Vehicles",
+     "year": 1991,
+     "figures": [
+      {
+       "id": "kenner/batman-returns/batmobile",
+       "ref": 46321,
+       "name": "Batmobile",
+       "year": 1991,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_Batmobile-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/batmobile-batmissile",
+       "ref": 2401,
+       "name": "Batmobile (Batmissile)",
+       "year": 1991,
+       "feature": "Blows apart and converts to an explosive Batmissile vehicle!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_BatmobileBatmissile-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_Batmobile-Loose1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/batmobile-camo-attack",
+       "ref": 46322,
+       "name": "Batmobile (Camo Attack)",
+       "year": 1991,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_BatmobileCamoAttack-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/batskiboat-all-terrain",
+       "ref": 2402,
+       "name": "Batskiboat (All-Terrain)",
+       "year": 1992,
+       "feature": "With Retractable Skis and Firing Torpedoes!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_Batskiboat-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_Batskiboat-Loose1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/batwing-turbojet",
+       "ref": 46323,
+       "name": "Batwing (Turbojet)",
+       "year": 1991,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_Batwing-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/bruce-wayne-custom-coupe",
+       "ref": 2403,
+       "name": "Bruce Wayne Custom Coupe",
+       "year": 1991,
+       "feature": "Converts to Crime Fighting Car! Bruce Wayne figure becomes Batman figure!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_CustomCoupe-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_CustomCoupe-Loose1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/laser-blade",
+       "ref": 2404,
+       "name": "Laser Blade",
+       "year": 1991,
+       "feature": "Converts to Fighter Jet!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_LaserBlade-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/penguin-umbrella-jet",
+       "ref": 2405,
+       "name": "Penguin Umbrella Jet",
+       "year": 1991,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_UmbrellaJet-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_UmbrellaJet1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/robin-jet-foil",
+       "ref": 2406,
+       "name": "Robin Jet Foil",
+       "year": 1991,
+       "feature": "With Firing Ground-Level Assault Missile",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_RobinJetFoil-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/sky-blade",
+       "ref": 46324,
+       "name": "Sky Blade",
+       "year": 1991,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_SkyBlade-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-returns/sky-drop",
+       "ref": 2407,
+       "name": "Sky Drop",
+       "year": 1991,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanreturns/thumb_SkyDrop-Front.jpg"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "adventures-of-batman-and-robin",
+   "name": "Adventures of Batman & Robin",
+   "years": "1995–1997",
+   "blurb": "Kenner's animated-universe line spanning two figure waves, two Duo Force waves, vehicles, and a box set. Batman, Robin, and Batgirl take on Gotham's rogues gallery. 19 catalogued pieces.",
+   "subseries": [
+    {
+     "name": "Box Sets",
+     "figures": [
+      {
+       "id": "kenner/adventures-of-batman-and-robin/rogues-gallery",
+       "ref": 128919,
+       "name": "Rogues Gallery",
+       "feature": "Includes variant (painted) versions of Man-Bat, Scarecrow, Catwoman, Clayface, The Joker, Phantasm, Poison Ivy and Killer Croc.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_RoguesGallery-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Duo Force - Series 1",
+     "year": 1996,
+     "figures": [
+      {
+       "id": "kenner/adventures-of-batman-and-robin/batman-turbo-surge",
+       "ref": 1869,
+       "name": "Batman (Turbo Surge)",
+       "year": 1996,
+       "feature": "Batman commands the hover sled, tracking down Gotham City's most notorious villains, and instantly converts to turbo flight mode.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_BatmanTurboSurge-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_BatmanTurboSurge-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/adventures-of-batman-and-robin/batman-vector-wing",
+       "ref": 1870,
+       "name": "Batman (Vector Wing)",
+       "year": 1996,
+       "feature": "Batman counters an all-out air invasion by soaring in on his powerful delta wing, then converts to ground pursuit mode.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_BatmanVectorWing-Duo1-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/adventures-of-batman-and-robin/mr-freeze-duo1",
+       "ref": 1871,
+       "name": "Mr. Freeze",
+       "year": 1996,
+       "feature": "Battling Batman and Robin D.U.O. Force with two dangerous weapons systems of his own.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_MrFreeze-Duo1-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/adventures-of-batman-and-robin/robin-air-strike",
+       "ref": 1872,
+       "name": "Robin (Air Strike)",
+       "year": 1996,
+       "feature": "Robin races to the crime scene in his self-shielding air runner cycle, then converts to rocket attack mode.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_RobinAirStrike-Duo1-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Duo Force - Series 2",
+     "year": 1997,
+     "figures": [
+      {
+       "id": "kenner/adventures-of-batman-and-robin/batgirl-wind-blitz",
+       "ref": 1873,
+       "name": "Batgirl (Wind Blitz)",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_BatgirlWindBlitz-Duo2-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/adventures-of-batman-and-robin/batman-cycle-thruster",
+       "ref": 1874,
+       "name": "Batman (Cycle Thruster)",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_BatmanCycleThruster-Duo2-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/adventures-of-batman-and-robin/riddler-roto-chopper",
+       "ref": 1875,
+       "name": "Riddler (Roto Chopper)",
+       "year": 1997,
+       "feature": "The Riddler cuts to the chase with two wicked weapon systems equipped with chopping, drilling blades.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_RiddlerRotoChopper-Duo2-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/adventures-of-batman-and-robin/robin-hydro-storm",
+       "ref": 1876,
+       "name": "Robin (Hydro Storm)",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_RobinHydroStorm-Duo2-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Series 1",
+     "year": 1995,
+     "figures": [
+      {
+       "id": "kenner/adventures-of-batman-and-robin/bane",
+       "ref": 1877,
+       "name": "Bane",
+       "year": 1995,
+       "feature": "With Body-Slam Arm Action and \"Venom\" Tube",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_Bane-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/adventures-of-batman-and-robin/batman-hover-jet",
+       "ref": 1878,
+       "name": "Batman (Hover Jet)",
+       "year": 1995,
+       "feature": "With Body Swinging Blows!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_BatmanHoverJet-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/adventures-of-batman-and-robin/batman-paraglide",
+       "ref": 1879,
+       "name": "Batman (Paraglide)",
+       "year": 1995,
+       "feature": "With Dive Bomb Sky Wing!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_BatmanParaGlide-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/adventures-of-batman-and-robin/batman-rocketpak",
+       "ref": 1880,
+       "name": "Batman (Rocketpak)",
+       "year": 1995,
+       "feature": "With Firing Turbo Thrust Cannon!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_BatmanRocketpak-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/adventures-of-batman-and-robin/joker-pogo-stick",
+       "ref": 1881,
+       "name": "Joker (Pogo Stick)",
+       "year": 1995,
+       "feature": "With Power Launcher",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_JokerPogoStick-ABR1-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/adventures-of-batman-and-robin/ras-al-ghul",
+       "ref": 1882,
+       "name": "Ra's al Ghul",
+       "year": 1995,
+       "feature": "With Strike Shooter and Combat Sword!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_RasAlGhul-ABR1-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_RasAlGhul-ABR1-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/adventures-of-batman-and-robin/robin-bola-trap",
+       "ref": 1883,
+       "name": "Robin (Bola Trap)",
+       "year": 1995,
+       "feature": "With Whirling Battle Blades!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_Robin-BolaTrap-Series1-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Series 2",
+     "year": 1997,
+     "figures": [
+      {
+       "id": "kenner/adventures-of-batman-and-robin/harley-quinn",
+       "ref": 1884,
+       "name": "Harley Quinn",
+       "year": 1997,
+       "feature": "With Knockout Punching Glove and Trick Pistol!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_HarleyQuinn-ABR1-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_HarleyQuinn-ABR1-Loose.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/adventures-of-batman-and-robin/joker-machine-gun",
+       "ref": 1885,
+       "name": "Joker (Machine Gun)",
+       "year": 1997,
+       "feature": "With \"Machine Gun\" and Joke-A-Matic Time Bomb!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_Joker-ABR1-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_Joker3-ABR1.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Vehicles",
+     "year": 1995,
+     "figures": [
+      {
+       "id": "kenner/adventures-of-batman-and-robin/nightsphere",
+       "ref": 1886,
+       "name": "Nightsphere",
+       "year": 1995,
+       "feature": "Auto-rotating cockpit stays upright during flight maneuvers! Equipped with a Batman figure and retractable landing gear.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_Nightsphere-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanadventuresofbatmanrobin/thumb_Nightsphere-1.jpg"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "batman-animated-series",
+   "name": "Batman - Animated Series",
+   "years": "1992–1995",
+   "blurb": "Kenner's line tied to the landmark animated series, spanning four figure waves, deluxe figures, vehicles, playsets, 2-packs, mail order, and a 15-inch figure. 51 catalogued pieces.",
+   "subseries": [
+    {
+     "name": "15\" Scale",
+     "year": 1994,
+     "figures": [
+      {
+       "id": "kenner/batman-animated-series/batman-ultimate",
+       "ref": 1902,
+       "name": "Batman (Ultimate)",
+       "year": 1994,
+       "feature": "With Light-Up Electric Eyes & Bat Emblem! Ultimate Batman leaves no sight unseen with piercing electric light-up eyes and Bat Emblem Logo!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanUltimate-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "2-Packs",
+     "year": 1994,
+     "figures": [
+      {
+       "id": "kenner/batman-animated-series/ninja-power-pack",
+       "ref": 1903,
+       "name": "Ninja Power Pack Batman & Robin",
+       "year": 1994,
+       "feature": "With Duo-Power Ninja Weapons!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_NinjaPower-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_NinjaPower-1.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Deluxe Figures",
+     "figures": [
+      {
+       "id": "kenner/batman-animated-series/batman-ground-assault",
+       "ref": 1904,
+       "name": "Batman (Ground Assault)",
+       "year": 1994,
+       "feature": "With Motorized Turbo-Powered Ground Jet! The street action heats up when superior crime fighter Ground Assault Batman is on his motorized ground jet!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanGroundAssault-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanGroundAssault-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/batman-high-wire",
+       "ref": 1905,
+       "name": "Batman (High Wire)",
+       "year": 1993,
+       "feature": "With Quick-Escape Cable Wire and Cable-Riding Action!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanHighWire-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/batman-mech-wing",
+       "ref": 1906,
+       "name": "Batman (Mech-Wing)",
+       "year": 1994,
+       "feature": "With Pop-Out Wing Action! Ultra Crime Fighter Mech Wing Batman pops out his powerful mechanized wings to fly into action!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanMechWing-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanMechWing-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/batman-power-vision",
+       "ref": 1907,
+       "name": "Batman (Power Vision)",
+       "year": 1994,
+       "feature": "With Electric Light-Up Eyes & Bat-Symbol! Power Vision Batman searches out evil with his electric light-up eyes and glow-in-the-dark missile!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanPowerVision-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanPowerVision-1.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Mail Order",
+     "year": 1995,
+     "figures": [
+      {
+       "id": "kenner/batman-animated-series/batman-battle-helmet",
+       "ref": 1908,
+       "name": "Batman (Battle Helmet)",
+       "year": 1995,
+       "images": [
+        {
+         "label": "Package",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanBattleHelmet-Package.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Playsets",
+     "figures": [
+      {
+       "id": "kenner/batman-animated-series/batcave-command-center",
+       "ref": 1935,
+       "name": "Batcave Command Center",
+       "year": 1993,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatcaveCommandCenter-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/power-punch-batman",
+       "ref": 109663,
+       "name": "Power Punch Batman",
+       "year": 1992,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_PowerPunchBatman-KayBee-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/sound-target-set",
+       "ref": 176577,
+       "name": "Sound Target Set",
+       "year": 1995,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_SoundTargetSet-Playsets-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Series 1",
+     "year": 1992,
+     "figures": [
+      {
+       "id": "kenner/batman-animated-series/batman-combat-belt",
+       "ref": 1909,
+       "name": "Batman (Combat Belt)",
+       "year": 1992,
+       "feature": "With Firing Grappling Hook and Missile! Combat Belt Batman is ready for action with firing grappling hook, launching missile and capture cuffs!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanCombatBelt-Series1-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanCombatBelt-Series1-Loose.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/batman-turbojet",
+       "ref": 1910,
+       "name": "Batman (Turbojet)",
+       "year": 1992,
+       "feature": "With Firing Wrist Rocket & Pivoting Engines! Turbojet Batman has a rocket pack with pivoting engines and a firing wrist rocket!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanTurbojet-Series1-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanTurbojet1-S1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/penguin",
+       "ref": 1911,
+       "name": "Penguin",
+       "year": 1992,
+       "feature": "Batman better keep an eye on the Penguin! His launching \"Hypno-Spin\" Umbrella can whirl off like a top!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Penguin-Series1-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Penguin1-S1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/riddler",
+       "ref": 1912,
+       "name": "Riddler",
+       "year": 1992,
+       "feature": "The Riddler is not fooling around! He has a question mark launcher that really fires!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Riddler-Series1-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Riddler1-S1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/robin",
+       "ref": 1913,
+       "name": "Robin",
+       "year": 1992,
+       "feature": "Robin has an adjustable turbo glider which can drop missiles on villains below!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Robin-Series1-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Robin-Series1-Loose.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/two-face",
+       "ref": 1914,
+       "name": "Two-Face",
+       "year": 1992,
+       "feature": "Two-Face takes chances when fighting Batman. If his roulette wheel lands on \"FIRE\"... his gun launches a two-headed missile!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_TwoFace-Series1-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Series 2",
+     "year": 1992,
+     "figures": [
+      {
+       "id": "kenner/batman-animated-series/batman-infrared",
+       "ref": 1915,
+       "name": "Batman (Infrared)",
+       "year": 1993,
+       "feature": "With Launching Bat-Signal Disks! Infrared Batman has an ultra-violet Bat-Signal disk launcher.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanInfrared-Series2-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanInfrared-Series2-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/batman-sky-dive",
+       "ref": 1916,
+       "name": "Batman (Sky Dive)",
+       "year": 1992,
+       "feature": "With Working Parachute for Surprise Attacks! Throw Sky Dive Batman in the air and watch his silver mylar parachute really work.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanSkyDive-Series2-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanSkyDive-Series2-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/bruce-wayne",
+       "ref": 1917,
+       "name": "Bruce Wayne",
+       "year": 1992,
+       "feature": "With Snap-on Batman Armor! Convert Bruce Wayne to Batman with special snap-on-armor!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BruceWayne-Series2-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BruceWayne-Series2-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/catwoman",
+       "ref": 1918,
+       "name": "Catwoman",
+       "year": 1992,
+       "feature": "With Whipping Arm Action and Claw Hook!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Catwoman-Series2-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Catwoman-Series2-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/joker",
+       "ref": 1919,
+       "name": "Joker",
+       "year": 1992,
+       "feature": "Look out! The Joker has a water-spraying \"Laughing Gas\" gun and a smile mask to create mischief.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Joker-Series2-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Joker1-S2.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/man-bat",
+       "ref": 1920,
+       "name": "Man-Bat",
+       "year": 1992,
+       "feature": "With flapping wings and tow rope, Man-Bat is a fiercesome foe!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_ManBat-Series2-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_ManBat1-S2.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/robin-ninja",
+       "ref": 1921,
+       "name": "Robin (Ninja)",
+       "year": 1993,
+       "feature": "With Chopping Arm Action and Ninja Weapons!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_RobinNinja-Series2-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_RobinNinja-Series2-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/scarecrow",
+       "ref": 1922,
+       "name": "Scarecrow",
+       "year": 1993,
+       "feature": "Watch out for Scarecrow with his fierce thrashing sickle that really spins. His light-up eyes give a piercing stare at Batman.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Scarecrow-Series2-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Scarecrow1-S2.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Series 3",
+     "year": 1993,
+     "figures": [
+      {
+       "id": "kenner/batman-animated-series/batman-anti-freeze",
+       "ref": 1923,
+       "name": "Batman (Anti-Freeze)",
+       "year": 1993,
+       "feature": "With Firing Shield / Blaster. Anti-Freeze Batman stops Mr. Freeze in his tracks with a full-body shield and blaster!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanAnitFreeze-Series3-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/batman-knight-star",
+       "ref": 1924,
+       "name": "Batman (Knight Star)",
+       "year": 1993,
+       "feature": "Knight Star Batman launches his star rocket and spinner at any villain who tangles with him!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanKnightStar-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanKnightStar-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/batman-lightning-strike",
+       "ref": 1925,
+       "name": "Batman (Lightning Strike)",
+       "year": 1993,
+       "feature": "With Transforming Cape Glider! Lightning Strike Batman uses his gliding cape to strike terror into the villains of Gotham City!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanLightningStrike-Series3-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanLightningStrike1-S3.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/clayface",
+       "ref": 1926,
+       "name": "Clayface",
+       "year": 1993,
+       "feature": "Beware of his launching spiked ball and slashing claw hand!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Clayface-Series3-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Clayface1-S3.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/dick-grayson-robin",
+       "ref": 1927,
+       "name": "Dick Grayson / Robin",
+       "year": 1993,
+       "feature": "Transforms into Robin with High-Tech Gear! Transform cool Dick Grayson into crime-fighting Robin with high-tech radar vest and gear!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_DickGraysonRobin-Series3-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_DickGraysonRobin-Series3-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/killer-croc",
+       "ref": 1928,
+       "name": "Killer Croc",
+       "year": 1993,
+       "feature": "With Power-Punch Arm and Pet Crocodile!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_KillerCroc-Series3-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_KillerCroc1-S3.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/mr-freeze",
+       "ref": 1929,
+       "name": "Mr. Freeze",
+       "year": 1993,
+       "feature": "Icy Mr. Freeze is out to deep-freeze all of Gotham City with his firing \"ice\" blaster!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_MrFreeze-Series3-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_MrFreeze1-S3.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/poison-ivy",
+       "ref": 1930,
+       "name": "Poison Ivy",
+       "year": 1993,
+       "feature": "Look out, Batman! Poison Ivy is itchin' for action with her snapping Venus flytrap and poison dart weapon!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_PoisonIvy-Series3-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_PoisonIvy-Series3-1.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Series 4",
+     "year": 1995,
+     "figures": [
+      {
+       "id": "kenner/batman-animated-series/bane",
+       "ref": 1931,
+       "name": "Bane",
+       "year": 1995,
+       "feature": "With Body-Slam Arm Action and \"Venom\" Tube",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Bane-Series4-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Bane-Series4-3.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/batman-cyber-gear",
+       "ref": 1932,
+       "name": "Batman (Cyber Gear)",
+       "year": 1995,
+       "feature": "With Hi-Tech Armor and Power-Launch Weapon!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanCyberGear-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/batman-radar-scope",
+       "ref": 1933,
+       "name": "Batman (Radar Scope)",
+       "year": 1995,
+       "feature": "With Firing Turbo Missiles and Sky-Scan Radar Gear",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatmanRadarScope-Series4-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/robin-bola-trap",
+       "ref": 137509,
+       "name": "Robin (Bola Trap)",
+       "year": 1995,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Robin-BolaTrap-51743400-Series4-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Robin-BolaTrap-51743400-Series4-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/robin-glider",
+       "ref": 1934,
+       "name": "Robin (Glider)",
+       "year": 1995,
+       "feature": "With Winged Jet Pack and Firing Claw",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_RobinGlider-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_RobinGlider-1.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Vehicles",
+     "year": 1993,
+     "figures": [
+      {
+       "id": "kenner/batman-animated-series/aero-bat",
+       "ref": 1936,
+       "name": "Aero Bat",
+       "year": 1993,
+       "feature": "Villains know there's no evading Batman in the Aero Bat vehicle with quick-escape ejector seat and firing missile blaster!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_AeroBat-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_AeroBat-Loose1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/batv",
+       "ref": 1937,
+       "name": "B.A.T.V.",
+       "year": 1992,
+       "feature": "Converts from Street Racer to Launching Cruiser!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BATV-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BATV-Loose1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/bat-signal-jet",
+       "ref": 1941,
+       "name": "Bat-Signal Jet",
+       "year": 1993,
+       "feature": "With Working Bat-Signal Light and Launching Missile! Bat-Signal Light can be projected on ceilings and walls!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatSignalJet-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BatSignalJet-Loose1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/batcycle",
+       "ref": 1938,
+       "name": "Batcycle",
+       "year": 1992,
+       "feature": "With Motorized Turbo Power! Turbo sound and Wheelie Action!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Batcycle-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Batcycle-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/batmobile",
+       "ref": 1939,
+       "name": "Batmobile",
+       "year": 1993,
+       "feature": "Two vehicles in one, with a Launching Pursuit Jet for surprise attacks!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Batmobile-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Batmobile-Loose1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/batplane",
+       "ref": 1940,
+       "name": "Batplane",
+       "year": 1993,
+       "feature": "Fire up the Batplane with double-blasting missile launchers and capture claw that snatches up criminals!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Batplane-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Batplane-Loose1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/bruce-wayne-street-jet",
+       "ref": 129533,
+       "name": "Bruce Wayne Street Jet",
+       "year": 1993,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BruceWayneStreetJet-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_BruceWayneStreetJet-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/crime-stalker",
+       "ref": 1942,
+       "name": "Crime Stalker",
+       "year": 1992,
+       "feature": "With Power Laser Sounds and Firing Missile!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_CrimeStalker-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_CrimeStalker-Loose1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/hoverbat",
+       "ref": 1943,
+       "name": "Hoverbat",
+       "year": 1992,
+       "feature": "With Capture Claw and Missile Launcher Arm!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Hoverbat-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Hoverbat-Loose1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/hydro-bat",
+       "ref": 1944,
+       "name": "Hydro Bat",
+       "year": 1993,
+       "feature": "Batman is ready to make waves when the Hydro Bat blasts off in a jet of water power!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_HydroBat-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_HydroBat-Loose1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/ice-hammer",
+       "ref": 1945,
+       "name": "Ice Hammer",
+       "year": 1993,
+       "feature": "With \"Ice\" Blasting Drill and Firing Missile!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_IceHammer-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_IceHammer-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/jokermobile",
+       "ref": 1946,
+       "name": "Jokermobile",
+       "year": 1992,
+       "feature": "With Pop-Up Guns and Launching Smile Missile!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Jokermobile-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_Jokermobile-Loose1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/robin-dragster",
+       "ref": 1947,
+       "name": "Robin Dragster",
+       "year": 1992,
+       "feature": "With Launching Batarang! Converts to High-Riding 4x4!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_RobinDragster-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_RobinDragster-Loose1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-animated-series/street-jet",
+       "ref": 1948,
+       "name": "Street Jet",
+       "year": 1993,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmananimatedseries/thumb_StreetJet-Front.jpg"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "batman-forever",
+   "name": "Batman Forever",
+   "years": "1995",
+   "blurb": "Kenner's line tied to the 1995 Joel Schumacher film. Batman and Robin face the Riddler and Two-Face across figure waves, deluxe figures, die-cast vehicles, exclusives, mini playsets, and accessories. Page 1 of 2 captured here (40 of 50+ pieces).",
+   "partial": true,
+   "subseries": [
+    {
+     "name": "15\" Scale",
+     "year": 1995,
+     "figures": [
+      {
+       "id": "kenner/batman-forever/batman-ultimate",
+       "ref": 2379,
+       "name": "Batman (Ultimate)",
+       "year": 1995,
+       "feature": "With Powerful Batarang Weapon, Detachable Flowing Cape, Batman Forever Movie Costume, Battle-Ready Stance, Bat Emblem Display Stand. The 15-inch Batman figure is the ultimate crimefighter!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_BatmanUltimate-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "2-Packs",
+     "year": 1995,
+     "figures": [
+      {
+       "id": "kenner/batman-forever/guardians-of-gotham-city",
+       "ref": 2345,
+       "name": "Guardians of Gotham City",
+       "year": 1995,
+       "feature": "Heroic power in a double dose! Batman and Robin with authentic movie costumes and weapons.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_GuardiansGothamCity-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_GuardiansGothamCity-2.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/riddler-and-two-face",
+       "ref": 2346,
+       "name": "Riddler & Two-Face",
+       "year": 1995,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_RiddlerTwoFace-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Accessories",
+     "year": 1995,
+     "figures": [
+      {
+       "id": "kenner/batman-forever/batboat",
+       "ref": 46326,
+       "name": "Batboat",
+       "year": 1995,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_Batboat-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/batcave",
+       "ref": 46330,
+       "name": "Batcave",
+       "year": 1995,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_Batcave-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/batmobile",
+       "ref": 2380,
+       "name": "Batmobile",
+       "year": 1995,
+       "feature": "With Light-up Chassis and Firing Long-Range Missile!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_Batmobile-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_Batmobile-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/batwing",
+       "ref": 46325,
+       "name": "Batwing",
+       "year": 1995,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_Batwing-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_Batwing-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/robin-cycle",
+       "ref": 46328,
+       "name": "Robin Cycle",
+       "year": 1995,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_RobinCycle-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_RobinCycle-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/triple-action-vehicle-set",
+       "ref": 46327,
+       "name": "Triple Action Vehicle Set",
+       "year": 1995,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_TripleActionVehicleSet-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/wayne-manor-batcave-compound",
+       "ref": 46329,
+       "name": "Wayne Manor Batcave Compound",
+       "year": 1995,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_WayneManor-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Deluxe Figures",
+     "year": 1995,
+     "figures": [
+      {
+       "id": "kenner/batman-forever/batman-attack-wing",
+       "ref": 2347,
+       "name": "Batman (Attack Wing)",
+       "year": 1995,
+       "feature": "With Power-Flex Attack Cape",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_BatmanAttackWing-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_BatmanAttackWing-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/batman-laser-disc",
+       "ref": 2348,
+       "name": "Batman (Laser Disc)",
+       "year": 1995,
+       "feature": "With Flashing Color \"Laser\" Launcher",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_BatmanLaserDisc-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/batman-lightwing",
+       "ref": 2349,
+       "name": "Batman (Lightwing)",
+       "year": 1995,
+       "feature": "With Electra-Glow Wings and Lightning Launcher",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_BatmanLightwing-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/riddler-talking",
+       "ref": 2350,
+       "name": "Riddler (Talking)",
+       "year": 1995,
+       "feature": "With 3 Real Movie Phrases!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_RiddlerTalking-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/robin-martial-arts",
+       "ref": 2351,
+       "name": "Robin (Martial Arts)",
+       "year": 1995,
+       "feature": "With Ninja Kicking Action and Battle Weapons",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_RobinMartialArts-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Die-Cast",
+     "year": 1995,
+     "figures": [
+      {
+       "id": "kenner/batman-forever/die-cast-5-pack",
+       "ref": 53014,
+       "name": "5-Pack",
+       "year": 1995,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_5Pack-DieCast-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/die-cast-batboat",
+       "ref": 53015,
+       "name": "Batboat",
+       "year": 1995,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_Batboat-DieCast-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_Batboat-DieCast-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/die-cast-batmobile",
+       "ref": 53016,
+       "name": "Batmobile",
+       "year": 1995,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_Batmobile-DieCast-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/die-cast-batwing",
+       "ref": 53017,
+       "name": "Batwing",
+       "year": 1995,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_Batwing-DieCast-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/die-cast-two-face-armored-car",
+       "ref": 53018,
+       "name": "Two-Face Armored Car",
+       "year": 1995,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_TwoFaceArmoredCar-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Exclusives",
+     "year": 1995,
+     "figures": [
+      {
+       "id": "kenner/batman-forever/bruce-wayne",
+       "ref": 2376,
+       "name": "Bruce Wayne",
+       "year": 1995,
+       "feature": "With Snap-on Crimefighting Armor and Side Swords",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_BruceWayne-Target-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/riddler-capture-brain-drain-helmet",
+       "ref": 2377,
+       "name": "Riddler (Capture Brain Drain Helmet)",
+       "year": 1995,
+       "feature": "With Capture Brain Drain Helmet!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_Riddler-Target-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/robin-tide-racer",
+       "ref": 2378,
+       "name": "Robin (Tide Racer)",
+       "year": 1995,
+       "feature": "With Deep Dive Gear and Sea Claw Launcher",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_RobinTideRacer-Target-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Mini Playsets",
+     "year": 1995,
+     "figures": [
+      {
+       "id": "kenner/batman-forever/batcave-power-center",
+       "ref": 46331,
+       "name": "Batcave Power Center",
+       "year": 1995,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_BatcavePowerCenter-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/batmobile-power-center",
+       "ref": 52928,
+       "name": "Batmobile Power Center",
+       "year": 1995,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_BatmobilePowerCenter-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/riddler-power-center",
+       "ref": 46332,
+       "name": "Riddler Power Center",
+       "year": 1995,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_RiddlerPowerCenter-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Series 1",
+     "year": 1995,
+     "figures": [
+      {
+       "id": "kenner/batman-forever/batman-blast-cape",
+       "ref": 2352,
+       "name": "Batman (Blast Cape)",
+       "year": 1995,
+       "feature": "With Assault Blades and Launching Attack Cape!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_BatmanBlastCape-Series1-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_BatmanBlastCape-Series1-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/batman-fireguard",
+       "ref": 2353,
+       "name": "Batman (Fireguard)",
+       "year": 1995,
+       "feature": "With Spinning Attack Cape Action!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_BatmanFireguard-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/batman-manta-ray",
+       "ref": 2354,
+       "name": "Batman (Manta Ray)",
+       "year": 1995,
+       "feature": "With Firing Sea Sled and Pop-Out Breathing Gear!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_BatmanMantaRay-Series1-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_BatmanMantaRay-Series1-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/batman-night-hunter",
+       "ref": 2355,
+       "name": "Batman (Night Hunter)",
+       "year": 1995,
+       "feature": "With Claw Glider Wing and Night Vision Goggles!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_BatmanNightHunter-Series1-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/batman-sonar-sensor",
+       "ref": 2356,
+       "name": "Batman (Sonar Sensor)",
+       "year": 1995,
+       "feature": "With Flying Disc Blaster and Pop-Up Sonar Scope!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_BatmanSonarSensor-Series1-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/bruce-wayne-transforming",
+       "ref": 2357,
+       "name": "Bruce Wayne (Transforming)",
+       "year": 1995,
+       "feature": "With Quick-Change Bat Suit and Battle Blades!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_BruceWayne-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_BruceWayne-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/dick-grayson-black-cape-no-eyes",
+       "ref": 2358,
+       "name": "Dick Grayson (Transforming) (Black Cape / No Eyes)",
+       "year": 1995,
+       "feature": "With Crime Fighting Suit and Sudden-Reveal Mask!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_DickGraysonMask-Series1-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_DickGraysonMask-Series1-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/dick-grayson-black-cape-with-eyes",
+       "ref": 2359,
+       "name": "Dick Grayson (Transforming) (Black Cape / With Eyes)",
+       "year": 1995,
+       "feature": "With Crime Fighting Suit and Sudden-Reveal Mask!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_DickGrayson-Series1-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/dick-grayson-gold-cape",
+       "ref": 130391,
+       "name": "Dick Grayson (Transforming) (Gold Cape)",
+       "year": 1995,
+       "feature": "With Crime Fighting Suit and Sudden-Reveal Mask!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_DickGrayson-GoldCape-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/riddler-trapping-brain-drain-helmet",
+       "ref": 2360,
+       "name": "Riddler (Trapping Brain-Drain Helmet)",
+       "year": 1995,
+       "feature": "With Trapping Brain-Drain Helmet!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_Riddler-Series1-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_Riddler-Series1-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/robin-hydro-claw",
+       "ref": 2361,
+       "name": "Robin (Hydro Claw)",
+       "year": 1995,
+       "feature": "With Aqua Attack Launcher and Diving Gear!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_RobinHydroClaw-Series1-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/robin-street-biker",
+       "ref": 2362,
+       "name": "Robin (Street Biker)",
+       "year": 1995,
+       "feature": "With Launching Grappling Hooks and Battle Staff!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_RobinStreetBiker-Series1-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_RobinStreetBiker-S1-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-forever/two-face",
+       "ref": 2363,
+       "name": "Two-Face",
+       "year": 1995,
+       "feature": "With Turbo-Charge Cannon and Good/Evil Coin!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_TwoFace-Series1-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_TwoFace-S1-1.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Series 2",
+     "year": 1995,
+     "figures": [
+      {
+       "id": "kenner/batman-forever/batman-batarang",
+       "ref": 2364,
+       "name": "Batman (Batarang)",
+       "year": 1995,
+       "feature": "With Spinning Batarang and Radar System!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanforever/thumb_BatmanBatarang-Front.jpg"
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "batman-and-robin",
+   "name": "Batman & Robin",
+   "years": "1997–1998",
+   "blurb": "Kenner's line tied to the 1997 Joel Schumacher film. Batman, Robin and Batgirl battle Mr. Freeze, Poison Ivy and Bane across figure waves, deluxe figures, 12\" scale, die-cast, accessories, role playing, micro playsets, and more. 73 catalogued pieces.",
+   "subseries": [
+    {
+     "name": "12\" Scale",
+     "year": 1997,
+     "figures": [
+      {
+       "id": "kenner/batman-and-robin/batgirl-12",
+       "ref": 2249,
+       "name": "Batgirl",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_Batgirl-12-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/batman-12",
+       "ref": 2250,
+       "name": "Batman",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_Batman-12-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/batman-vs-poison-ivy-12",
+       "ref": 2248,
+       "name": "Batman vs Poison Ivy",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatmanPoisonIvy-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/ice-battle-batman-wb",
+       "ref": 2253,
+       "name": "Ice Battle Batman (Warner Brothers)",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_IceBattleBatman-12-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/mr-freeze-12",
+       "ref": 2251,
+       "name": "Mr. Freeze",
+       "year": 1997,
+       "feature": "Special edition Collector series with 6 batman logos on the side open panel.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_MrFreeze-12-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/robin-12",
+       "ref": 2252,
+       "name": "Robin",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_Robin-12-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "2-Packs",
+     "year": 1997,
+     "figures": [
+      {
+       "id": "kenner/batman-and-robin/a-cold-knight-in-gotham",
+       "ref": 2254,
+       "name": "A Cold Knight in Gotham",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_ColdNight-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/a-cold-knight-in-gotham-clear-japan",
+       "ref": 161075,
+       "name": "A Cold Knight in Gotham (Clear Version / Japan)",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_AColdKnightInGotham-ClearVersionJapan-2Packs-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/brain-vs-brawn",
+       "ref": 2255,
+       "name": "Brain vs Brawn",
+       "year": 1997,
+       "feature": "Batman / Bane",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BrainBrawn-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/challengers-of-the-night",
+       "ref": 2256,
+       "name": "Challengers of the Night",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_ChallengersOfTheNight-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/guardians-of-gotham-city",
+       "ref": 2257,
+       "name": "Guardians of Gotham City",
+       "year": 1997,
+       "feature": "Covert Strike Cape Ability. Batman and Robin vs Mr. Freeze, Poison Ivy and Bane.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_GuardiansGotham-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/night-hunter-robin-vs-poison-ivy",
+       "ref": 2258,
+       "name": "Night Hunter Robin vs Evil Entrapment Poison Ivy",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_RobinPoisonIvy-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Accessories",
+     "year": 1997,
+     "figures": [
+      {
+       "id": "kenner/batman-and-robin/batmobile",
+       "ref": 2305,
+       "name": "Batmobile",
+       "year": 1997,
+       "feature": "With Ice Shatter Missile and Vine Attack Blades!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_Batmobile-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/batmobile-rc",
+       "ref": 2306,
+       "name": "Batmobile (Remote Control)",
+       "year": 1997,
+       "feature": "The cockpit, headlights and taillights light up for thrilling night chases!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatmobileRC-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/cryo-freeze-chamber",
+       "ref": 46337,
+       "name": "Cryo-Freeze Chamber",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_CryoFreezeChamber-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/ice-fortress",
+       "ref": 46338,
+       "name": "Ice Fortress",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_IceFortress-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/iceglow-bathammer",
+       "ref": 46333,
+       "name": "Iceglow Bathammer",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_IceglowBathammer-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/jet-blade",
+       "ref": 46334,
+       "name": "Jet Blade",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_JetBlade-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/nightsphere",
+       "ref": 89180,
+       "name": "Nightsphere",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_Nightsphere-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/triple-action-vehicle-set",
+       "ref": 46335,
+       "name": "Triple Action Vehicle Set",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_TripleActionVehicleSet-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/wayne-manor-batcave",
+       "ref": 46336,
+       "name": "Wayne Manor Batcave",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_WayneManorBatcave-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Deluxe Figures",
+     "year": 1997,
+     "figures": [
+      {
+       "id": "kenner/batman-and-robin/batgirl-icestrike-cycle",
+       "ref": 2261,
+       "name": "Batgirl (with Icestrike Cycle)",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatgirlCycle-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatgirlCycle.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/batman-aerial-combat",
+       "ref": 2259,
+       "name": "Batman (Aerial Combat)",
+       "year": 1997,
+       "feature": "Twin Targeting Torpedos",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatmanAerialCombat-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/batman-blast-wing",
+       "ref": 2262,
+       "name": "Batman (Blast Wing)",
+       "year": 1997,
+       "feature": "Ice Chopper Hoverpack & Freeze-Seeker Missile",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatmanBlastWing-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/batman-rooftop-pursuit",
+       "ref": 2263,
+       "name": "Batman (Rooftop Pursuit)",
+       "year": 1997,
+       "feature": "With Night Hunter Jet & Heat-Blast Torpedo",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatmanRooftopPursuit-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/mr-freeze-ice-terror",
+       "ref": 2264,
+       "name": "Mr. Freeze (Ice Terror)",
+       "year": 1997,
+       "feature": "With Street Chill Dragster & Ice Crystal Rocket",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_MrFreezeIceTerror-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/robin-aerial-defender",
+       "ref": 2260,
+       "name": "Robin (Aerial Defender)",
+       "year": 1997,
+       "feature": "Dual Interceptor Missiles",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_RobinAerialDefender-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/robin-glacier-battle",
+       "ref": 2266,
+       "name": "Robin (Glacier Battle)",
+       "year": 1997,
+       "feature": "Tandem Assault Snow Skiff and Stinger Missile",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_RobinGlacierBattle-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/robin-wing-blast",
+       "ref": 2265,
+       "name": "Robin (Wing Blast)",
+       "year": 1997,
+       "feature": "With Blast Open Battle Cape & Anti-Freeze Rocket",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_RobinWingBlast-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/robins-redbird-cycle",
+       "ref": 2267,
+       "name": "Robin's Redbird Cycle",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_RobinsRedbirdCycle-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_RobinsRedbirdCycle-1.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Die-Cast",
+     "year": 1997,
+     "figures": [
+      {
+       "id": "kenner/batman-and-robin/die-cast-bathammer",
+       "ref": 153891,
+       "name": "Bathammer",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_Bathammer-DieCast-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/die-cast-batmobile",
+       "ref": 153892,
+       "name": "Batmobile",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_Batmobile-DieCast-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/die-cast-freezemobile",
+       "ref": 153893,
+       "name": "Freezemobile",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_Freezemobile-DieCast-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/die-cast-redbird",
+       "ref": 153894,
+       "name": "Redbird",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_Redbird-DieCast-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Mail Order",
+     "year": 1997,
+     "figures": [
+      {
+       "id": "kenner/batman-and-robin/batman-fuji-film",
+       "ref": 2268,
+       "name": "Batman (Fuji Film)",
+       "year": 1997,
+       "feature": "This figure was a repaint of Heat Scan Batman",
+       "images": [
+        {
+         "label": "Package",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatmanFuji-Package.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Micro Playsets",
+     "year": 1997,
+     "figures": [
+      {
+       "id": "kenner/batman-and-robin/arctic-gotham",
+       "ref": 158454,
+       "name": "Arctic Gotham",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_ArcticGotham-MicroPlaysets-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/mr-freeze-observatory",
+       "ref": 158455,
+       "name": "Mr. Freeze Observatory",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_MrFreezeObservatory-MicroPlaysets-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_MrFreezeObservatory-MicroPlaysets-1.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Role Playing",
+     "year": 1997,
+     "figures": [
+      {
+       "id": "kenner/batman-and-robin/bat-launcher",
+       "ref": 2303,
+       "name": "Bat-Launcher",
+       "year": 1997,
+       "feature": "Strap it to your arm and fire the Batarang!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatLauncher-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/bat-tazer",
+       "ref": 2304,
+       "name": "Bat-Tazer",
+       "year": 1997,
+       "feature": "Send \"Bat-Signal\" missiles soaring with pump-action power!",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatTazer-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Series 1",
+     "year": 1997,
+     "figures": [
+      {
+       "id": "kenner/batman-and-robin/bane",
+       "ref": 2269,
+       "name": "Bane",
+       "year": 1997,
+       "feature": "Double-Attack Ace & Colossal Crusher Gauntlet",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_Bane-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_Bane4-S1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/batgirl",
+       "ref": 2270,
+       "name": "Batgirl",
+       "year": 1997,
+       "feature": "Battle Blade Blaster & Strike Scythe",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_Batgirl-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_Batgirl1-S1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/batman-heat-scan",
+       "ref": 2271,
+       "name": "Batman (Heat Scan)",
+       "year": 1997,
+       "feature": "Opti Scope Launcher & Laser Ray Emitters",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatmanHeatScan-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/batman-hover-attack",
+       "ref": 2272,
+       "name": "Batman (Hover Attack)",
+       "year": 1997,
+       "feature": "Blasting Battle Sled & Sickle Shields",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatmanHoverAttack-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/bruce-wayne-battle-gear",
+       "ref": 2273,
+       "name": "Bruce Wayne (Battle Gear)",
+       "year": 1997,
+       "feature": "Ice Block Armor Suit & Cryo Claw Shooter",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BruceWayneBattleGear-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/mr-freeze-ice-blast",
+       "ref": 2274,
+       "name": "Mr. Freeze (Ice Blast)",
+       "year": 1997,
+       "feature": "Ice Ray Cannon & Rocket Thrusters",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_MrFreezeIceBlast-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/poison-ivy-jungle-venom",
+       "ref": 2275,
+       "name": "Poison Ivy (Jungle Venom)",
+       "year": 1997,
+       "feature": "Toxic Venom Spray Cannon & Entanglement Vines",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_PoisonIvyJungleVenom-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/robin-iceboard",
+       "ref": 2276,
+       "name": "Robin (Iceboard)",
+       "year": 1997,
+       "feature": "Laserwarp Launcher & Spinning Attack Staff",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_RobinIceboard-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/robin-razor-skate",
+       "ref": 2277,
+       "name": "Robin (Razor Skate)",
+       "year": 1997,
+       "feature": "Chopping Blade Launcher & Ice Battle Armor",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_RobinRazorSkate-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Series 2",
+     "year": 1998,
+     "figures": [
+      {
+       "id": "kenner/batman-and-robin/batman-ambush-attack",
+       "ref": 2278,
+       "name": "Batman (Ambush Attack)",
+       "year": 1998,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatmanAmbushAttack-S2-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/batman-ice-blade",
+       "ref": 2279,
+       "name": "Batman (Ice Blade)",
+       "year": 1998,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatmanIceBlade-S2-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/batman-neon-armor",
+       "ref": 2280,
+       "name": "Batman (Neon Armor)",
+       "year": 1998,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatmanNeonArmor-S2-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/batman-snowtracker",
+       "ref": 2281,
+       "name": "Batman (Snowtracker)",
+       "year": 1998,
+       "feature": "With Arctic Combat Sled & Polar Assault Missile",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatmanSnowTracker-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/batman-wing-blast",
+       "ref": 2282,
+       "name": "Batman (Wing Blast)",
+       "year": 1998,
+       "feature": "With Sudden-Alert Bio Wings",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatmanWingBlast-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/frostbite",
+       "ref": 2283,
+       "name": "Frostbite",
+       "year": 1998,
+       "feature": "With Ice Assault Luge & Self-Shielding Hockey Armor. Mr. Freeze Henchman.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_Frostbite-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/mr-freeze-cryonic-blast-bazooka",
+       "ref": 2284,
+       "name": "Mr. Freeze (Cryonic Blast Bazooka)",
+       "year": 1998,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_MrFreezeBazooka-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/robin-blade-blast",
+       "ref": 2285,
+       "name": "Robin (Blade Blast)",
+       "year": 1998,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_RobinBladeBlast-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/robin-talon-strike",
+       "ref": 2286,
+       "name": "Robin (Talon Strike)",
+       "year": 1998,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_RobinTalonStrike-S2-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/robin-triple-strike",
+       "ref": 2287,
+       "name": "Robin (Triple Strike)",
+       "year": 1998,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_RobinTripleStrike-S2-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Series 2 (with Batman Ring)",
+     "year": 1998,
+     "figures": [
+      {
+       "id": "kenner/batman-and-robin/batman-battle-board-ring",
+       "ref": 2288,
+       "name": "Batman (Battle Board)",
+       "year": 1998,
+       "feature": "With Flight-Conversion Cape & Ionic Blaster",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatmanBattleBoardRing-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/batman-ice-blade-ring",
+       "ref": 2289,
+       "name": "Batman (Ice Blade)",
+       "year": 1998,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatmanIceBladeRing-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/batman-laser-cape-ring",
+       "ref": 2290,
+       "name": "Batman (Laser Cape)",
+       "year": 1998,
+       "feature": "With Wing-Mounted Torpedo Launcher",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatmanLaserCapeRing-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/batman-neon-armor-ring",
+       "ref": 2291,
+       "name": "Batman (Neon Armor)",
+       "year": 1998,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatmanNeonArmor-Ring-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/batman-rotorblade-ring",
+       "ref": 2292,
+       "name": "Batman (Rotorblade)",
+       "year": 1998,
+       "feature": "With Jetscape Cape & Exoblade",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatmanRotorbladeRing-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/batman-sky-assault-ring",
+       "ref": 2293,
+       "name": "Batman (Sky Assault)",
+       "year": 1998,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatmanSkyAssaultRing-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/batman-thermal-shield-ring",
+       "ref": 2294,
+       "name": "Batman (Thermal Shield)",
+       "year": 1998,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatmanThermalShieldRing-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/batman-wing-blast-ring",
+       "ref": 2295,
+       "name": "Batman (Wing Blast)",
+       "year": 1998,
+       "feature": "With Sudden-Alert Bio Wings",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_BatmanWingBlastRing-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/mr-freeze-jet-wing-ring",
+       "ref": 2296,
+       "name": "Mr. Freeze (Jet Wing)",
+       "year": 1998,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_MrFreezeJetWingRing-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/mr-freeze-ultimate-armor-ring",
+       "ref": 2297,
+       "name": "Mr. Freeze (Ultimate Armor)",
+       "year": 1998,
+       "feature": "Ultimate Armor & Freeze-On Missile",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_MrFreezeUltimateArmorRing-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/robin-attack-wing-ring",
+       "ref": 2298,
+       "name": "Robin (Attack Wing)",
+       "year": 1998,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_RobinAttackWingRing-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/robin-talon-strike-ring",
+       "ref": 2299,
+       "name": "Robin (Talon Strike)",
+       "year": 1998,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_RobinTalonStrikeRing-Front.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/robin-triple-strike-ring",
+       "ref": 2300,
+       "name": "Robin (Triple Strike)",
+       "year": 1998,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_RobinTripleStrikeRing-S2-Front.jpg"
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "name": "Ultimate Figures",
+     "year": 1997,
+     "figures": [
+      {
+       "id": "kenner/batman-and-robin/ultimate-batman",
+       "ref": 2301,
+       "name": "Ultimate Batman",
+       "year": 1997,
+       "feature": "14-inch articulated figure with cloth cape and Batarang accessory, based on the George Clooney movie costume.",
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_UltimateBatman-Front.jpg"
+        },
+        {
+         "label": "Loose",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_UltimateBatman-1.jpg"
+        }
+       ]
+      },
+      {
+       "id": "kenner/batman-and-robin/ultimate-robin",
+       "ref": 2302,
+       "name": "Ultimate Robin",
+       "year": 1997,
+       "images": [
+        {
+         "label": "Front",
+         "url": "https://www.figurerealm.com/galleries/batmanrobin/thumb_UltimateRobin-Front.jpg"
         }
        ]
       }
