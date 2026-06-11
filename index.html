@@ -41,7 +41,8 @@
 
   main{max-width:1240px;margin:0 auto;padding:24px 20px 80px;display:grid;grid-template-columns:248px 1fr;gap:26px;align-items:start}
   main.solo{grid-template-columns:1fr}
-  .rail{position:sticky;top:96px}
+  #content{min-width:0}
+  .rail{position:sticky;top:96px;min-width:0}
   .rail h2{font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;color:var(--txt-dim);margin:0 0 10px 4px}
   .series-btn{display:block;width:100%;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:12px 13px;margin-bottom:8px;color:var(--txt);transition:.15s;text-decoration:none}
   .series-btn:hover{border-color:#c9d2df;transform:translateY(-1px)}
@@ -69,7 +70,7 @@
   .bigmeter > i{display:block;height:100%;background:var(--blue)}
 
   /* Directory */
-  .dirgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;margin-top:8px}
+  .dirgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr));gap:14px;margin-top:8px}
   .azhdr{font-family:"Archivo Black",sans-serif;font-size:14px;color:var(--blue);margin:26px 0 10px;letter-spacing:.4px}
   .mfrcard{display:block;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 16px 14px;text-decoration:none;color:var(--ink);transition:.14s}
   .mfrcard:hover{border-color:var(--blue);transform:translateY(-2px);box-shadow:var(--shadow)}
@@ -77,13 +78,16 @@
   .mfrcard .ms{font-size:12px;color:var(--txt-dim);margin-top:6px;line-height:1.5}
   .mfrcard .mc{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--blue-d);background:var(--blue-tint);display:inline-block;padding:3px 8px;border-radius:999px;margin-top:10px}
 
-  /* Series index cards */
-  .seriesgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-top:6px}
-  .scard{display:block;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px;text-decoration:none;color:var(--ink);transition:.14s}
-  .scard:hover{border-color:var(--blue);transform:translateY(-2px);box-shadow:var(--shadow)}
-  .scard .sn{font-family:"Archivo Black",sans-serif;font-size:17px;letter-spacing:-.3px}
-  .scard .sy{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--txt-dim);margin-top:4px}
-  .scard .meter{margin-top:12px} .scard .cnt{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--txt-dim);margin-top:6px}
+  /* Series index — vertical list (can't overflow) */
+  .linelist{display:flex;flex-direction:column;gap:10px;margin-top:6px}
+  .linecard{display:flex;align-items:center;gap:16px;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:14px 16px;text-decoration:none;color:var(--ink);transition:.14s}
+  .linecard:hover{border-color:var(--blue);transform:translateY(-1px);box-shadow:var(--shadow)}
+  .linecard .lc-main{flex:1;min-width:0}
+  .linecard .lc-name{font-family:"Archivo Black",sans-serif;font-size:17px;letter-spacing:-.3px;line-height:1.12}
+  .linecard .lc-year{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--txt-dim);margin-top:4px}
+  .linecard .lc-right{width:150px;flex:none}
+  .linecard .lc-cnt{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--txt-dim);margin-top:6px;text-align:right}
+  .linecard .lc-chev{font-size:22px;color:var(--txt-dim);flex:none;line-height:1}
 
   .sub{margin-top:30px}
   .sub-hdr{display:flex;align-items:center;gap:12px;margin-bottom:13px}
@@ -149,6 +153,7 @@
     .series-btn{min-width:200px;margin-bottom:0}
     .detail{grid-template-columns:1fr} .gallery{border-right:0;border-bottom:1px solid var(--line)}
     .hero h1{font-size:31px} .row .rfeat,.row .rctx{display:none}
+    .linecard .lc-right{width:110px} .linecard .lc-chev{display:none}
     .search{order:3;width:100%;margin-left:0} .search input{width:100%} .search input:focus{width:100%}
   }
   @media (prefers-reduced-motion:reduce){*{transition:none!important}}
@@ -323,12 +328,12 @@ async function renderManufacturer(mfrId, seriesId){
     $("#content").innerHTML = crumbs([["Database","#/"],[data.name,null]]) +
       `<div class="hero"><div class="eyebrow">${esc(data.name)}</div><h1>${esc(data.name)} toy lines</h1>
        <p>${data.series.length} line${data.series.length!==1?"s":""} catalogued. Pick one to dig in.</p></div>
-       <div class="seriesgrid">${data.series.map(s=>{
+       <div class="linelist">${data.series.map(s=>{
           const figs=seriesFigs(s), owned=figs.filter(f=>has("own",f.id)).length, pct=figs.length?Math.round(owned/figs.length*100):0;
-          return `<a class="scard" href="#/${encodeURIComponent(mfrId)}/${encodeURIComponent(s.id)}">
-            <div class="sn">${esc(s.name)}</div><div class="sy">${esc(s.years||"")}</div>
-            <div class="meter"><i style="width:${pct}%"></i></div>
-            <div class="cnt">${owned}/${figs.length} owned</div></a>`;
+          return `<a class="linecard" href="#/${encodeURIComponent(mfrId)}/${encodeURIComponent(s.id)}">
+            <div class="lc-main"><div class="lc-name">${esc(s.name)}</div><div class="lc-year">${esc(s.years||"")}</div></div>
+            <div class="lc-right"><div class="meter"><i style="width:${pct}%"></i></div><div class="lc-cnt">${owned}/${figs.length} owned</div></div>
+            <span class="lc-chev">›</span></a>`;
        }).join("")}</div>`;
     return;
   }
