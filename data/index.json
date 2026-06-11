@@ -7,66 +7,16 @@
    "file": "data/kenner.json",
    "years": "1947–2000",
    "series": [
-    {
-     "id": "dark-knight-collection",
-     "name": "Dark Knight Collection",
-     "years": "1990–1991",
-     "figureCount": 23
-    },
-    {
-     "id": "batman-returns",
-     "name": "Batman Returns",
-     "years": "1991–1994",
-     "figureCount": 37
-    },
-    {
-     "id": "batman-animated-series",
-     "name": "Batman - Animated Series",
-     "years": "1992–1995",
-     "figureCount": 51
-    },
-    {
-     "id": "adventures-of-batman-and-robin",
-     "name": "Adventures of Batman & Robin",
-     "years": "1995–1997",
-     "figureCount": 19
-    },
-    {
-     "id": "batman-forever",
-     "name": "Batman Forever",
-     "years": "1995",
-     "figureCount": 51
-    },
-    {
-     "id": "batman-and-robin",
-     "name": "Batman & Robin",
-     "years": "1997–1998",
-     "figureCount": 73
-    },
-    {
-     "id": "action-masters",
-     "name": "Action Masters",
-     "years": "1994",
-     "figureCount": 16
-    },
-    {
-     "id": "alien-resurrection",
-     "name": "Alien Resurrection",
-     "years": "1997",
-     "figureCount": 9
-    },
-    {
-     "id": "aliens",
-     "name": "Aliens",
-     "years": "1979–1998",
-     "figureCount": 59
-    },
-    {
-     "id": "apollo-13",
-     "name": "Apollo 13",
-     "years": "1995",
-     "figureCount": 1
-    }
+    { "id": "dark-knight-collection", "name": "Dark Knight Collection", "years": "1990–1991", "figureCount": 23 },
+    { "id": "batman-returns", "name": "Batman Returns", "years": "1991–1994", "figureCount": 37 },
+    { "id": "batman-animated-series", "name": "Batman - Animated Series", "years": "1992–1995", "figureCount": 51 },
+    { "id": "adventures-of-batman-and-robin", "name": "Adventures of Batman & Robin", "years": "1995–1997", "figureCount": 19 },
+    { "id": "batman-forever", "name": "Batman Forever", "years": "1995", "figureCount": 51 },
+    { "id": "batman-and-robin", "name": "Batman & Robin", "years": "1997–1998", "figureCount": 73 },
+    { "id": "action-masters", "name": "Action Masters", "years": "1994", "figureCount": 16 },
+    { "id": "alien-resurrection", "name": "Alien Resurrection", "years": "1997", "figureCount": 9 },
+    { "id": "aliens", "name": "Aliens", "years": "1979–1998", "figureCount": 59 },
+    { "id": "apollo-13", "name": "Apollo 13", "years": "1995", "figureCount": 1 }
    ]
   }
  ]
