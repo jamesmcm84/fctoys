@@ -6,6 +6,7 @@
    "name": "Kenner",
    "file": "data/kenner.json",
    "years": "1947–2000",
+   "figureCount": 243,
    "series": [
     {
      "id": "dark-knight-collection",
