@@ -4,7 +4,6 @@
   {
    "id": "kenner",
    "name": "Kenner",
-   "file": "data/kenner.json",
    "years": "1947–2000",
    "series": [
     {
@@ -210,7 +209,6 @@
   {
    "id": "hasbro",
    "name": "Hasbro",
-   "file": "data/hasbro.json",
    "years": "1923–present",
    "series": [
     {
@@ -242,7 +240,6 @@
   {
    "id": "mattel",
    "name": "Mattel",
-   "file": "data/mattel.json",
    "years": "1945–present",
    "series": [
     {
@@ -370,7 +367,6 @@
   {
    "id": "dc-direct",
    "name": "DC Direct",
-   "file": "data/dc-direct.json",
    "years": "1998–2012",
    "series": [
     {
@@ -462,7 +458,6 @@
   {
    "id": "dc-collectibles",
    "name": "DC Collectibles",
-   "file": "data/dc-collectibles.json",
    "years": "2012–present",
    "series": [
     {
@@ -506,7 +501,6 @@
   {
    "id": "mcfarlane",
    "name": "McFarlane Toys",
-   "file": "data/mcfarlane.json",
    "years": "1994–present",
    "series": [
     {
@@ -538,7 +532,6 @@
   {
    "id": "hot-toys",
    "name": "Hot Toys",
-   "file": "data/hot-toys.json",
    "years": "2000–present",
    "series": [
     {
@@ -552,7 +545,6 @@
   {
    "id": "neca",
    "name": "Neca",
-   "file": "data/neca.json",
    "years": "1996–present",
    "series": [
     {
@@ -572,7 +564,6 @@
   {
    "id": "funko",
    "name": "Funko",
-   "file": "data/funko.json",
    "years": "1998–present",
    "series": [
     {
@@ -622,7 +613,6 @@
   {
    "id": "spinmaster",
    "name": "Spin Master",
-   "file": "data/spinmaster.json",
    "years": "1994–present",
    "series": [
     {
@@ -642,7 +632,6 @@
   {
    "id": "figures-toy-company",
    "name": "Figures Toy Company",
-   "file": "data/figures-toy-company.json",
    "years": "2013–present",
    "series": [
     {
@@ -662,7 +651,6 @@
   {
    "id": "jada-toys",
    "name": "Jada Toys",
-   "file": "data/jada-toys.json",
    "years": "1999–present",
    "series": [
     {
@@ -676,7 +664,6 @@
   {
    "id": "diamond-select",
    "name": "Diamond Select Toys",
-   "file": "data/diamond-select.json",
    "years": "1999–present",
    "series": [
     {
@@ -690,7 +677,6 @@
   {
    "id": "mezco",
    "name": "Mezco Toyz",
-   "file": "data/mezco.json",
    "years": "2000–present",
    "series": [
     {
@@ -710,7 +696,6 @@
   {
    "id": "mondo",
    "name": "Mondo",
-   "file": "data/mondo.json",
    "years": "2011–present",
    "series": [
     {
