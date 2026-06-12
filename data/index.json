@@ -1,205 +1,785 @@
 {
-  "generated": "2026-06-11",
-  "manufacturers": [
+ "generated": "2026-06-11",
+ "manufacturers": [
+  {
+   "id": "kenner",
+   "name": "Kenner",
+   "file": "data/kenner.json",
+   "years": "1947–2000",
+   "series": [
     {
-      "id": "kenner",
-      "name": "Kenner",
-      "file": "data/kenner.json",
-      "years": "1947–2000",
-      "series": [
-        { "id": "dark-knight-collection", "name": "Dark Knight Collection", "years": "1990–1991", "figureCount": 23 },
-        { "id": "batman-returns", "name": "Batman Returns", "years": "1991–1994", "figureCount": 37 },
-        { "id": "batman-animated-series", "name": "Batman - Animated Series", "years": "1992–1995", "figureCount": 51 },
-        { "id": "mask-of-the-phantasm", "name": "Mask of the Phantasm", "years": "1993–1994", "figureCount": 10 },
-        { "id": "legends-of-batman", "name": "Legends of Batman", "years": "1994–1997", "figureCount": 50 },
-        { "id": "adventures-of-batman-and-robin", "name": "Adventures of Batman & Robin", "years": "1995–1997", "figureCount": 19 },
-        { "id": "batman-forever", "name": "Batman Forever", "years": "1995", "figureCount": 51 },
-        { "id": "crime-squad", "name": "Crime Squad", "years": "1995", "figureCount": 15 },
-        { "id": "legends-of-the-dark-knight", "name": "Legends of the Dark Knight", "years": "1996–1998", "figureCount": 22 },
-        { "id": "batman-and-robin", "name": "Batman & Robin", "years": "1997–1998", "figureCount": 73 },
-        { "id": "movie-collection", "name": "Movie Collection", "years": "1997", "figureCount": 5 },
-        { "id": "new-adventures", "name": "New Adventures of Batman", "years": "1997–2000", "figureCount": 44 },
-        { "id": "knight-force-ninjas", "name": "Knight Force Ninjas", "years": "1998", "figureCount": 15 }
-      ]
+     "id": "dark-knight-collection",
+     "name": "Dark Knight Collection",
+     "years": "1990–1991",
+     "figureCount": 23
     },
     {
-      "id": "hasbro",
-      "name": "Hasbro",
-      "file": "data/hasbro.json",
-      "years": "1923–present",
-      "series": [
-        { "id": "batman-beyond", "name": "Batman Beyond", "years": "1998–2000", "figureCount": 41 },
-        { "id": "mission-masters", "name": "Mission Masters", "years": "1998–2003", "figureCount": 83 },
-        { "id": "spectrum-of-the-bat", "name": "Spectrum of the Bat", "years": "2000–2002", "figureCount": 13 },
-        { "id": "world-of-batman", "name": "World of Batman", "years": "1999–2000", "figureCount": 7 }
-      ]
+     "id": "batman-returns",
+     "name": "Batman Returns",
+     "years": "1991–1994",
+     "figureCount": 37
     },
     {
-      "id": "mattel",
-      "name": "Mattel",
-      "file": "data/mattel.json",
-      "years": "1945–present",
-      "series": [
-        { "id": "batman-animated-series", "name": "Batman - Animated Series", "years": "2002–2006", "figureCount": 23 },
-        { "id": "new-animated", "name": "New Animated", "years": "2004–2006", "figureCount": 53 },
-        { "id": "batman-begins", "name": "Batman Begins", "years": "2005", "figureCount": 48 },
-        { "id": "comics", "name": "Comics", "years": "2003–2006", "figureCount": 56 },
-        { "id": "exp-extreme-power", "name": "EXP Extreme Power", "years": "2006", "figureCount": 50 },
-        { "id": "shadow-tek", "name": "Shadow-Tek", "years": "2006", "figureCount": 61 },
-        { "id": "dark-knight", "name": "The Dark Knight", "years": "2008–2009", "figureCount": 71 },
-        { "id": "dark-knight-movie-masters", "name": "Dark Knight Movie Masters", "years": "2008–2010", "figureCount": 25 },
-        { "id": "batman-brave-and-bold", "name": "Batman: The Brave and the Bold", "years": "2009–2011", "figureCount": 153 },
-        { "id": "power-attack", "name": "Power Attack", "years": "2011–2013", "figureCount": 24 },
-        { "id": "batman-legacy-edition", "name": "Batman Legacy Edition", "years": "2011", "figureCount": 17 },
-        { "id": "dark-knight-rises", "name": "The Dark Knight Rises", "years": "2012", "figureCount": 43 },
-        { "id": "2013-series", "name": "2013 Series", "years": "2013", "figureCount": 13 },
-        { "id": "batman-unlimited", "name": "Batman Unlimited", "years": "2013–2016", "figureCount": 44 },
-        { "id": "classic-tv-series", "name": "Classic TV Series", "years": "2013–2015", "figureCount": 16 },
-        { "id": "dark-knight-trilogy", "name": "Dark Knight Trilogy", "years": "2013", "figureCount": 6 },
-        { "id": "dc-comics-multiverse", "name": "DC Comics Multiverse", "years": "2014–2022", "figureCount": 167 },
-        { "id": "batman-v-superman", "name": "Batman v Superman", "years": "2015–2016", "figureCount": 39 },
-        { "id": "batman-missions", "name": "Batman Missions", "years": "2018", "figureCount": 38 },
-        { "id": "superman-batman-public-enemies", "name": "Superman / Batman: Public Enemies", "years": "2010", "figureCount": 12 }
-      ]
+     "id": "adventures-of-batman-and-robin",
+     "name": "Adventures of Batman & Robin",
+     "years": "1995–1997",
+     "figureCount": 19
     },
     {
-      "id": "dc-direct",
-      "name": "DC Direct",
-      "file": "data/dc-direct.json",
-      "years": "1998–2012",
-      "series": [
-        { "id": "gothams-guardian", "name": "Gotham's Guardian Against Crime", "years": "1998–2005", "figureCount": 12 },
-        { "id": "dark-knight-returns", "name": "Dark Knight Returns", "years": "2004", "figureCount": 4 },
-        { "id": "dark-victory", "name": "Dark Victory", "years": "2004", "figureCount": 4 },
-        { "id": "hush", "name": "Hush", "years": "2004–2013", "figureCount": 17 },
-        { "id": "kia-asamiya", "name": "Kia Asamiya", "years": "2004–2005", "figureCount": 8 },
-        { "id": "long-halloween", "name": "Long Halloween", "years": "2004", "figureCount": 5 },
-        { "id": "knightfall", "name": "Knightfall", "years": "2006", "figureCount": 5 },
-        { "id": "batman-and-son", "name": "Batman and Son", "years": "2007", "figureCount": 4 },
-        { "id": "arkham-asylum", "name": "Arkham Asylum", "years": "2010–2014", "figureCount": 12 },
-        { "id": "arkham-city", "name": "Arkham City", "years": "2011–2014", "figureCount": 30 },
-        { "id": "batman-incorporated", "name": "Batman Incorporated", "years": "2012", "figureCount": 4 },
-        { "id": "batman-reborn", "name": "Batman Reborn", "years": "2012", "figureCount": 4 },
-        { "id": "superman-batman", "name": "Superman / Batman", "years": "2005–2010", "figureCount": 34 },
-        { "id": "return-of-bruce-wayne", "name": "Return of Bruce Wayne", "years": "2011", "figureCount": 4 }
-      ]
+     "id": "batman-animated-series",
+     "name": "Batman - Animated Series",
+     "years": "1992–1995",
+     "figureCount": 51
     },
     {
-      "id": "dc-collectibles",
-      "name": "DC Collectibles",
-      "file": "data/dc-collectibles.json",
-      "years": "2012–present",
-      "series": [
-        { "id": "arkham-origins", "name": "Arkham Origins", "years": "2013–2014", "figureCount": 11 },
-        { "id": "hush", "name": "Hush", "years": "2013", "figureCount": 2 },
-        { "id": "arkham-knight", "name": "Arkham Knight", "years": "2015–2016", "figureCount": 18 },
-        { "id": "batman", "name": "Batman", "years": "2015–2022", "figureCount": 75 },
-        { "id": "lil-gotham", "name": "Batman: Li'l Gotham", "years": "2015", "figureCount": 4 },
-        { "id": "batman-vs-tmnt", "name": "Batman vs Teenage Mutant Ninja Turtles", "years": "2019", "figureCount": 6 }
-      ]
+     "id": "batman-forever",
+     "name": "Batman Forever",
+     "years": "1995",
+     "figureCount": 51
     },
     {
-      "id": "mcfarlane",
-      "name": "McFarlane Toys",
-      "file": "data/mcfarlane.json",
-      "years": "1994–present",
-      "series": [
-        { "id": "animated-series", "name": "Animated Series", "years": "2023–2026", "figureCount": 47 },
-        { "id": "classic-tv-series", "name": "Classic TV Series", "years": "2021–2025", "figureCount": 65 },
-        { "id": "dark-knight-rises", "name": "Dark Knight Rises", "years": "2012", "figureCount": 1 },
-        { "id": "new-adventures", "name": "New Adventures", "years": "2024–2025", "figureCount": 21 }
-      ]
+     "id": "batman-and-robin",
+     "name": "Batman & Robin",
+     "years": "1997–1998",
+     "figureCount": 73
     },
     {
-      "id": "hot-toys",
-      "name": "Hot Toys",
-      "file": "data/hot-toys.json",
-      "years": "2000–present",
-      "series": [
-        { "id": "batman", "name": "Batman", "years": "2006–2027", "figureCount": 83 }
-      ]
+     "id": "batman-crime-squad",
+     "name": "Batman - Crime Squad",
+     "years": "1995",
+     "figureCount": 15
     },
     {
-      "id": "neca",
-      "name": "Neca",
-      "file": "data/neca.json",
-      "years": "1996–present",
-      "series": [
-        { "id": "dc", "name": "DC", "years": "2008–2026", "figureCount": 43 },
-        { "id": "scalers-batman-returns", "name": "Scalers - Batman Returns", "years": "2016", "figureCount": 1 }
-      ]
+     "id": "batman-knight-force-ninjas",
+     "name": "Batman - Knight Force Ninjas",
+     "years": "1998",
+     "figureCount": 15
     },
     {
-      "id": "funko",
-      "name": "Funko",
-      "file": "data/funko.json",
-      "years": "1998–present",
-      "series": [
-        { "id": "batman", "name": "Batman", "years": "2012–2026", "figureCount": 317 },
-        { "id": "classic-tv-series", "name": "Classic TV Series", "years": "2010–2026", "figureCount": 33 },
-        { "id": "batman-war-zone", "name": "Batman War Zone", "years": "2024", "figureCount": 6 },
-        { "id": "harley-quinn", "name": "Harley Quinn", "years": "2022–2024", "figureCount": 13 },
-        { "id": "arkham-asylum", "name": "Arkham Asylum", "years": "2015", "figureCount": 1 },
-        { "id": "arkham-city", "name": "Arkham City", "years": "2024–2025", "figureCount": 2 },
-        { "id": "tv-series", "name": "TV Series", "years": "2017", "figureCount": 1 }
-      ]
+     "id": "batman-legends-of",
+     "name": "Batman - Legends of",
+     "years": "1994–1997",
+     "figureCount": 50
     },
     {
-      "id": "spinmaster",
-      "name": "Spin Master",
-      "file": "data/spinmaster.json",
-      "years": "1994–present",
-      "series": [
-        { "id": "batman", "name": "Batman", "years": "2020–2025", "figureCount": 92 },
-        { "id": "caped-crusader", "name": "Caped Crusader", "years": "2020", "figureCount": 89 }
-      ]
+     "id": "batman-legends-of-the-dark-knight",
+     "name": "Batman - Legends of the Dark Knight",
+     "years": "1996–1998",
+     "figureCount": 22
     },
     {
-      "id": "figures-toy-company",
-      "name": "Figures Toy Company",
-      "file": "data/figures-toy-company.json",
-      "years": "2013–present",
-      "series": [
-        { "id": "batman", "name": "Batman", "years": "2013–2018", "figureCount": 32 },
-        { "id": "classic-tv-series", "name": "Classic TV Series", "years": "2014–2019", "figureCount": 59 }
-      ]
+     "id": "batman-mask-of-the-phantasm",
+     "name": "Batman - Mask of the Phantasm",
+     "years": "1993–1994",
+     "figureCount": 10
     },
     {
-      "id": "jada-toys",
-      "name": "Jada Toys",
-      "file": "data/jada-toys.json",
-      "years": "1999–present",
-      "series": [
-        { "id": "batman-v-superman", "name": "Batman v Superman", "years": "2016–2018", "figureCount": 18 }
-      ]
+     "id": "batman-movie-collection",
+     "name": "Batman - Movie Collection",
+     "years": "1997",
+     "figureCount": 5
     },
     {
-      "id": "diamond-select",
-      "name": "Diamond Select Toys",
-      "file": "data/diamond-select.json",
-      "years": "1999–present",
-      "series": [
-        { "id": "gotham", "name": "Gotham", "years": "2015–2017", "figureCount": 13 }
-      ]
+     "id": "batman-new-adventures",
+     "name": "Batman - New Adventures",
+     "years": "1997–2000",
+     "figureCount": 44
     },
     {
-      "id": "mezco",
-      "name": "Mezco Toyz",
-      "file": "data/mezco.json",
-      "years": "2000–present",
-      "series": [
-        { "id": "batman", "name": "Batman", "years": "2019", "figureCount": 1 },
-        { "id": "animated-series", "name": "Animated Series", "years": "2024–2025", "figureCount": 10 }
-      ]
+     "id": "dragonheart",
+     "name": "Dragonheart",
+     "years": "1995",
+     "figureCount": 12
     },
     {
-      "id": "mondo",
-      "name": "Mondo",
-      "file": "data/mondo.json",
-      "years": "2011–present",
-      "series": [
-        { "id": "batman", "name": "Batman", "years": "2022–2026", "figureCount": 32 }
-      ]
+     "id": "congo",
+     "name": "Congo",
+     "years": "1995",
+     "figureCount": 12
+    },
+    {
+     "id": "chuck-norris-karate-kommandos",
+     "name": "Chuck Norris - Karate Kommandos",
+     "years": "1986",
+     "figureCount": 12
+    },
+    {
+     "id": "centurions",
+     "name": "Centurions",
+     "years": "1986",
+     "figureCount": 17
+    },
+    {
+     "id": "carzillas",
+     "name": "Carzillas",
+     "years": "1993",
+     "figureCount": 9
+    },
+    {
+     "id": "care-bears",
+     "name": "Care Bears",
+     "years": "1983–1984",
+     "figureCount": 81
+    },
+    {
+     "id": "capitol-critters",
+     "name": "Capitol Critters",
+     "years": "1992",
+     "figureCount": 6
+    },
+    {
+     "id": "butch-and-sundance",
+     "name": "Butch and Sundance",
+     "years": "1979",
+     "figureCount": 10
+    },
+    {
+     "id": "boy-scouts",
+     "name": "Boy Scouts",
+     "years": "1974",
+     "figureCount": 20
+    },
+    {
+     "id": "bone-age",
+     "name": "Bone Age",
+     "years": "1988",
+     "figureCount": 20
+    },
+    {
+     "id": "bionic-woman",
+     "name": "Bionic Woman",
+     "years": "1976–1977",
+     "figureCount": 12
+    },
+    {
+     "id": "bill-and-teds-excellent-adventure",
+     "name": "Bill and Ted's Excellent Adventure",
+     "years": "1991",
+     "figureCount": 10
+    },
+    {
+     "id": "beetlejuice",
+     "name": "Beetlejuice",
+     "years": "1989–1990",
+     "figureCount": 18
+    },
+    {
+     "id": "battle-brawlers",
+     "name": "Battle Brawlers",
+     "years": "1986",
+     "figureCount": 2
+    },
+    {
+     "id": "action-masters",
+     "name": "Action Masters",
+     "years": "1994",
+     "figureCount": 16
+    },
+    {
+     "id": "alien-resurrection",
+     "name": "Alien Resurrection",
+     "years": "1997",
+     "figureCount": 9
+    },
+    {
+     "id": "aliens",
+     "name": "Aliens",
+     "years": "1979–1998",
+     "figureCount": 59
+    },
+    {
+     "id": "apollo-13",
+     "name": "Apollo 13",
+     "years": "1995",
+     "figureCount": 1
+    },
+    {
+     "id": "duke-the-super-action-dog",
+     "name": "Duke the Super Action Dog",
+     "years": "1974",
+     "figureCount": 5
+    },
+    {
+     "id": "forza-campioni",
+     "name": "Forza Campioni",
+     "years": "1989",
+     "figureCount": 32
+    },
+    {
+     "id": "gi-joe-extreme",
+     "name": "G.I. Joe Extreme",
+     "years": "1995",
+     "figureCount": 19
+    },
+    {
+     "id": "gargoyles",
+     "name": "Gargoyles",
+     "years": "1995-1996",
+     "figureCount": 35
+    },
+    {
+     "id": "glamour-gals",
+     "name": "Glamour Gals",
+     "years": "1982-1983",
+     "figureCount": 80
+    },
+    {
+     "id": "hardy-boys",
+     "name": "Hardy Boys",
+     "years": "1978",
+     "figureCount": 2
+    },
+    {
+     "id": "history-of-collection",
+     "name": "History of Collection",
+     "years": "1996",
+     "figureCount": 2
+    },
+    {
+     "id": "indiana-jones-raiders-of-the-lost-ark",
+     "name": "Indiana Jones - Raiders of the Lost Ark",
+     "years": "1982-1983",
+     "figureCount": 17
+    },
+    {
+     "id": "international-velvet",
+     "name": "International Velvet",
+     "years": "1978",
+     "figureCount": 2
+    },
+    {
+     "id": "its-ernest",
+     "name": "It's Ernest",
+     "years": "1989",
+     "figureCount": 1
+    },
+    {
+     "id": "jurassic-park",
+     "name": "Jurassic Park",
+     "years": "1993",
+     "figureCount": 29
+    },
+    {
+     "id": "jurassic-park-chaos-effect",
+     "name": "Jurassic Park - Chaos Effect",
+     "years": "1997",
+     "figureCount": 16
     }
-  ]
+   ]
+  },
+  {
+   "id": "hasbro",
+   "name": "Hasbro",
+   "file": "data/hasbro.json",
+   "years": "1923–present",
+   "series": [
+    {
+     "id": "batman-beyond",
+     "name": "Batman Beyond",
+     "years": "1998–2000",
+     "figureCount": 41
+    },
+    {
+     "id": "mission-masters",
+     "name": "Mission Masters",
+     "years": "1998–2003",
+     "figureCount": 83
+    },
+    {
+     "id": "spectrum-of-the-bat",
+     "name": "Spectrum of the Bat",
+     "years": "2000–2002",
+     "figureCount": 13
+    },
+    {
+     "id": "world-of-batman",
+     "name": "World of Batman",
+     "years": "1999–2000",
+     "figureCount": 7
+    }
+   ]
+  },
+  {
+   "id": "mattel",
+   "name": "Mattel",
+   "file": "data/mattel.json",
+   "years": "1945–present",
+   "series": [
+    {
+     "id": "batman-animated-series",
+     "name": "Batman - Animated Series",
+     "years": "2002–2006",
+     "figureCount": 23
+    },
+    {
+     "id": "new-animated",
+     "name": "New Animated",
+     "years": "2004–2006",
+     "figureCount": 53
+    },
+    {
+     "id": "batman-begins",
+     "name": "Batman Begins",
+     "years": "2005",
+     "figureCount": 48
+    },
+    {
+     "id": "comics",
+     "name": "Comics",
+     "years": "2003–2006",
+     "figureCount": 56
+    },
+    {
+     "id": "exp-extreme-power",
+     "name": "EXP Extreme Power",
+     "years": "2006",
+     "figureCount": 50
+    },
+    {
+     "id": "shadow-tek",
+     "name": "Shadow-Tek",
+     "years": "2006",
+     "figureCount": 61
+    },
+    {
+     "id": "dark-knight",
+     "name": "The Dark Knight",
+     "years": "2008–2009",
+     "figureCount": 71
+    },
+    {
+     "id": "dark-knight-movie-masters",
+     "name": "Dark Knight Movie Masters",
+     "years": "2008–2010",
+     "figureCount": 25
+    },
+    {
+     "id": "batman-brave-and-bold",
+     "name": "Batman: The Brave and the Bold",
+     "years": "2009–2011",
+     "figureCount": 153
+    },
+    {
+     "id": "power-attack",
+     "name": "Power Attack",
+     "years": "2011–2013",
+     "figureCount": 24
+    },
+    {
+     "id": "batman-legacy-edition",
+     "name": "Batman Legacy Edition",
+     "years": "2011",
+     "figureCount": 17
+    },
+    {
+     "id": "dark-knight-rises",
+     "name": "The Dark Knight Rises",
+     "years": "2012",
+     "figureCount": 43
+    },
+    {
+     "id": "2013-series",
+     "name": "2013 Series",
+     "years": "2013",
+     "figureCount": 13
+    },
+    {
+     "id": "batman-unlimited",
+     "name": "Batman Unlimited",
+     "years": "2013–2016",
+     "figureCount": 44
+    },
+    {
+     "id": "classic-tv-series",
+     "name": "Classic TV Series",
+     "years": "2013–2015",
+     "figureCount": 16
+    },
+    {
+     "id": "dark-knight-trilogy",
+     "name": "Dark Knight Trilogy",
+     "years": "2013",
+     "figureCount": 6
+    },
+    {
+     "id": "dc-comics-multiverse",
+     "name": "DC Comics Multiverse",
+     "years": "2014–2022",
+     "figureCount": 167
+    },
+    {
+     "id": "batman-v-superman",
+     "name": "Batman v Superman",
+     "years": "2015–2016",
+     "figureCount": 39
+    },
+    {
+     "id": "batman-missions",
+     "name": "Batman Missions",
+     "years": "2018",
+     "figureCount": 38
+    },
+    {
+     "id": "superman-batman-public-enemies",
+     "name": "Superman / Batman: Public Enemies",
+     "years": "2010",
+     "figureCount": 12
+    }
+   ]
+  },
+  {
+   "id": "dc-direct",
+   "name": "DC Direct",
+   "file": "data/dc-direct.json",
+   "years": "1998–2012",
+   "series": [
+    {
+     "id": "gothams-guardian",
+     "name": "Gotham's Guardian Against Crime",
+     "years": "1998–2005",
+     "figureCount": 12
+    },
+    {
+     "id": "dark-knight-returns",
+     "name": "Dark Knight Returns",
+     "years": "2004",
+     "figureCount": 4
+    },
+    {
+     "id": "dark-victory",
+     "name": "Dark Victory",
+     "years": "2004",
+     "figureCount": 4
+    },
+    {
+     "id": "hush",
+     "name": "Hush",
+     "years": "2004–2013",
+     "figureCount": 17
+    },
+    {
+     "id": "kia-asamiya",
+     "name": "Kia Asamiya",
+     "years": "2004–2005",
+     "figureCount": 8
+    },
+    {
+     "id": "long-halloween",
+     "name": "Long Halloween",
+     "years": "2004",
+     "figureCount": 5
+    },
+    {
+     "id": "knightfall",
+     "name": "Knightfall",
+     "years": "2006",
+     "figureCount": 5
+    },
+    {
+     "id": "batman-and-son",
+     "name": "Batman and Son",
+     "years": "2007",
+     "figureCount": 4
+    },
+    {
+     "id": "arkham-asylum",
+     "name": "Arkham Asylum",
+     "years": "2010–2014",
+     "figureCount": 12
+    },
+    {
+     "id": "arkham-city",
+     "name": "Arkham City",
+     "years": "2011–2014",
+     "figureCount": 30
+    },
+    {
+     "id": "batman-incorporated",
+     "name": "Batman Incorporated",
+     "years": "2012",
+     "figureCount": 4
+    },
+    {
+     "id": "batman-reborn",
+     "name": "Batman Reborn",
+     "years": "2012",
+     "figureCount": 4
+    },
+    {
+     "id": "superman-batman",
+     "name": "Superman / Batman",
+     "years": "2005–2010",
+     "figureCount": 34
+    },
+    {
+     "id": "return-of-bruce-wayne",
+     "name": "Return of Bruce Wayne",
+     "years": "2011",
+     "figureCount": 4
+    }
+   ]
+  },
+  {
+   "id": "dc-collectibles",
+   "name": "DC Collectibles",
+   "file": "data/dc-collectibles.json",
+   "years": "2012–present",
+   "series": [
+    {
+     "id": "arkham-origins",
+     "name": "Arkham Origins",
+     "years": "2013–2014",
+     "figureCount": 11
+    },
+    {
+     "id": "hush",
+     "name": "Hush",
+     "years": "2013",
+     "figureCount": 2
+    },
+    {
+     "id": "arkham-knight",
+     "name": "Arkham Knight",
+     "years": "2015–2016",
+     "figureCount": 18
+    },
+    {
+     "id": "batman",
+     "name": "Batman",
+     "years": "2015–2022",
+     "figureCount": 75
+    },
+    {
+     "id": "lil-gotham",
+     "name": "Batman: Li'l Gotham",
+     "years": "2015",
+     "figureCount": 4
+    },
+    {
+     "id": "batman-vs-tmnt",
+     "name": "Batman vs Teenage Mutant Ninja Turtles",
+     "years": "2019",
+     "figureCount": 6
+    }
+   ]
+  },
+  {
+   "id": "mcfarlane",
+   "name": "McFarlane Toys",
+   "file": "data/mcfarlane.json",
+   "years": "1994–present",
+   "series": [
+    {
+     "id": "animated-series",
+     "name": "Animated Series",
+     "years": "2023–2026",
+     "figureCount": 47
+    },
+    {
+     "id": "classic-tv-series",
+     "name": "Classic TV Series",
+     "years": "2021–2025",
+     "figureCount": 65
+    },
+    {
+     "id": "dark-knight-rises",
+     "name": "Dark Knight Rises",
+     "years": "2012",
+     "figureCount": 1
+    },
+    {
+     "id": "new-adventures",
+     "name": "New Adventures",
+     "years": "2024–2025",
+     "figureCount": 21
+    }
+   ]
+  },
+  {
+   "id": "hot-toys",
+   "name": "Hot Toys",
+   "file": "data/hot-toys.json",
+   "years": "2000–present",
+   "series": [
+    {
+     "id": "batman",
+     "name": "Batman",
+     "years": "2006–2027",
+     "figureCount": 83
+    }
+   ]
+  },
+  {
+   "id": "neca",
+   "name": "Neca",
+   "file": "data/neca.json",
+   "years": "1996–present",
+   "series": [
+    {
+     "id": "dc",
+     "name": "DC",
+     "years": "2008–2026",
+     "figureCount": 43
+    },
+    {
+     "id": "scalers-batman-returns",
+     "name": "Scalers - Batman Returns",
+     "years": "2016",
+     "figureCount": 1
+    }
+   ]
+  },
+  {
+   "id": "funko",
+   "name": "Funko",
+   "file": "data/funko.json",
+   "years": "1998–present",
+   "series": [
+    {
+     "id": "batman",
+     "name": "Batman",
+     "years": "2012–2026",
+     "figureCount": 317
+    },
+    {
+     "id": "classic-tv-series",
+     "name": "Classic TV Series",
+     "years": "2010–2026",
+     "figureCount": 33
+    },
+    {
+     "id": "batman-war-zone",
+     "name": "Batman War Zone",
+     "years": "2024",
+     "figureCount": 6
+    },
+    {
+     "id": "harley-quinn",
+     "name": "Harley Quinn",
+     "years": "2022–2024",
+     "figureCount": 13
+    },
+    {
+     "id": "arkham-asylum",
+     "name": "Arkham Asylum",
+     "years": "2015",
+     "figureCount": 1
+    },
+    {
+     "id": "arkham-city",
+     "name": "Arkham City",
+     "years": "2024–2025",
+     "figureCount": 2
+    },
+    {
+     "id": "tv-series",
+     "name": "TV Series",
+     "years": "2017",
+     "figureCount": 1
+    }
+   ]
+  },
+  {
+   "id": "spinmaster",
+   "name": "Spin Master",
+   "file": "data/spinmaster.json",
+   "years": "1994–present",
+   "series": [
+    {
+     "id": "batman",
+     "name": "Batman",
+     "years": "2020–2025",
+     "figureCount": 92
+    },
+    {
+     "id": "caped-crusader",
+     "name": "Caped Crusader",
+     "years": "2020",
+     "figureCount": 89
+    }
+   ]
+  },
+  {
+   "id": "figures-toy-company",
+   "name": "Figures Toy Company",
+   "file": "data/figures-toy-company.json",
+   "years": "2013–present",
+   "series": [
+    {
+     "id": "batman",
+     "name": "Batman",
+     "years": "2013–2018",
+     "figureCount": 32
+    },
+    {
+     "id": "classic-tv-series",
+     "name": "Classic TV Series",
+     "years": "2014–2019",
+     "figureCount": 59
+    }
+   ]
+  },
+  {
+   "id": "jada-toys",
+   "name": "Jada Toys",
+   "file": "data/jada-toys.json",
+   "years": "1999–present",
+   "series": [
+    {
+     "id": "batman-v-superman",
+     "name": "Batman v Superman",
+     "years": "2016–2018",
+     "figureCount": 18
+    }
+   ]
+  },
+  {
+   "id": "diamond-select",
+   "name": "Diamond Select Toys",
+   "file": "data/diamond-select.json",
+   "years": "1999–present",
+   "series": [
+    {
+     "id": "gotham",
+     "name": "Gotham",
+     "years": "2015–2017",
+     "figureCount": 13
+    }
+   ]
+  },
+  {
+   "id": "mezco",
+   "name": "Mezco Toyz",
+   "file": "data/mezco.json",
+   "years": "2000–present",
+   "series": [
+    {
+     "id": "batman",
+     "name": "Batman",
+     "years": "2019",
+     "figureCount": 1
+    },
+    {
+     "id": "animated-series",
+     "name": "Animated Series",
+     "years": "2024–2025",
+     "figureCount": 10
+    }
+   ]
+  },
+  {
+   "id": "mondo",
+   "name": "Mondo",
+   "file": "data/mondo.json",
+   "years": "2011–present",
+   "series": [
+    {
+     "id": "batman",
+     "name": "Batman",
+     "years": "2022–2026",
+     "figureCount": 32
+    }
+   ]
+  }
+ ]
 }
