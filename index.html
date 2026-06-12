@@ -24,27 +24,26 @@
   .brandstripe{height:5px;background:linear-gradient(90deg,var(--red) 0 36%,var(--blue) 36% 100%)}
 
   header.site{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);border-radius:14px 14px 0 0;overflow:hidden;margin:8px 16px 0}
-  .bar{max-width:1240px;margin:0 auto;padding:11px 20px;display:flex;align-items:flex-start;gap:16px;flex-wrap:wrap;position:relative;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='56' viewBox='0 0 32 56'%3E%3Cg fill='%23d8dde8' opacity='0.28'%3E%3Ccircle cx='16' cy='6' r='5'/%3E%3Crect x='10' y='12' width='12' height='14' rx='2'/%3E%3Crect x='4' y='13' width='6' height='11' rx='2'/%3E%3Crect x='22' y='13' width='6' height='11' rx='2'/%3E%3Crect x='10' y='27' width='5' height='16' rx='2'/%3E%3Crect x='17' y='27' width='5' height='16' rx='2'/%3E%3Crect x='9' y='43' width='5' height='12' rx='2'/%3E%3Crect x='18' y='43' width='5' height='12' rx='2'/%3E%3C/g%3E%3C/svg%3E");background-repeat:repeat-x;background-position:center center;background-size:32px 56px}
-  .navbar{max-width:1240px;margin:0 auto;padding:4px 20px 5px;display:flex;align-items:center;gap:10px;border-top:1px solid var(--line)}
-  .logo{display:flex;align-items:flex-start;gap:0;text-decoration:none;flex:none}
+  .bar{max-width:1240px;margin:0 auto;padding:11px 20px;display:flex;align-items:center;gap:16px;flex-wrap:wrap;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='56' viewBox='0 0 32 56'%3E%3Cg fill='%23d8dde8' opacity='0.28'%3E%3Ccircle cx='16' cy='6' r='5'/%3E%3Crect x='10' y='12' width='12' height='14' rx='2'/%3E%3Crect x='4' y='13' width='6' height='11' rx='2'/%3E%3Crect x='22' y='13' width='6' height='11' rx='2'/%3E%3Crect x='10' y='27' width='5' height='16' rx='2'/%3E%3Crect x='17' y='27' width='5' height='16' rx='2'/%3E%3Crect x='9' y='43' width='5' height='12' rx='2'/%3E%3Crect x='18' y='43' width='5' height='12' rx='2'/%3E%3C/g%3E%3C/svg%3E");background-repeat:repeat-x;background-position:center center;background-size:32px 56px}
+  .logo{display:flex;align-items:center;text-decoration:none}
   .fc-logo{display:inline-flex;flex-direction:column;gap:0;line-height:.84;font-family:"Archivo Black",sans-serif;letter-spacing:-.5px}
   .fc-fig,.fc-col{color:#fff;font-size:25px;padding:5px 11px 6px;align-self:flex-start}
   .fc-fig{background:var(--blue)} .fc-col{background:var(--red);margin-left:0}
-  .fc-tagline{font-family:"IBM Plex Mono",monospace;font-size:10px;font-weight:500;color:var(--txt-dim);letter-spacing:.5px;line-height:1.4;white-space:nowrap;padding:5px 0 0 10px;align-self:flex-start}
-  .fc-sep{width:1px;height:44px;background:var(--line);flex:none}
-  .fc-badge{display:inline-flex;flex-direction:column;align-items:stretch;flex:none;margin-left:auto}
+  .fc-badge{display:inline-flex;flex-direction:column;align-items:stretch;flex:none}
   .fc-badge .fc{color:#fff;background:var(--red);font-family:"Archivo Black",sans-serif;font-size:22px;padding:4px 14px 5px;line-height:1;text-align:center}
   .fc-badge .db{color:#fff;background:var(--blue);font-family:"Archivo Black",sans-serif;font-size:22px;padding:4px 14px 5px;line-height:1;text-align:center}
-  .navlink{border:1px solid transparent;font-family:"Archivo Black",sans-serif;font-size:13px;letter-spacing:.3px;color:rgba(255,255,255,.75);background:var(--blue);padding:6px 18px 8px;border-radius:6px 6px 0 0;display:inline-flex;align-items:center;gap:8px;text-decoration:none;margin-bottom:-1px;border-bottom:1px solid transparent}
+  .fc-sep{width:1px;height:44px;background:var(--line);flex:none}
+  .navbar{max-width:1240px;margin:0 auto;padding:4px 20px 5px;display:flex;align-items:center;gap:10px;border-top:1px solid var(--line)}
+  .navlink{border:1px solid transparent;font-family:"Archivo Black",sans-serif;font-size:13px;letter-spacing:.3px;color:#fff;background:var(--blue);padding:6px 18px 8px;border-radius:6px 6px 0 0;display:inline-flex;align-items:center;gap:8px;text-decoration:none;margin-bottom:-1px;border-bottom:1px solid transparent}
   .navlink[data-nav="database"]{background:var(--blue);color:#fff;border-color:var(--blue-d);border-bottom-color:transparent}
   .navlink[data-nav="database"].active{background:var(--red);color:#fff;border-color:var(--red-d);border-bottom-color:transparent}
   .navlink[data-nav="collection"]{background:var(--blue);color:#fff;border-color:var(--blue-d);border-bottom-color:transparent}
   .navlink[data-nav="collection"].active{background:var(--red);color:#fff;border-color:var(--red-d);border-bottom-color:transparent}
   .badge{font-family:"IBM Plex Mono",monospace;font-size:10px;font-weight:600;background:rgba(255,255,255,.3);color:#fff;border-radius:999px;padding:1px 7px;min-width:18px;text-align:center}
-  .search{flex:1;position:relative;max-width:320px;margin-left:auto}
+  .search{flex:1;position:relative;max-width:320px;margin:0 auto}
   .search input{background:var(--surface);border:1px solid var(--line);color:var(--txt);border-radius:999px;padding:9px 16px 9px 38px;width:100%;font-size:13px;outline:none;transition:border-color .15s}
   .search input:focus{border-color:var(--blue)}
-  .search svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);opacity:.45;stroke:currentColor}
+  .search svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);opacity:.45}
 
   main{max-width:1240px;margin:0 auto;padding:24px 20px 80px;display:grid;grid-template-columns:248px 1fr;gap:26px;align-items:start}
   main.solo{grid-template-columns:1fr}
@@ -185,16 +184,15 @@
     <a class="logo" href="#/" aria-label="Figure Collections home">
       <span class="fc-logo"><span class="fc-fig">FIGURE</span><span class="fc-col">COLLECTIONS</span></span>
     </a>
-    <span class="fc-sep"></span>
+    <div class="search">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+      <input id="search" type="search" placeholder="Search figures…" aria-label="Search">
+    </div>
     <span class="fc-badge"><span class="fc">FC</span><span class="db">DB</span></span>
   </div>
   <nav class="navbar">
     <a class="navlink" data-nav="database" href="#/">Database</a>
     <a class="navlink" data-nav="collection" href="#/collection">My Collection</a>
-    <div class="search">
-      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
-      <input id="search" type="search" placeholder="Search figures…" aria-label="Search">
-    </div>
   </nav>
 </header>
 
@@ -305,14 +303,13 @@ async function renderDirectory(){
     neca:'teal', funko:'pink', spinmaster:'slate', 'figures-toy-company':'teal',
     'jada-toys':'red', 'diamond-select':'navy', mezco:'purple', mondo:'slate'
   };
-
   let body = Object.keys(groups).sort().map(k=>{
     const cards = groups[k].map(x=>{
       const accent = MFR_ACCENT[x.id] || 'blue';
       const cnt = (x.series||[]).length;
       return '<a class="mfrcard" data-accent="'+accent+'" href="#/'+encodeURIComponent(x.id)+'">'
         +'<div class="mn">'+esc(x.name)+'</div>'
-        +'<div class="ms">'+esc(x.years||"Years n/a")+'</div>'
+        +'<div class="ms">'+esc(x.years||'Years n/a')+'</div>'
         +'<div class="mc">'+cnt+' line'+(cnt!==1?'s':'')+' · '+mfrFigs(x)+' figures</div>'
         +'</a>';
     }).join('');
