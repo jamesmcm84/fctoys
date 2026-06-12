@@ -1,5 +1,5 @@
 {
- "generated": "2026-06-11",
+ "generated": "2026-06-12",
  "manufacturers": [
   {
    "id": "kenner",
@@ -104,6 +104,18 @@
      "figureCount": 12
     },
     {
+     "id": "jurassic-park-lost-world",
+     "name": "Jurassic Park - Lost World",
+     "years": "1996–1997",
+     "figureCount": 50
+    },
+    {
+     "id": "justice-league-america-jla",
+     "name": "Justice League America (JLA)",
+     "years": "1998–1999",
+     "figureCount": 32
+    },
+    {
      "id": "centurions",
      "name": "Centurions",
      "years": "1986",
@@ -192,78 +204,6 @@
      "name": "Apollo 13",
      "years": "1995",
      "figureCount": 1
-    },
-    {
-     "id": "duke-the-super-action-dog",
-     "name": "Duke the Super Action Dog",
-     "years": "1974",
-     "figureCount": 5
-    },
-    {
-     "id": "forza-campioni",
-     "name": "Forza Campioni",
-     "years": "1989",
-     "figureCount": 32
-    },
-    {
-     "id": "gi-joe-extreme",
-     "name": "G.I. Joe Extreme",
-     "years": "1995",
-     "figureCount": 19
-    },
-    {
-     "id": "gargoyles",
-     "name": "Gargoyles",
-     "years": "1995-1996",
-     "figureCount": 35
-    },
-    {
-     "id": "glamour-gals",
-     "name": "Glamour Gals",
-     "years": "1982-1983",
-     "figureCount": 80
-    },
-    {
-     "id": "hardy-boys",
-     "name": "Hardy Boys",
-     "years": "1978",
-     "figureCount": 2
-    },
-    {
-     "id": "history-of-collection",
-     "name": "History of Collection",
-     "years": "1996",
-     "figureCount": 2
-    },
-    {
-     "id": "indiana-jones-raiders-of-the-lost-ark",
-     "name": "Indiana Jones - Raiders of the Lost Ark",
-     "years": "1982-1983",
-     "figureCount": 17
-    },
-    {
-     "id": "international-velvet",
-     "name": "International Velvet",
-     "years": "1978",
-     "figureCount": 2
-    },
-    {
-     "id": "its-ernest",
-     "name": "It's Ernest",
-     "years": "1989",
-     "figureCount": 1
-    },
-    {
-     "id": "jurassic-park",
-     "name": "Jurassic Park",
-     "years": "1993",
-     "figureCount": 29
-    },
-    {
-     "id": "jurassic-park-chaos-effect",
-     "name": "Jurassic Park - Chaos Effect",
-     "years": "1997",
-     "figureCount": 16
     }
    ]
   },
