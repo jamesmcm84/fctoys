@@ -21,37 +21,44 @@
   body{background:var(--canvas);color:var(--txt);font-family:"Inter",system-ui,sans-serif;-webkit-font-smoothing:antialiased;min-height:100vh}
   a{color:inherit} button{font-family:inherit;cursor:pointer}
   .hidden{display:none!important}
-  .brandstripe{height:5px;background:linear-gradient(90deg,var(--blue) 0 36%,var(--red) 36% 100%)}
+  .brandstripe{height:5px;background:linear-gradient(90deg,var(--red) 0 36%,var(--blue) 36% 100%)}
 
-  header.site{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
-  .bar{max-width:1240px;margin:0 auto;padding:11px 20px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
-  .logo{display:flex;align-items:center;text-decoration:none}
-  .fc-logo{display:inline-flex;flex-direction:column;gap:3px;line-height:.84;font-family:"Archivo Black",sans-serif;letter-spacing:-.5px}
+  header.site{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);border-radius:14px 14px 0 0;overflow:hidden;margin:8px 16px 0}
+  .bar{max-width:1240px;margin:0 auto;padding:11px 20px;display:flex;align-items:flex-start;gap:16px;flex-wrap:wrap;position:relative;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='56' viewBox='0 0 32 56'%3E%3Cg fill='%23d8dde8' opacity='0.28'%3E%3Ccircle cx='16' cy='6' r='5'/%3E%3Crect x='10' y='12' width='12' height='14' rx='2'/%3E%3Crect x='4' y='13' width='6' height='11' rx='2'/%3E%3Crect x='22' y='13' width='6' height='11' rx='2'/%3E%3Crect x='10' y='27' width='5' height='16' rx='2'/%3E%3Crect x='17' y='27' width='5' height='16' rx='2'/%3E%3Crect x='9' y='43' width='5' height='12' rx='2'/%3E%3Crect x='18' y='43' width='5' height='12' rx='2'/%3E%3C/g%3E%3C/svg%3E");background-repeat:repeat-x;background-position:center center;background-size:32px 56px}
+  .navbar{max-width:1240px;margin:0 auto;padding:4px 20px 5px;display:flex;align-items:center;gap:10px;border-top:1px solid var(--line)}
+  .logo{display:flex;align-items:flex-start;gap:0;text-decoration:none;flex:none}
+  .fc-logo{display:inline-flex;flex-direction:column;gap:0;line-height:.84;font-family:"Archivo Black",sans-serif;letter-spacing:-.5px}
   .fc-fig,.fc-col{color:#fff;font-size:25px;padding:5px 11px 6px;align-self:flex-start}
   .fc-fig{background:var(--blue)} .fc-col{background:var(--red);margin-left:0}
-  .mainnav{display:flex;gap:6px;align-items:center}
-  .navlink{border:0;background:none;font-weight:700;font-size:14px;color:var(--txt-dim);padding:8px 13px;border-radius:8px;display:flex;align-items:center;gap:8px;transition:.12s;text-decoration:none}
-  .navlink:hover{color:var(--ink);background:#eaeef4}
-  .navlink.active{color:#fff;background:var(--ink)}
-  .badge{font-family:"IBM Plex Mono",monospace;font-size:10px;font-weight:600;background:var(--blue);color:#fff;border-radius:999px;padding:1px 7px;min-width:18px;text-align:center}
-  .search{margin-left:auto;position:relative}
-  .search input{background:var(--surface);border:1px solid var(--line);color:var(--txt);border-radius:999px;padding:9px 16px 9px 38px;width:230px;font-size:13px;outline:none;transition:border-color .15s,width .2s}
-  .search input:focus{border-color:var(--blue);width:270px}
-  .search svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);opacity:.45}
+  .fc-tagline{font-family:"IBM Plex Mono",monospace;font-size:10px;font-weight:500;color:var(--txt-dim);letter-spacing:.5px;line-height:1.4;white-space:nowrap;padding:5px 0 0 10px;align-self:flex-start}
+  .fc-sep{width:1px;height:44px;background:var(--line);flex:none}
+  .fc-badge{display:inline-flex;flex-direction:column;align-items:stretch;flex:none;margin-left:auto}
+  .fc-badge .fc{color:#fff;background:var(--red);font-family:"Archivo Black",sans-serif;font-size:22px;padding:4px 14px 5px;line-height:1;text-align:center}
+  .fc-badge .db{color:#fff;background:var(--blue);font-family:"Archivo Black",sans-serif;font-size:22px;padding:4px 14px 5px;line-height:1;text-align:center}
+  .navlink{border:1px solid transparent;font-family:"Archivo Black",sans-serif;font-size:13px;letter-spacing:.3px;color:rgba(255,255,255,.75);background:var(--blue);padding:6px 18px 8px;border-radius:6px 6px 0 0;display:inline-flex;align-items:center;gap:8px;text-decoration:none;margin-bottom:-1px;border-bottom:1px solid transparent}
+  .navlink[data-nav="database"]{background:var(--blue);color:#fff;border-color:var(--blue-d);border-bottom-color:transparent}
+  .navlink[data-nav="database"].active{background:var(--red);color:#fff;border-color:var(--red-d);border-bottom-color:transparent}
+  .navlink[data-nav="collection"]{background:var(--blue);color:#fff;border-color:var(--blue-d);border-bottom-color:transparent}
+  .navlink[data-nav="collection"].active{background:var(--red);color:#fff;border-color:var(--red-d);border-bottom-color:transparent}
+  .badge{font-family:"IBM Plex Mono",monospace;font-size:10px;font-weight:600;background:rgba(255,255,255,.3);color:#fff;border-radius:999px;padding:1px 7px;min-width:18px;text-align:center}
+  .search{flex:1;position:relative;max-width:320px;margin-left:auto}
+  .search input{background:var(--surface);border:1px solid var(--line);color:var(--txt);border-radius:999px;padding:9px 16px 9px 38px;width:100%;font-size:13px;outline:none;transition:border-color .15s}
+  .search input:focus{border-color:var(--blue)}
+  .search svg{position:absolute;left:13px;top:50%;transform:translateY(-50%);opacity:.45;stroke:currentColor}
 
   main{max-width:1240px;margin:0 auto;padding:24px 20px 80px;display:grid;grid-template-columns:248px 1fr;gap:26px;align-items:start}
   main.solo{grid-template-columns:1fr}
   #content{min-width:0}
-  .rail{position:sticky;top:96px;min-width:0}
-  .rail h2{font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;color:var(--txt-dim);margin:0 0 10px 4px}
-  .series-btn{display:block;width:100%;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:12px 13px;margin-bottom:8px;color:var(--txt);transition:.15s;text-decoration:none}
-  .series-btn:hover{border-color:#c9d2df;transform:translateY(-1px)}
-  .series-btn.active{border-color:var(--blue);background:var(--blue-tint)}
+  .rail{position:sticky;top:96px;min-width:0;background:var(--ink);border-radius:var(--radius);padding:14px 12px}
+  .rail h2{font-family:"IBM Plex Mono",monospace;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:1.5px;color:rgba(255,255,255,.4);margin:0 0 10px 4px}
+  .series-btn{display:block;width:100%;text-align:left;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);border-radius:var(--radius);padding:12px 13px;margin-bottom:8px;color:rgba(255,255,255,.85);transition:.15s;text-decoration:none}
+  .series-btn:hover{border-color:rgba(255,255,255,.25);background:rgba(255,255,255,.1)}
+  .series-btn.active{border-color:var(--blue);background:rgba(28,169,226,.2)}
   .series-btn .nm{font-weight:700;font-size:14px;line-height:1.25}
-  .series-btn .yr{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--txt-dim);margin-top:3px}
+  .series-btn .yr{font-family:"IBM Plex Mono",monospace;font-size:11px;color:rgba(255,255,255,.4);margin-top:3px}
   .meter{height:5px;border-radius:3px;background:#e3e8f0;margin-top:9px;overflow:hidden}
-  .meter > i{display:block;height:100%;background:var(--blue);width:0;transition:width .4s}
-  .series-btn .cnt{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--txt-dim);margin-top:5px}
+  .meter > i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--red));width:0;transition:width .4s}
+  .series-btn .cnt{font-family:"IBM Plex Mono",monospace;font-size:10px;color:rgba(255,255,255,.4);margin-top:5px}
 
   .crumbs{font-family:"IBM Plex Mono",monospace;font-size:12px;color:var(--txt-dim);margin-bottom:14px}
   .crumbs a{color:var(--blue-d);text-decoration:none} .crumbs a:hover{text-decoration:underline}
@@ -66,20 +73,29 @@
   .hero p{color:var(--txt-dim);max-width:62ch;font-size:14px;line-height:1.6;margin:0}
   .hero .stats{display:flex;gap:26px;margin-top:18px;flex-wrap:wrap}
   .stat{display:flex;flex-direction:column}
-  .stat b{font-family:"Archivo Black",sans-serif;font-size:24px}
-  .stat span{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--txt-dim);margin-top:2px}
+  .stat b{font-family:"Archivo Black",sans-serif;font-size:24px;color:var(--blue)}
+  .stat span{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--red);margin-top:2px}
   .stat.have b{color:var(--blue)} .stat.want b{color:var(--red)}
   .bigmeter{height:8px;border-radius:4px;background:#e0e6ef;overflow:hidden;max-width:420px;margin-top:18px}
-  .bigmeter > i{display:block;height:100%;background:var(--blue)}
+  .bigmeter > i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--red))}
 
   /* Directory */
   .dirgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr));gap:14px;margin-top:8px}
   .azhdr{font-family:"Archivo Black",sans-serif;font-size:14px;color:var(--blue);margin:26px 0 10px;letter-spacing:.4px}
-  .mfrcard{display:block;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px 16px 14px;text-decoration:none;color:var(--ink);transition:.14s}
-  .mfrcard:hover{border-color:var(--blue);transform:translateY(-2px);box-shadow:var(--shadow)}
+  .mfrcard{display:block;background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--blue);border-radius:var(--radius);padding:16px 16px 14px;text-decoration:none;color:var(--ink);transition:.14s}
+  .mfrcard:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
   .mfrcard .mn{font-family:"Archivo Black",sans-serif;font-size:18px;letter-spacing:-.3px}
   .mfrcard .ms{font-size:12px;color:var(--txt-dim);margin-top:6px;line-height:1.5}
   .mfrcard .mc{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--blue-d);background:var(--blue-tint);display:inline-block;padding:3px 8px;border-radius:999px;margin-top:10px}
+  .mfrcard[data-accent="red"]{border-left-color:#E5202A}
+  .mfrcard[data-accent="green"]{border-left-color:#2e7d32}
+  .mfrcard[data-accent="orange"]{border-left-color:#e65100}
+  .mfrcard[data-accent="purple"]{border-left-color:#6a1b9a}
+  .mfrcard[data-accent="teal"]{border-left-color:#00695c}
+  .mfrcard[data-accent="gold"]{border-left-color:#f9a825}
+  .mfrcard[data-accent="navy"]{border-left-color:#1a237e}
+  .mfrcard[data-accent="pink"]{border-left-color:#c2185b}
+  .mfrcard[data-accent="slate"]{border-left-color:#455a64}
 
   /* Series index — vertical list (can't overflow) */
   .linelist{display:flex;flex-direction:column;gap:10px;margin-top:6px}
@@ -163,21 +179,23 @@
 </style>
 </head>
 <body>
-<div class="brandstripe"></div>
 <header class="site">
+<div class="brandstripe"></div>
   <div class="bar">
     <a class="logo" href="#/" aria-label="Figure Collections home">
       <span class="fc-logo"><span class="fc-fig">FIGURE</span><span class="fc-col">COLLECTIONS</span></span>
     </a>
-    <nav class="mainnav">
-      <a class="navlink" data-nav="database" href="#/">Database</a>
-      <a class="navlink" data-nav="collection" href="#/collection">My Collection <span class="badge" id="collCount">0</span></a>
-    </nav>
+    <span class="fc-sep"></span>
+    <span class="fc-badge"><span class="fc">FC</span><span class="db">DB</span></span>
+  </div>
+  <nav class="navbar">
+    <a class="navlink" data-nav="database" href="#/">Database</a>
+    <a class="navlink" data-nav="collection" href="#/collection">My Collection</a>
     <div class="search">
       <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
       <input id="search" type="search" placeholder="Search figures…" aria-label="Search">
     </div>
-  </div>
+  </nav>
 </header>
 
 <main id="main">
@@ -281,10 +299,17 @@ async function renderDirectory(){
   mfrs.forEach(x=>{ const k=x.name[0].toUpperCase(); (groups[k]=groups[k]||[]).push(x); });
   const totalFigs = m.manufacturers.reduce((n,x)=>n+mfrFigs(x),0);
 
+  const MFR_ACCENT = {
+    kenner:'blue', hasbro:'red', mattel:'orange', 'dc-direct':'navy',
+    'dc-collectibles':'purple', mcfarlane:'green', 'hot-toys':'gold',
+    neca:'teal', funko:'pink', spinmaster:'slate', 'figures-toy-company':'teal',
+    'jada-toys':'red', 'diamond-select':'navy', mezco:'purple', mondo:'slate'
+  };
+
   let body = Object.keys(groups).sort().map(k=>`
     <div class="azhdr">${k}</div>
     <div class="dirgrid">${groups[k].map(x=>`
-      <a class="mfrcard" href="#/${encodeURIComponent(x.id)}">
+      <a class="mfrcard" data-accent="${MFR_ACCENT[x.id]||'blue'}" href="#/${encodeURIComponent(x.id)}">
         <div class="mn">${esc(x.name)}</div>
         <div class="ms">${esc(x.years||"Years n/a")}</div>
         <div class="mc">${(x.series||[]).length} line${(x.series||[]).length!==1?"s":""} · ${mfrFigs(x)} figures</div>
@@ -355,7 +380,7 @@ async function renderManufacturer(mfrId, seriesId){
   }
 
   const figs=seriesFigs(series), owned=figs.filter(f=>has("own",f.id)).length, wanted=figs.filter(f=>has("want",f.id)).length;
-  const sections = series.subseries.map(ss=> listBlock(ss.name, ss.year, ss.figures)).join("");
+  const sections = series.subseries.map((ss,i)=> listBlock(ss.name, ss.year, ss.figures, i%2===1)).join("");
   $("#content").innerHTML = backBtn(mfrId, entry.name) +
     `<div class="hero"><div class="eyebrow">${esc(entry.name)} · ${esc(series.years||"")}</div>
      <h1>${esc(series.name)}</h1><p>${esc(series.blurb||"")}</p>
