@@ -306,14 +306,18 @@ async function renderDirectory(){
     'jada-toys':'red', 'diamond-select':'navy', mezco:'purple', mondo:'slate'
   };
 
-  let body = Object.keys(groups).sort().map(k=>`
-    <div class="azhdr">${k}</div>
-    <div class="dirgrid">${groups[k].map(x=>`
-      <a class="mfrcard" data-accent="${MFR_ACCENT[x.id]||'blue'}" href="#/${encodeURIComponent(x.id)}">
-        <div class="mn">${esc(x.name)}</div>
-        <div class="ms">${esc(x.years||"Years n/a")}</div>
-        <div class="mc">${(x.series||[]).length} line${(x.series||[]).length!==1?"s":""} · ${mfrFigs(x)} figures</div>
-      </a>`).join("")}</div>`).join("");
+  let body = Object.keys(groups).sort().map(k=>{
+    const cards = groups[k].map(x=>{
+      const accent = MFR_ACCENT[x.id] || 'blue';
+      const cnt = (x.series||[]).length;
+      return '<a class="mfrcard" data-accent="'+accent+'" href="#/'+encodeURIComponent(x.id)+'">'
+        +'<div class="mn">'+esc(x.name)+'</div>'
+        +'<div class="ms">'+esc(x.years||"Years n/a")+'</div>'
+        +'<div class="mc">'+cnt+' line'+(cnt!==1?'s':'')+' · '+mfrFigs(x)+' figures</div>'
+        +'</a>';
+    }).join('');
+    return '<div class="azhdr">'+k+'</div><div class="dirgrid">'+cards+'</div>';
+  }).join("");
   if(!mfrs.length) body = `<div class="empty">No manufacturers match “${esc(q)}”.</div>`;
 
   $("#content").innerHTML = `<div class="hero"><div class="eyebrow">Database</div><h1>Toy Lines</h1>
