@@ -34,11 +34,11 @@
   .fc-badge .db{color:#fff;background:var(--blue);font-family:"Archivo Black",sans-serif;font-size:22px;padding:4px 14px 5px;line-height:1;text-align:center}
   .fc-sep{width:1px;height:44px;background:var(--line);flex:none}
   .navbar{max-width:1240px;margin:0 auto;padding:4px 20px 5px;display:flex;align-items:center;gap:10px;border-top:1px solid var(--line)}
-  .navlink{border:1px solid transparent;font-family:"Archivo Black",sans-serif;font-size:13px;letter-spacing:.3px;color:#fff;background:var(--blue);padding:6px 18px 8px;border-radius:6px 6px 0 0;display:inline-flex;align-items:center;gap:8px;text-decoration:none;margin-bottom:-1px;border-bottom:1px solid transparent}
-  .navlink[data-nav="database"]{background:var(--blue);color:#fff;border-color:var(--blue-d);border-bottom-color:transparent}
-  .navlink[data-nav="database"].active{background:var(--red);color:#fff;border-color:var(--red-d);border-bottom-color:transparent}
-  .navlink[data-nav="collection"]{background:var(--blue);color:#fff;border-color:var(--blue-d);border-bottom-color:transparent}
-  .navlink[data-nav="collection"].active{background:var(--red);color:#fff;border-color:var(--red-d);border-bottom-color:transparent}
+  .navlink{border:1px solid transparent;font-family:"Archivo Black",sans-serif;font-size:13px;letter-spacing:.3px;color:#fff;background:#3a3f4a;padding:6px 18px 8px;border-radius:6px 6px 6px 6px;display:inline-flex;align-items:center;gap:8px;text-decoration:none;margin-bottom:-1px;border-bottom:1px solid transparent}
+  .navlink[data-nav="database"]{background:#3a3f4a;color:#fff;border-color:#2a2e37;border-bottom-color:transparent}
+  .navlink[data-nav="database"].active{background:var(--blue);color:#fff;border-color:var(--blue-d);border-bottom-color:transparent}
+  .navlink[data-nav="collection"]{background:#3a3f4a;color:#fff;border-color:#2a2e37;border-bottom-color:transparent}
+  .navlink[data-nav="collection"].active{background:var(--blue);color:#fff;border-color:var(--blue-d);border-bottom-color:transparent}
   .badge{font-family:"IBM Plex Mono",monospace;font-size:10px;font-weight:600;background:rgba(255,255,255,.3);color:#fff;border-radius:999px;padding:1px 7px;min-width:18px;text-align:center}
   .search{flex:1;position:relative;max-width:320px;margin:0 auto}
   .search input{background:var(--surface);border:1px solid var(--line);color:var(--txt);border-radius:999px;padding:9px 16px 9px 38px;width:100%;font-size:13px;outline:none;transition:border-color .15s}
@@ -496,7 +496,7 @@ function layout({rail}){ $("#rail").classList.toggle("hidden", !rail); $("#main"
 function chrome(){
   document.querySelectorAll(".navlink").forEach(a=> a.classList.toggle("active",
     (a.dataset.nav==="collection") === (route.view==="collection")));
-  $("#collCount").textContent = collection.own.length;
+  const cc = $("#collCount"); if(cc) cc.textContent = collection.own.length;
   $("#search").placeholder = route.view==="collection" ? "Search my collection…" : "Search figures…";
 }
 
