@@ -5556,6 +5556,146 @@
    ]
   },
   {
+   "id": "jurassic-park-lost-world",
+   "name": "Jurassic Park - Lost World",
+   "years": "1996–1997",
+   "blurb": "Kenner's line based on The Lost World: Jurassic Park (1997). 50 catalogued pieces across 13 subseries including dinosaurs, humans, vehicles, hatchlings, and electronic figures.",
+   "subseries": [
+    {"name": "Accessories", "year": 1997, "figures": [
+      {"id": "kenner/jurassic-park-lost-world/dino-damage-medical-center", "ref": 8719, "name": "Dino-Damage Medical Center", "year": 1997, "feature": "With Battle-Ravaged Allosaurus and Rejuvenation Lab", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_MedCenter-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/dino-tracking-gear-set", "ref": 8722, "name": "Dino-Tracking Gear Set", "year": 1997, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_DinoTrackingGearSet-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/mobile-command-center", "ref": 8720, "name": "Mobile Command Center", "year": 1997, "feature": "With Electronic Sounds and Lights", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_MobileCommandCenter-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/t-rex-tranq-gun", "ref": 8721, "name": "T-Rex Tranq Gun", "year": 1997, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_TRexTranqGun-Front.jpg"}]}
+    ]},
+    {"name": "Deluxe Dino", "year": 1997, "figures": [
+      {"id": "kenner/jurassic-park-lost-world/pteranodon-steel-beak", "ref": 8723, "name": "Pteranodon \"Steel Beak\"", "year": 1997, "feature": "Flapping Attack Wings Burst Free of Restraint Gear", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Pteranodon-Front.jpg"}]}
+    ]},
+    {"name": "Dino-Strike", "year": 1997, "figures": [
+      {"id": "kenner/jurassic-park-lost-world/carnotaurus-bonebreaker", "ref": 8732, "name": "Carnotaurus \"Bonebreaker\"", "year": 1997, "feature": "With Dino-Strike Jaw-Chomping Action and Dino Damage Wound", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Carnotaurus-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/pachycephalosaurus-ram-head-dino-strike", "ref": 8733, "name": "Pachycephalosaurus \"Ram Head\"", "year": 1997, "feature": "With Dino-Strike Head-Ramming Action and Dino Damage Wound", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Ramhead-DinoStrike-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/stegosaurus-spike-tail", "ref": 8734, "name": "Stegosaurus \"Spike Tail\"", "year": 1997, "feature": "With Dino-Strike Tail-Whipping Action and Dino Damage Wound", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_SpikeTail-DinoStrike-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/thrasher-t-rex", "ref": 8735, "name": "Thrasher T-Rex", "year": 1997, "feature": "With Dino-Strike Thrashing Action", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_ThrasherTRex-DinoStrike-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_ThrasherTRex1-DinoStrike.jpg"}]}
+    ]},
+    {"name": "Dinos - Series 1", "figures": [
+      {"id": "kenner/jurassic-park-lost-world/dilophosaurus-spitter", "ref": 8724, "name": "Dilophosaurus \"Spitter\"", "year": 1997, "feature": "Spitter Blasts a Venom Spray", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Spitter-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/pachycephalosaurus-ram-head-s1", "ref": 8725, "name": "Pachycephalosaurus \"Ram Head\"", "year": 1996, "feature": "Ram Head Breaks Free of Restraint Gear", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_RamHead-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/triceratops-trike", "ref": 8726, "name": "Triceratops \"Trike\"", "year": 1996, "feature": "Trike Slams Free of Head Restraints", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Trike-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/tyrannosaurus-rex-junior", "ref": 8727, "name": "Tyrannosaurus Rex \"Junior\"", "year": 1996, "feature": "Repair Junior T-Rex's Broken Leg with Healing Cast", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_JuniorTRex-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/velociraptor-cyclops-raptor", "ref": 8728, "name": "Velociraptor \"Cyclops Raptor\"", "year": 1996, "feature": "Cyclops Raptor Thrashes Out of Restraint Gear", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_CyclopsRaptor-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/velociraptor-raptor", "ref": 8729, "name": "Velociraptor \"Raptor\"", "year": 1996, "feature": "Raptor Breaks Free of Restraint Gear", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Raptor-Front.jpg"}]}
+    ]},
+    {"name": "Dinos - Series 2", "year": 1997, "figures": [
+      {"id": "kenner/jurassic-park-lost-world/baryonyx-steel-jaw", "ref": 8730, "name": "Baryonyx \"Steel Jaw\"", "year": 1997, "feature": "Baryonyx Whips Its Snapping Jaws", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Baryonyx-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/ornithosuchus-gnasher", "ref": 8731, "name": "Ornithosuchus \"Gnasher\"", "year": 1997, "feature": "Thrashes its snapping jaws", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Gnasher-Front.jpg"}]}
+    ]},
+    {"name": "Electronic", "year": 1997, "figures": [
+      {"id": "kenner/jurassic-park-lost-world/bull-t-rex", "ref": 8736, "name": "Bull T-Rex", "year": 1997, "feature": "Electronic attack roar, warning growl, chomping crunch; gulps down Survival Pod", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_BullTRex-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/chasmasaurus-plateface", "ref": 8737, "name": "Chasmasaurus \"Plateface\"", "year": 1997, "feature": "With Electronic Attack Roar and Dino-Strike Action", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Chasmasaurus-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Chasmasaurus1.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/parasaurolophus-horn-head", "ref": 8738, "name": "Parasaurolophus \"Horn Head\"", "year": 1997, "feature": "With Electronic Attack Roar and Dino-Strike Action", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Parasaurolophus-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/spinosaurus-slice", "ref": 8739, "name": "Spinosaurus \"Slice\"", "year": 1997, "feature": "With Electronic Attack Roar and Dino-Strike Action", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Spinosaurus-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Spinosaurus-1.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/velociraptor-snap-jaw", "ref": 8740, "name": "Velociraptor \"Snap Jaw\"", "year": 1997, "feature": "With Electronic Attack Roar and Dino-Strike Action", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Velociraptor-Front.jpg"}]}
+    ]},
+    {"name": "Exclusive Dinos", "year": 1997, "figures": [
+      {"id": "kenner/jurassic-park-lost-world/dino-tracker-adventure-set", "ref": 8741, "name": "Dino Tracker Adventure Set", "year": 1997, "feature": "With Dino Tracker Figure and Accessories", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_DinoTrackerSet-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_DinoTrackerSet1.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/utahraptor", "ref": 8742, "name": "Utahraptor", "year": 1997, "feature": "With Dino Tracker Figure and Accessories", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Utahraptor-Exclusives-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/young-t-rex", "ref": 8743, "name": "Young T-Rex", "year": 1997, "feature": "With Dino Tracker Figure and Accessories", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_YoungTRex-Exclusives-Front.jpg"}]}
+    ]},
+    {"name": "Hatchlings", "year": 1997, "figures": [
+      {"id": "kenner/jurassic-park-lost-world/hatchling-t-rex", "ref": 8744, "name": "T-Rex", "year": 1997, "feature": "With Breakaway Egg", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_TRex-Hatchlings-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/hatchling-triceratops", "ref": 8745, "name": "Triceratops", "year": 1997, "feature": "With Breakaway Egg", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Triceratops-Hatchlings-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/hatchling-velociraptor", "ref": 8746, "name": "Velociraptor", "year": 1997, "feature": "With Breakaway Egg", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Velociraptor-Hatchlings-Front.jpg"}]}
+    ]},
+    {"name": "Humans - Series 1", "figures": [
+      {"id": "kenner/jurassic-park-lost-world/dieter-stark", "ref": 8747, "name": "Dieter Stark", "year": 1996, "feature": "With Dino Fighting Action and Compsognathus Hatchling", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_DieterStark-Series1-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/eddie-carr-s1", "ref": 8748, "name": "Eddie Carr", "year": 1996, "feature": "With Capture Claw Launcher and Triceratops Hatchling", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_EddieCarr-Series1-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/ian-malcolm-long-hair", "ref": 8749, "name": "Ian Malcolm (Long Hair)", "year": 1996, "feature": "With Launching Smart Missile and T-Rex Hatchling", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_IanMalcolm-Series1-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/ian-malcolm-short-hair", "ref": 8750, "name": "Ian Malcolm (Short Hair)", "year": 1996, "feature": "With Launching Smart Missile and T-Rex Hatchling", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_IanMalcolm-Series1-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/nick-van-owen-no-hat", "ref": 8751, "name": "Nick Van Owen (No Hat)", "year": 1996, "feature": "With Paralyzing Spray Blaster and Pteranodon Hatchling", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_NickVanOwen-Series1-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/nick-van-owen-with-hat", "ref": 8752, "name": "Nick Van Owen (With Hat)", "year": 1996, "feature": "With Paralyzing Spray Blaster and Pteranodon Hatchling", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_NickVanOwen-Series1-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/peter-ludlow", "ref": 8753, "name": "Peter Ludlow", "year": 1996, "feature": "With Slash Action Machete and Raptor Hatchling", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_PeterLudlow-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/roland-tembo-no-hair", "ref": 8754, "name": "Roland Tembo (No Hair)", "year": 1996, "feature": "With Dino Stun Prod and Pachycephalosaurus Hatchling", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_RolandTembo-Series1-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_RolandNoHair1.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/roland-tembo-with-hair", "ref": 8755, "name": "Roland Tembo (With Hair)", "year": 1996, "feature": "With Dino Stun Prod and Pachycephalosaurus Hatchling", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_RolandTembo-Series1-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/sarah-harding", "ref": 8756, "name": "Sarah Harding", "year": 1996, "feature": "With Capture Net Launcher and Stegosaurus Hatchling", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_SarahHarding-Front.jpg"}]}
+    ]},
+    {"name": "Humans - Series 2", "year": 1997, "figures": [
+      {"id": "kenner/jurassic-park-lost-world/ajay-big-game-stalker", "ref": 8757, "name": "Ajay (Big Game Stalker)", "year": 1997, "feature": "With Heavy Strike Weapons Pack and Parasaurolophus Hatchling", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Ajay-Series2-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/eddie-carr-master-mechanic", "ref": 8758, "name": "Eddie Carr (Master Mechanic)", "year": 1997, "feature": "With Urban Assault Gear and T-Rex Hatchling", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_EddieCarr-Series2-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/nick-van-owen-tracking-specialist", "ref": 8759, "name": "Nick Van Owen (Tracking Specialist)", "year": 1997, "feature": "With Capture Pack and Brachiosaurus Hatchling", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Nick-Series2-Front.jpg"}]}
+    ]},
+    {"name": "Remote Control", "year": 1997, "figures": [
+      {"id": "kenner/jurassic-park-lost-world/stegosaurus-rc", "ref": 8760, "name": "Stegosaurus", "year": 1997, "feature": "Walks and Roars by Remote Control; Soft and Realistic Dino Skin", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Stegosaurus-RC-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/triceratops-rc", "ref": 8761, "name": "Triceratops", "year": 1997, "feature": "Walks and Roars by Remote Control; Soft and Realistic Dino Skin", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Triceratops-RC-Front.jpg"}]}
+    ]},
+    {"name": "Vehicle / Figure Packs", "figures": [
+      {"id": "kenner/jurassic-park-lost-world/dart-with-roland-tembo", "ref": 8762, "name": "D.A.R.T. with Roland Tembo", "year": 1997, "feature": "Trailer Converts to Dino Transport", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Dart-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Dart-Loose.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/dino-snare-dirtbike-carter", "ref": 8763, "name": "Dino-Snare Dirtbike with Carter", "year": 1997, "feature": "Dirtbike has blast-apart Dino-Damage", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Dirtbike-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/glider-pack-ian-malcolm", "ref": 8764, "name": "Glider Pack with Ian Malcolm", "year": 1996, "feature": "Glider wings burst open; launch rocket for aerial dogfight", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_GliderPackMalcolm-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/high-hide-nick-van-owen", "ref": 8765, "name": "High Hide with Nick Van Owen", "year": 1997, "feature": "With Grappling Claw Winch and Firing Missile", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_HighHide-Front.jpg"}]}
+    ]},
+    {"name": "Vehicles", "year": 1997, "figures": [
+      {"id": "kenner/jurassic-park-lost-world/ground-tracker", "ref": 8766, "name": "Ground Tracker", "year": 1997, "feature": "With Electric Lights and Exploding Dino Damage Hood", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_GroundTracker-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/humvee", "ref": 8767, "name": "Humvee", "year": 1997, "feature": "With Dino Pursuit Claw and Pivoting Stampede Seats", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_Humvee-Front.jpg"}]},
+      {"id": "kenner/jurassic-park-lost-world/net-trapper", "ref": 8768, "name": "Net Trapper", "year": 1997, "feature": "With High-Speed Chase Net and Firing Stun Gun", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparklostworld/thumb_NetTrapper-Front.jpg"}]}
+    ]}
+   ]
+  },
+  {
+   "id": "justice-league-america-jla",
+   "name": "Justice League America (JLA)",
+   "years": "1998–1999",
+   "blurb": "Kenner's 1998–1999 comic-based JLA line featuring DC heroes in basic and 12-inch scale, plus World's Greatest DC box sets. 32 catalogued pieces.",
+   "subseries": [
+    {
+     "name": "12\" Scale",
+     "figures": [
+      {"id": "kenner/justice-league-america-jla/aquaman-12", "ref": 58486, "name": "Aquaman", "year": 1998, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_Aquaman-12Scale-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_Aquaman-12Scale-1.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/flash-12", "ref": 130362, "name": "Flash", "year": 1999, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_Flash-12Scale-Front.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/green-lantern-12", "ref": 130361, "name": "Green Lantern", "year": 1999, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_GreenLantern-12Scale-Front.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/martian-manhunter-12", "ref": 130364, "name": "Martian Manhunter", "year": 1999, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_MartianManhunter-12Scale-Front.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/superman-blue-12", "ref": 130363, "name": "Superman Blue", "year": 1999, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_SupermanBlue-12Scale-Front.jpg"}]}
+     ]
+    },
+    {
+     "name": "Basic Series",
+     "figures": [
+      {"id": "kenner/justice-league-america-jla/aquaman", "ref": 8978, "name": "Aquaman", "year": 1998, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_Aquaman-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_Aquaman-1.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/atom", "ref": 8979, "name": "Atom", "year": 1999, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_Atom-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_Atom-1.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/batman-black", "ref": 8980, "name": "Batman (Black)", "year": 1999, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_BatmanBlack-Front.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/batman-blue", "ref": 8981, "name": "Batman (Blue)", "year": 1999, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_BatmanBlue-Front.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/batman-caped-crusader", "ref": 8982, "name": "Batman (Caped Crusader)", "year": 1998, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_CapedCrusaderBatman-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_CapedCrusaderBatman-1.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/batman-dark-knight", "ref": 8983, "name": "Batman (Dark Knight)", "year": 1998, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_DarkKnightBatman-Front.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/flash", "ref": 8984, "name": "Flash", "year": 1998, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_Flash-Front.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/green-arrow", "ref": 8985, "name": "Green Arrow", "year": 1998, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_GreenArrow-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_GreenArrow1.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/green-lantern", "ref": 8986, "name": "Green Lantern", "year": 1998, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_GreenLantern-Front.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/huntress", "ref": 8987, "name": "Huntress", "year": 1998, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_Huntress-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_Huntress-Loose.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/impulse", "ref": 8988, "name": "Impulse", "year": 1998, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_Impulse-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_Impulse1.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/martian-manhunter", "ref": 8989, "name": "Martian Manhunter", "year": 1998, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_MartianManhunter-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_MartianManhunter1.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/plastic-man", "ref": 8990, "name": "Plastic Man", "year": 1999, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_PlasticMan-Front.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/red-tornado", "ref": 8991, "name": "Red Tornado", "year": 1999, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_RedTornado-Front.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/robin", "ref": 8992, "name": "Robin", "year": 1999, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_Robin-Front.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/steel", "ref": 8993, "name": "Steel", "year": 1998, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_Steel-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_Steel-Loose.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/superboy", "ref": 8994, "name": "Superboy", "year": 1998, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_Superboy-Front.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/superman", "ref": 8995, "name": "Superman", "year": 1998, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_Superman-Front.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/superman-gold-chestplate", "ref": 8996, "name": "Superman (Gold Chestplate)", "year": 1999, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_SupermanGold-Front.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/superman-blue", "ref": 8997, "name": "Superman Blue", "year": 1998, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_SupermanBlue-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_SupermanBlue1.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/superman-red", "ref": 8998, "name": "Superman Red", "year": 1998, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_SupermanRed-Front.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/wonder-woman", "ref": 8999, "name": "Wonder Woman", "year": 1998, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_WonderWoman-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_WonderWoman-Loose.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/zauriel", "ref": 9000, "name": "Zauriel", "year": 1998, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_Zauriel-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_Zauriel1.jpg"}]}
+     ]
+    },
+    {
+     "name": "Box Sets",
+     "year": 1999,
+     "figures": [
+      {"id": "kenner/justice-league-america-jla/worlds-greatest-dc-collection-i", "ref": 125241, "name": "World's Greatest DC Comics Super Heroes Collection I", "year": 1999, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_WorldsGreatestDCComicsSuperHeroesCollectionI-BoxSets-Front.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/worlds-greatest-dc-collection-ii", "ref": 125208, "name": "World's Greatest DC Comics Super Heroes Collection II", "year": 1999, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_WorldsGreatestDCComicsSuperHeroesCollectionII-BoxSets-Front.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/worlds-greatest-dc-collection-iii", "ref": 125209, "name": "World's Greatest DC Comics Super Heroes Collection III", "year": 1999, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_WorldsGreatestDCComicsSuperHeroesCollectionIII-BoxSets-Front.jpg"}]},
+      {"id": "kenner/justice-league-america-jla/worlds-greatest-dc-collection-iv", "ref": 125210, "name": "World's Greatest DC Comics Super Heroes Collection IV", "year": 1999, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/justiceleagueamericajla/thumb_WorldsGreatestDCComicsSuperHeroesCollectionIV-BoxSets-Front.jpg"}]}
+     ]
+    }
+   ]
+  },
+  {
    "id": "centurions",
    "name": "Centurions",
    "years": "1986",
@@ -7489,652 +7629,6 @@
      ]
     }
    ]
-  },
-{
- "id": "duke-the-super-action-dog",
- "name": "Duke the Super Action Dog",
- "years": "1974",
- "blurb": "Kenner's 1974 Duke the Super Action Dog line, featuring the rescue-dog hero with vehicles, a headquarters playset, and a firefighter accessory. 5 catalogued pieces.",
- "subseries": [
-  {
-   "name": "Basic Series",
-   "year": 1974,
-   "figures": [
-    {
-     "id": "kenner/duke-the-super-action-dog/duke-action-firefighter",
-     "ref": 6611,
-     "name": "Duke Action Firefighter",
-     "year": 1974,
-     "images": [
-      {"label": "Front", "url": "https://www.figurerealm.com/galleries/dukethesuperactiondog/thumb_DukeActionFirefighter-Front.jpg"}
-     ]
-    },
-    {
-     "id": "kenner/duke-the-super-action-dog/duke-with-canyon-slide",
-     "ref": 6606,
-     "name": "Duke the Super Action Dog (with Canyon Slide)",
-     "year": 1974,
-     "images": [
-      {"label": "Front", "url": "https://www.figurerealm.com/galleries/dukethesuperactiondog/thumb_DukeCanyonSlide-Front.jpg"}
-     ]
-    },
-    {
-     "id": "kenner/duke-the-super-action-dog/dukes-headquarters-complete",
-     "ref": 6610,
-     "name": "Duke's Headquarters (Complete with Duke)",
-     "year": 1974,
-     "images": [
-      {"label": "Front", "url": "https://www.figurerealm.com/galleries/dukethesuperactiondog/thumb_DukesHeadquarters-Front.jpg"}
-     ]
-    },
-    {
-     "id": "kenner/duke-the-super-action-dog/dukes-rescue-unit-complete",
-     "ref": 6609,
-     "name": "Duke's Rescue Unit (Complete with Duke)",
-     "year": 1974,
-     "images": [
-      {"label": "Front", "url": "https://www.figurerealm.com/galleries/dukethesuperactiondog/thumb_DukesRescueUnit2-Front.jpg"}
-     ]
-    },
-    {
-     "id": "kenner/duke-the-super-action-dog/dukes-rescue-unit-duke-not-included",
-     "ref": 6608,
-     "name": "Duke's Rescue Unit (Duke not included)",
-     "year": 1974,
-     "images": [
-      {"label": "Front", "url": "https://www.figurerealm.com/galleries/dukethesuperactiondog/thumb_DukesRescueUnit1-Front.jpg"}
-     ]
-    }
-   ]
   }
- ]
-},
-{
- "id": "forza-campioni",
- "name": "Forza Campioni",
- "years": "1989",
- "blurb": "Kenner's late-1980s Italian-market line of soccer star figures, featuring Serie A and international football players including Maradona, Van Basten, Gullit, Baggio and Maldini. 32 catalogued pieces.",
- "subseries": [
-  {
-   "name": "Basic Series",
-   "year": 1989,
-   "figures": [
-    {"id": "kenner/forza-campioni/aldo-serena", "ref": 80877, "name": "Aldo Serena", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_AldoSerena-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/andrea-carnevale", "ref": 80878, "name": "Andrea Carnevale", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_AndreaCarnevale-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/andreas-brehme", "ref": 80879, "name": "Andreas Brehme", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_AndreasBrehme-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/angelo-adamo-gregucci", "ref": 80880, "name": "Angelo Adamo Gregucci", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_AngeloAdamoGregucci-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/carlo-ancelotti", "ref": 80905, "name": "Carlo Ancelotti", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_CarloAncelotti-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/diego-a-maradona", "ref": 80881, "name": "Diego A. Maradona", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_DiegoAMaradona-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/diego-a-maradona-v2", "ref": 80882, "name": "Diego A. Maradona", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_DiegoAMaradona-2-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/fernando-de-napoli", "ref": 80883, "name": "Fernando De Napoli", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_FernandoDeNapoli-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/franco-baresi", "ref": 80884, "name": "Franco Baresi", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_FrancoBaresi-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/franklin-rijkaard", "ref": 80885, "name": "Franklin Rijkaard", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_FranklinRijkaard-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/gianluca-vialli", "ref": 80886, "name": "Gianluca Vialli", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_GianlucaVialli-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/giovanni-francini", "ref": 80887, "name": "Giovanni Francini", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_GiovanniFrancini-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/giuseppe-bergomi", "ref": 80888, "name": "Giuseppe Bergomi", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_GiuseppeBergomi-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/giuseppe-giannini", "ref": 80889, "name": "Giuseppe Giannini", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_GiuseppeGiannini-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/glancarlo-marocchi", "ref": 80904, "name": "Glancarlo Marocchi", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_GiancarloMarocchi-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/lothar-matthaus", "ref": 80890, "name": "Lothar Matthaus", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_LotharMatthaus-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/luca-fusi", "ref": 80906, "name": "Luca Fusi", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_LucaFusi-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/luigi-de-agostini", "ref": 80891, "name": "Luigi De Agostini", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_LuigiDeAgostini-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/marco-landucci", "ref": 80892, "name": "Marco Landucci", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_MarcoLanducci-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/marco-van-basten", "ref": 80908, "name": "Marco Van Basten", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_MarcoVanBasten-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/massimo-crippa", "ref": 80903, "name": "Massimo Crippa", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_MassimoCrippa-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/nicola-berti", "ref": 80893, "name": "Nicola Berti", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_NicolaBerti-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/paolo-maldini", "ref": 80894, "name": "Paolo Maldini", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_PaoloMaldini-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/riccardo-ferri", "ref": 80895, "name": "Riccardo Ferri", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_RiccardoFerri-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/roberto-baggio", "ref": 80896, "name": "Roberto Baggio", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_RobertoBaggio-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/roberto-donadoni", "ref": 80897, "name": "Roberto Donadoni", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_RobertoDonadoni-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/roberto-mancini", "ref": 80898, "name": "Roberto Mancini", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_RobertoMancini-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/ruben-sosa-ardaiz", "ref": 80899, "name": "Ruben Sosa Ardaiz", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_RubenSosaArdaiz-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/rudolf-voller", "ref": 80907, "name": "Rudolf Voller", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_RudolfVoller-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/ruisinho-gsd-barros", "ref": 80900, "name": "Ruisinho G.S.D. Barros", "year": 1989, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_RuisinhoGSDBarros-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/ruud-gullit", "ref": 80901, "name": "Ruud Gullit", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_RuudGullit-Front.jpg"}]},
-    {"id": "kenner/forza-campioni/walter-zenga", "ref": 80902, "name": "Walter Zenga", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/forzacampioni/thumb_WalterZenga-Front.jpg"}]}
-   ]
-  }
- ]
-},
-{
- "id": "gi-joe-extreme",
- "name": "G.I. Joe Extreme",
- "years": "1995",
- "blurb": "Kenner's 1995 G.I. Joe Extreme line, tied to the animated series, pitting Lt. Stone's team against Iron Klaw across basic figures, deluxe figures, and vehicles. 19 catalogued pieces.",
- "subseries": [
-  {
-   "name": "Basic Series",
-   "year": 1995,
-   "figures": [
-    {"id": "kenner/gi-joe-extreme/ballistic", "ref": 21735, "name": "Ballistic", "year": 1995, "feature": "with Quick-Draw Combat Action", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_Ballistic-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_Ballistic-1.jpg"}]},
-    {"id": "kenner/gi-joe-extreme/black-dragon", "ref": 21736, "name": "Black Dragon", "year": 1995, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_BlackDragon-Front.jpg"}]},
-    {"id": "kenner/gi-joe-extreme/freight", "ref": 21737, "name": "Freight", "year": 1995, "feature": "with Strong-Arm Blocking Power", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_Freight-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_Freight-1.jpg"}]},
-    {"id": "kenner/gi-joe-extreme/harpoon", "ref": 21738, "name": "Harpoon", "year": 1995, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_Harpoon-Front.jpg"}]},
-    {"id": "kenner/gi-joe-extreme/inferno", "ref": 21742, "name": "Inferno", "year": 1995, "feature": "with Firebolt Flamethrower", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_Inferno-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_Inferno-1.jpg"}]},
-    {"id": "kenner/gi-joe-extreme/iron-klaw", "ref": 21743, "name": "Iron Klaw", "year": 1995, "feature": "with Battle-Activated Assault Rocket", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_IronKlaw-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_IronKlaw-1.jpg"}]},
-    {"id": "kenner/gi-joe-extreme/lt-stone", "ref": 21739, "name": "Lt. Stone", "year": 1995, "feature": "with Semi-Automatic Gatling Firepower", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_LtStone-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_LtStone-1.jpg"}]},
-    {"id": "kenner/gi-joe-extreme/lt-stone-vs-iron-klaw", "ref": 47954, "name": "Lt. Stone vs. Iron Klaw", "year": 1995, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_StoneIronKlaw-Front.jpg"}]},
-    {"id": "kenner/gi-joe-extreme/metal-head", "ref": 47952, "name": "Metal-Head", "year": 1995, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_Metalhead-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_MetalHead-1.jpg"}]},
-    {"id": "kenner/gi-joe-extreme/sgt-savage", "ref": 21741, "name": "Sgt. Savage", "year": 1995, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_SgtSavage-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Deluxe",
-   "year": 1995,
-   "figures": [
-    {"id": "kenner/gi-joe-extreme/ballistic-deluxe", "ref": 47955, "name": "Ballistic", "year": 1995, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_Ballistic-Deluxe-Front.jpg"}]},
-    {"id": "kenner/gi-joe-extreme/lt-stone-deluxe", "ref": 47953, "name": "Lt. Stone", "year": 1995, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_LtStone-Deluxe-Front.jpg"}]},
-    {"id": "kenner/gi-joe-extreme/metal-head-deluxe", "ref": 21740, "name": "Metal-Head", "year": 1995, "feature": "with Ultra-Slam Firepower", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_MetalHead-81211-Deluxe-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Vehicles",
-   "year": 1995,
-   "figures": [
-    {"id": "kenner/gi-joe-extreme/bone-splitter-armored-tank", "ref": 21747, "name": "Bone Splitter Armored Tank", "year": 1995, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_BoneSplitter-Front.jpg"}]},
-    {"id": "kenner/gi-joe-extreme/detonator", "ref": 21744, "name": "Detonator", "year": 1995, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_Detonator-Front.jpg"}]},
-    {"id": "kenner/gi-joe-extreme/road-bullet", "ref": 21745, "name": "Road Bullet", "year": 1995, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_RoadBullet-Front.jpg"}]},
-    {"id": "kenner/gi-joe-extreme/sand-striker", "ref": 21746, "name": "Sand Striker", "year": 1995, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_SandStriker-Front.jpg"}]},
-    {"id": "kenner/gi-joe-extreme/sky-stalker", "ref": 21748, "name": "Sky Stalker", "year": 1995, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_SkyStalker-Front.jpg"}]},
-    {"id": "kenner/gi-joe-extreme/spitfire-battering-platform", "ref": 21749, "name": "Spitfire Battering Platform", "year": 1995, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gijoeextreme/thumb_Spitfire-Front.jpg"}]}
-   ]
-  }
- ]
-},
-{
- "id": "gargoyles",
- "name": "Gargoyles",
- "years": "1995-1996",
- "blurb": "Kenner's line tied to the Disney animated series, with stone-by-day, flesh-by-night winged warriors battling foes in New York City. 35 catalogued pieces across two figure waves, deluxe figures, Hard-Wired, Battle Doubles, Ultimate Scale, a playset, and vehicles.",
- "subseries": [
-  {
-   "name": "Deluxe Battle Doubles",
-   "year": 1996,
-   "figures": [
-    {"id": "kenner/gargoyles/bronx-lion", "ref": 7176, "name": "Bronx / Lion", "year": 1996, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_BronxLion-S2Deluxe-Front.jpg"}]},
-    {"id": "kenner/gargoyles/griffin-goliath", "ref": 7178, "name": "Griffin / Goliath", "year": 1996, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_GriffinGoliath-S2Deluxe-Front.jpg"}]},
-    {"id": "kenner/gargoyles/minotaur-goliath", "ref": 7177, "name": "Minotaur / Goliath", "year": 1996, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_MinotaurGoliath-S2Deluxe-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Hard-Wired",
-   "year": 1996,
-   "figures": [
-    {"id": "kenner/gargoyles/broadway-hardwired", "ref": 7182, "name": "Broadway", "year": 1996, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_Broadway-Hardwired-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_Broadway1-Hardwired.jpg"}]},
-    {"id": "kenner/gargoyles/coldstone-hardwired", "ref": 7181, "name": "Coldstone", "year": 1996, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_Coldstone-Hardwired-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_Coldstone1-Hardwired.jpg"}]},
-    {"id": "kenner/gargoyles/goliath-hardwired", "ref": 7183, "name": "Goliath", "year": 1996, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_Goliath-Hardwired-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_Goliath1-Hardwired.jpg"}]},
-    {"id": "kenner/gargoyles/lexington-hardwired", "ref": 7179, "name": "Lexington", "year": 1996, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_Lexington-Hardwired-Front.jpg"}]},
-    {"id": "kenner/gargoyles/xanatos-hardwired", "ref": 7180, "name": "Xanatos", "year": 1996, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_Xanatos-Hardwired-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Playsets",
-   "year": 1996,
-   "figures": [
-    {"id": "kenner/gargoyles/castle-playset", "ref": 7185, "name": "Castle Playset", "year": 1996, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_CastlePlayset-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Series 1",
-   "year": 1995,
-   "figures": [
-    {"id": "kenner/gargoyles/broadway", "ref": 7152, "name": "Broadway", "year": 1995, "feature": "With Power Slam Arms!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_Broadway-Front.jpg"}]},
-    {"id": "kenner/gargoyles/bronx", "ref": 7153, "name": "Bronx", "year": 1995, "feature": "With Attack Jaw and Glider Wings!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_Bronx-Front.jpg"}]},
-    {"id": "kenner/gargoyles/brooklyn", "ref": 7154, "name": "Brooklyn", "year": 1995, "feature": "With Striking Horns and Snapping Jaw!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_Brooklyn-Front.jpg"}]},
-    {"id": "kenner/gargoyles/demona", "ref": 7155, "name": "Demona", "year": 1995, "feature": "With Firing Stungun and Wing Flap Attack!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_Demona-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_Demona1.jpg"}]},
-    {"id": "kenner/gargoyles/goliath-battle", "ref": 7156, "name": "Goliath (Battle)", "year": 1995, "feature": "With Blasting Combat Mace and Spear!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_GoliathBattle-Front.jpg"}]},
-    {"id": "kenner/gargoyles/goliath-claw-climber", "ref": 7157, "name": "Goliath (Claw Climber)", "year": 1995, "feature": "With Highrise Climbing Gear!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_GoliathClawClimber-Front.jpg"}]},
-    {"id": "kenner/gargoyles/goliath-quick-strike", "ref": 7158, "name": "Goliath (Quick Strike)", "year": 1995, "feature": "With Springing Attack Action!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_GoliathQuickStrike-Front.jpg"}]},
-    {"id": "kenner/gargoyles/goliath-stone-armor", "ref": 7159, "name": "Goliath (Stone Armor)", "year": 1995, "feature": "With Breakaway \"Stone\" Plates and Flapping Wings!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_GoliathStoneArmor-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_GoliathStoneArmor-1.jpg"}]},
-    {"id": "kenner/gargoyles/hudson", "ref": 7160, "name": "Hudson", "year": 1995, "feature": "With Sword Thrusting Body Glow!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_Hudson-Front.jpg"}]},
-    {"id": "kenner/gargoyles/lexington", "ref": 7161, "name": "Lexington", "year": 1995, "feature": "With Firing Crossbow", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_Lexington-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_Lexington1.jpg"}]},
-    {"id": "kenner/gargoyles/macbeth-strike-hammer", "ref": 7162, "name": "Macbeth (Strike Hammer)", "year": 1995, "feature": "With Pounding Stone Blaster Weapon!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_MacbethStrikeHammer-Front.jpg"}]},
-    {"id": "kenner/gargoyles/steel-clan-robot", "ref": 7163, "name": "Steel Clan Robot", "year": 1995, "feature": "With Exploding Body Power!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_RobotSteelClan-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_RobotSteelClan1.jpg"}]},
-    {"id": "kenner/gargoyles/xanatos", "ref": 7164, "name": "Xanatos", "year": 1995, "feature": "With Gargoyles Disguise Armor and Battle Wings!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_Xanatos-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Series 1 - Deluxe Figures",
-   "year": 1995,
-   "figures": [
-    {"id": "kenner/gargoyles/goliath-mighty-roar", "ref": 7165, "name": "Goliath (Mighty Roar)", "year": 1995, "feature": "With Raging Battle Cry and Piercing Light-Up Eyes!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_GoliathMightyRoar-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_GoliathMightyRoar1.jpg"}]},
-    {"id": "kenner/gargoyles/goliath-power-wing", "ref": 7166, "name": "Goliath (Power Wing)", "year": 1995, "feature": "With Mechanized Pop-Out Wingblast Action!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_GoliathPowerWing-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Series 2",
-   "year": 1996,
-   "figures": [
-    {"id": "kenner/gargoyles/broadway-stone-camo", "ref": 7169, "name": "Broadway (Stone Camo)", "year": 1996, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_BroadwayStoneCamo-S2-Front.jpg"}]},
-    {"id": "kenner/gargoyles/brooklyn-icestorm", "ref": 7173, "name": "Brooklyn (Icestorm)", "year": 1996, "feature": "With \"Icicle\" Blasting Power!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_BrooklynIcestorm-Front.jpg"}]},
-    {"id": "kenner/gargoyles/elisa-maza", "ref": 7171, "name": "Elisa Maza", "year": 1996, "feature": "With Rocket Wing Jet Pack!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_Elisa-Front.jpg"}]},
-    {"id": "kenner/gargoyles/goliath-flamestorm", "ref": 7172, "name": "Goliath (Flamestorm)", "year": 1996, "feature": "With \"Fireball\" Throwing Action!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_GoliathFlamestorm-Front.jpg"}]},
-    {"id": "kenner/gargoyles/hudson-rainstorm", "ref": 7174, "name": "Hudson (Rainstorm)", "year": 1996, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_HudsonRainstorm-S2-Front.jpg"}]},
-    {"id": "kenner/gargoyles/lexington-stone-camo", "ref": 7170, "name": "Lexington (Stone Camo)", "year": 1996, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_LexingtonStoneCamo-S2-Front.jpg"}]},
-    {"id": "kenner/gargoyles/xanatos-steel-clan-battle-armor", "ref": 7175, "name": "Xanatos (Steel Clan Battle Armor)", "year": 1996, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_XanatosSteelClan-S2-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Ultimate Scale",
-   "year": 1995,
-   "figures": [
-    {"id": "kenner/gargoyles/ultimate-goliath", "ref": 34384, "name": "Ultimate Goliath", "year": 1995, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_UltimateGoliath-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Vehicles",
-   "year": 1995,
-   "figures": [
-    {"id": "kenner/gargoyles/night-striker", "ref": 7167, "name": "Night Striker", "year": 1995, "feature": "With Grabbing Capture Claws and Firing Battle Rocket!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_NightStriker-Front.jpg"}]},
-    {"id": "kenner/gargoyles/rippin-rider-cycle", "ref": 7168, "name": "Rippin' Rider Cycle", "year": 1995, "feature": "With Hidden Rocket Launcher and Stone Camouflage!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_RippinRiderCycle-Front.jpg"}]},
-    {"id": "kenner/gargoyles/xanatos-xi-44-roadster", "ref": 7186, "name": "Xanatos XI-44 Roadster", "year": 1996, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/gargoyles/thumb_XanatosRoadster-Front.jpg"}]}
-   ]
-  }
- ]
-},
-{
- "id": "glamour-gals",
- "name": "Glamour Gals",
- "years": "1982-1983",
- "blurb": "Kenner's early-1980s line of 4.5-inch fashion-doll figures and their boyfriends, with rooted hair and themed outfits, plus playsets, vehicles, and jewelry variants. 80 catalogued pieces across seven subseries.",
- "subseries": [
-  {
-   "name": "Accessories",
-   "year": 1982,
-   "figures": [
-    {"id": "kenner/glamour-gals/beauty-salon", "ref": 111415, "name": "Beauty Salon", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_BeautySalon-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/dimaond-jubilee", "ref": 111413, "name": "Dimaond Jubilee", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_DimaondJubilee-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/party-place", "ref": 81094, "name": "Party Place", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_PartyPlace-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/showplace", "ref": 111414, "name": "Showplace", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Showplace-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/wedding-day", "ref": 81095, "name": "Wedding Day", "year": 1983, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_WeddingDay-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Basic Series",
-   "year": 1982,
-   "figures": [
-    {"id": "kenner/glamour-gals/blair-camping-cutie-34", "ref": 81050, "name": "Blair in Camping Cutie #34", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Blair-CampingCutie-34-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/blair-simply-peachy-28", "ref": 81051, "name": "Blair in Simply Peachy #28", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Blair-SimplyPeachy-28-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/blair-summer-sensation-37", "ref": 81052, "name": "Blair in Summer Sensation #37", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Blair-SummerSensation-37-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/danni-indian-summer-26", "ref": 81053, "name": "Danni in Indian Summer #26", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_IndianSummer-26-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/danni-lavendar-lady-24", "ref": 81054, "name": "Danni in Lavendar Lady #24", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Danni-LavendarLady-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/danni-peppermint-stix-17", "ref": 81055, "name": "Danni in Peppermint Stix #17", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Danni-PeppermintStix-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/danni-rose-colored-dreams-25", "ref": 81056, "name": "Danni in Rose Colored Dreams #25", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Danni-RoseColoredDreams-25-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/danni-silver-shimmer-08", "ref": 81057, "name": "Danni in Silver Shimmer #08", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Danni-SilverShimmer-08-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/danni-summeriffic-42", "ref": 81058, "name": "Danni in Summeriffic #42", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Danni-Summeriffic-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/erin-camping-cutie-16", "ref": 81059, "name": "Erin in Camping Cutie #16", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Erin-CampingCutie-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/erin-crowning-beauty-23", "ref": 81060, "name": "Erin in Crowning Beauty #23", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Erin-CrowningBeauty-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/erin-fancy-fiesta-39", "ref": 81061, "name": "Erin in Fancy Fiesta #39", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Erin-FancyFiesta-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/erin-golden-glitter-20", "ref": 81062, "name": "Erin in Golden Glitter #20", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Erin-GoldenGlitter-20-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/erin-hawaiian-holiday-36", "ref": 81063, "name": "Erin in Hawaiian Holiday #36", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Erin-HawaiianHoliday-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/erin-western-round-up-11", "ref": 81064, "name": "Erin in Western Round-Up #11", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Erin-WesternRoundUp-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/jana-rodeo-rose-30", "ref": 81065, "name": "Jana in Rodeo Rose #30", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Jana-RodeoRose-30-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/jana-sunshiner-21", "ref": 81066, "name": "Jana in Sunshiner #21", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Jana-Sunshiner-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/jana-sweet-romance-18", "ref": 81067, "name": "Jana in Sweet Romance #18", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Jana-SweetRomance-18-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/jessie-beautiful-bride-22", "ref": 81068, "name": "Jessie in Beautiful Bride #22", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Jessie-BeautifulBride-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/jessie-cinnamon-toast-13", "ref": 81069, "name": "Jessie in Cinnamon Toast #13", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Jessie-CinnamonToast-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/jessie-jean-supreme-07", "ref": 81070, "name": "Jessie in Jean Supreme #07", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Jessie-JeanSupreme-07-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/jessie-jungle-jade-10", "ref": 81071, "name": "Jessie in Jungle Jade #10", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Jessie-JungleJade-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/jessie-perfectly-purple-05", "ref": 81072, "name": "Jessie in Perfectly Purple #05", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Jessie-PerfectlyPurple-05-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/jessie-warm-and-wonderful-04", "ref": 81073, "name": "Jessie in Warm & Wonderful #04", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Jessie-WarmWonderful-04-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/loni-candy-kisses-15", "ref": 81074, "name": "Loni in Candy Kisses #15", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Loni-CandyKisses-15-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/loni-carefree-cowgirl-32", "ref": 81075, "name": "Loni in Carefree Cowgirl #32", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Loni-CarefreeCowgirl-32-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/loni-fancy-dancer-29", "ref": 81076, "name": "Loni in Fancy Dancer #29", "year": 1982, "images": [{"label": "Loose", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Loni-FancyDancer-29-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/loni-green-dazzler-06", "ref": 81077, "name": "Loni in Green Dazzler #06", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Loni-GreenDazzler-06-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/loni-lemon-peel-35", "ref": 81078, "name": "Loni in Lemon Peel #35", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Loni-LemonPeel-35-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/loni-totally-tangerine-02", "ref": 81079, "name": "Loni in Totally Tangerine #02", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Loni-TotallyTangerine-02-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/shara-baby-blue-03", "ref": 81080, "name": "Shara in Baby Blue #03", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Shara-BabyBlue-03-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/shara-bronze-beauty-38", "ref": 81081, "name": "Shara in Bronze Beauty #38", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Shara-BronzeBeauty-38-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/shara-cover-story-01", "ref": 81082, "name": "Shara in Cover Story #01", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Shara-CoverStory-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/shara-romantic-rose-14", "ref": 81083, "name": "Shara in Romantic Rose #14", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Shara-RomanticRose-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/shara-rootin-tootin-rose-12", "ref": 81084, "name": "Shara in Rootin' Tootin' Rose #12", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Shara-RootinTootinRose-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/shara-simply-sparkling-19", "ref": 81085, "name": "Shara in Simply Sparkling #19", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Shara-SimplySparkling-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/vanessa-ballerina-blush-40", "ref": 81086, "name": "Vanessa in Ballerina Blush #40", "year": 1982, "images": [{"label": "Loose", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Vanessa-BallerinaBlush-40-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/vanessa-pom-pom-pizzaz-31", "ref": 81087, "name": "Vanessa in Pom Pom Pizzaz #31", "year": 1982, "images": [{"label": "Loose", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Vanessa-PomPom-31-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/vanessa-running-free-33", "ref": 81088, "name": "Vanessa in Running Free #33", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Vanessa-RunningFree-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/vanessa-sky-blue-41", "ref": 81089, "name": "Vanessa in Sky Blue #41", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Vanessa-SkyBlue-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/vanessa-softly-suited-27", "ref": 81090, "name": "Vanessa in Softly Suited #27", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Vanessa-SoftlySuited-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/vanessa-sweet-surprise-09", "ref": 81091, "name": "Vanessa in Sweet Surprise #09", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Vanessa-SweetSurprise-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Box Sets",
-   "year": 1982,
-   "figures": [
-    {"id": "kenner/glamour-gals/ocean-queen-crew", "ref": 111418, "name": "Ocean Queen Crew", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_OceanQueenCrew-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/rock-band", "ref": 111419, "name": "Rock Band", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_RockBand-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Dateline",
-   "year": 1983,
-   "figures": [
-    {"id": "kenner/glamour-gals/bo-dateline", "ref": 111427, "name": "Bo", "year": 1983, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Bo-Dateline-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/jason-dateline", "ref": 111428, "name": "Jason", "year": 1983, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Jason-Dateline-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/rj-dateline", "ref": 111429, "name": "R.J.", "year": 1983, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_RJ-Dateline-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Great Dates",
-   "year": 1983,
-   "figures": [
-    {"id": "kenner/glamour-gals/bo-great-dates", "ref": 111420, "name": "Bo", "year": 1983, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Bo-GreatDates-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/brett-great-dates", "ref": 111421, "name": "Brett", "year": 1983, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Brett-GreatDates-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/brian-great-dates", "ref": 111422, "name": "Brian", "year": 1983, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Brian-GreatDates-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/captain-kurt-great-dates", "ref": 111423, "name": "Captain Kurt", "year": 1983, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_CaptainKurt-GreatDates-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/chad-great-dates", "ref": 111424, "name": "Chad", "year": 1983, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Chad-GreatDates-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/jason-great-dates", "ref": 111425, "name": "Jason", "year": 1983, "images": [{"label": "Loose", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Jason-GreatDates-1.jpg"}]},
-    {"id": "kenner/glamour-gals/rj-great-dates", "ref": 111426, "name": "R.J.", "year": 1983, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_RJ-GreatDates-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Vehicles",
-   "year": 1982,
-   "figures": [
-    {"id": "kenner/glamour-gals/fancy-firebird", "ref": 111416, "name": "Fancy Firebird", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_FancyFirebird-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/ocean-queen-cruise-ship", "ref": 111417, "name": "Ocean Queen Cruise Ship", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_OceanQueenCruiseShip-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "With Jewelry",
-   "year": 1982,
-   "figures": [
-    {"id": "kenner/glamour-gals/blair-wedding-belle-jewelry", "ref": 81103, "name": "Blair in Wedding Belle", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Blair-WeddingBride-Jewelry-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/danni-cactus-flower-jewelry", "ref": 81101, "name": "Danni in Cactus Flower", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Danni-CactusFlower-Jewelry-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/danni-lavendar-lady-jewelry", "ref": 89449, "name": "Danni in Lavendar Lady", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Danni-LavendarLady-Jewelry-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/danni-sweet-sailing-jewelry", "ref": 81100, "name": "Danni in Sweet Sailing", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Danni-SweetSailing-Jewelry-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/erin-crowning-beauty-jewelry", "ref": 89450, "name": "Erin in Crowning Beauty", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Erin-CrowningBeauty-Jewelry-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/erin-denim-darling-jewelry", "ref": 81097, "name": "Erin in Denim Darling", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Erin-DenimDarling-Jewelry-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/erin-golden-glitter-jewelry", "ref": 89454, "name": "Erin in Golden Glitter", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Erin-GoldenGlitter-Jewelry-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/erin-hawaiian-holiday-jewelry", "ref": 89451, "name": "Erin in Hawaiian Holiday", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Erin-HawaiianHoliday-Jewelry-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/jessie-beautiful-bride-jewelry", "ref": 81093, "name": "Jessie in Beautiful Bride", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Jessie-BeautifulBride-Jewelry-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/jessie-jungle-jade-jewelry", "ref": 89455, "name": "Jessie in Jungle Jade", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Jessie-JungleJade-Jewelry-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/jessie-pony-print-jewelry", "ref": 81102, "name": "Jessie in Pony Print", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Jessie-PonyPrint-Jewelry-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/loni-carefree-cowgirl-jewelry", "ref": 89452, "name": "Loni in Carefree Cowgirl", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Loni-CarefreeCowgirl-Jewelry-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/loni-country-cutie-jewelry", "ref": 81098, "name": "Loni in Country Cutie", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Loni-CountryCutie-Jewelry-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/loni-evening-splendor-jewelry", "ref": 89453, "name": "Loni in Evening Splendor", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Loni-EveningSplendor-Jewelry-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/loni-fancy-dancer-jewelry", "ref": 81096, "name": "Loni in Fancy Dancer", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Loni-FancyDancer-Jewelry-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/loni-going-gold-jewelry", "ref": 81092, "name": "Loni in Going Gold", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Loni-Jewelry-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/vanessa-ballerina-blush-jewelry", "ref": 89456, "name": "Vanessa in Ballerina Blush", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Vanessa-BallerinaBlush-Jewelry-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/vanessa-bold-gold-jewelry", "ref": 81099, "name": "Vanessa in Bold Gold", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Vanessa-BoldGold-Jewelry-Front.jpg"}]},
-    {"id": "kenner/glamour-gals/vanessa-pom-pom-pizzaz-jewelry", "ref": 89457, "name": "Vanessa in Pom Pom Pizzaz", "year": 1982, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/glamourgals/thumb_Vanessa-PomPomPizzaz-Jewelry-Front.jpg"}]}
-   ]
-  }
- ]
-},
-{
- "id": "hardy-boys",
- "name": "Hardy Boys",
- "years": "1978",
- "blurb": "Kenner's figures based on the teen-detective TV series, featuring its two pop-idol stars. 2 catalogued pieces.",
- "subseries": [
-  {
-   "name": "Basic Series",
-   "year": 1978,
-   "figures": [
-    {"id": "kenner/hardy-boys/parker-stevenson", "ref": 89985, "name": "Parker Stevenson", "year": 1978, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/hardyboys/thumb_ParkerStevenson-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/hardyboys/thumb_ParkerStevenson-1.jpg"}]},
-    {"id": "kenner/hardy-boys/shaun-cassidy", "ref": 89986, "name": "Shaun Cassidy", "year": 1978, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/hardyboys/thumb_ShaunCassidy-Front.jpg"}]}
-   ]
-  }
- ]
-},
-{
- "id": "history-of-collection",
- "name": "History of Collection",
- "years": "1996",
- "blurb": "Kenner's commemorative multi-figure boxed sets tracing the toy history of two DC heroes. 2 catalogued pieces.",
- "subseries": [
-  {
-   "name": "Basic Series",
-   "year": 1996,
-   "figures": [
-    {"id": "kenner/history-of-collection/history-of-batman-collection", "ref": 82821, "name": "History of Batman Collection", "year": 1996, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/historyofcollection/thumb_HistoryOfBatman-Front.jpg"}]},
-    {"id": "kenner/history-of-collection/history-of-superman-collection", "ref": 82820, "name": "History of Superman Collection", "year": 1996, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/historyofcollection/thumb_HistoryOfSuperman-Front.jpg"}]}
-   ]
-  }
- ]
-},
-{
- "id": "indiana-jones-raiders-of-the-lost-ark",
- "name": "Indiana Jones - Raiders of the Lost Ark",
- "years": "1982-1983",
- "blurb": "Kenner's line based on the 1981 film, with the archaeologist hero racing the Nazis to the Ark of the Covenant. 17 catalogued pieces across two figure waves, a 12-inch figure, a mail-order exclusive, playsets, and vehicles.",
- "subseries": [
-  {
-   "name": "12\" Scale",
-   "year": 1983,
-   "figures": [
-    {"id": "kenner/indiana-jones-raiders-of-the-lost-ark/indiana-jones-12-scale", "ref": 8514, "name": "Indiana Jones", "year": 1983, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/indianajonesraidersofthelostarkkenner/thumb_IndianaJones-12Scale-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Accessories",
-   "year": 1983,
-   "figures": [
-    {"id": "kenner/indiana-jones-raiders-of-the-lost-ark/desert-convoy-truck", "ref": 28962, "name": "Desert Convoy Truck", "year": 1983, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/indianajonesraidersofthelostarkkenner/thumb_DesertConvoyTruck-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/indianajonesraidersofthelostarkkenner/thumb_DesertConvoyTruck-1.jpg"}]},
-    {"id": "kenner/indiana-jones-raiders-of-the-lost-ark/map-room-bag", "ref": 28963, "name": "Map Room (Bag)", "year": 1983, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/indianajonesraidersofthelostarkkenner/thumb_MapRoom-Front.jpg"}]},
-    {"id": "kenner/indiana-jones-raiders-of-the-lost-ark/map-room-box", "ref": 121125, "name": "Map Room (Box)", "year": 1983, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/indianajonesraidersofthelostarkkenner/thumb_MapRoom-Box-Front.jpg"}]},
-    {"id": "kenner/indiana-jones-raiders-of-the-lost-ark/streets-of-cairo", "ref": 8513, "name": "Streets of Cairo", "year": 1983, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/indianajonesraidersofthelostarkkenner/thumb_StreetsOfCairo-Front.jpg"}]},
-    {"id": "kenner/indiana-jones-raiders-of-the-lost-ark/well-of-the-souls", "ref": 28964, "name": "Well of the Souls", "year": 1983, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/indianajonesraidersofthelostarkkenner/thumb_WellOfTheSouls-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Mail-Order",
-   "year": 1983,
-   "figures": [
-    {"id": "kenner/indiana-jones-raiders-of-the-lost-ark/belloq-ceremonial-robe", "ref": 8512, "name": "Belloq (Ceremonial Robe)", "year": 1983, "feature": "In Ceremonial Robe", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/indianajonesraidersofthelostarkkenner/thumb_BelloqCeremonial-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Series 1",
-   "year": 1982,
-   "figures": [
-    {"id": "kenner/indiana-jones-raiders-of-the-lost-ark/cairo-swordsman", "ref": 8507, "name": "Cairo Swordsman", "year": 1982, "feature": "With Sword and Dagger", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/indianajonesraidersofthelostarkkenner/thumb_CairoSwordsman-Front.jpg"}]},
-    {"id": "kenner/indiana-jones-raiders-of-the-lost-ark/indiana-jones", "ref": 8504, "name": "Indiana Jones", "year": 1982, "feature": "With Whip and Pistol", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/indianajonesraidersofthelostarkkenner/thumb_Indy-Front.jpg"}]},
-    {"id": "kenner/indiana-jones-raiders-of-the-lost-ark/marion-ravenwood", "ref": 8505, "name": "Marion Ravenwood", "year": 1982, "feature": "With Monkey", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/indianajonesraidersofthelostarkkenner/thumb_MarionRavenwood-Front.jpg"}]},
-    {"id": "kenner/indiana-jones-raiders-of-the-lost-ark/toht", "ref": 8506, "name": "Toht", "year": 1982, "feature": "With Trenchcoat and Pistol", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/indianajonesraidersofthelostarkkenner/thumb_Toht-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Series 2",
-   "year": 1983,
-   "figures": [
-    {"id": "kenner/indiana-jones-raiders-of-the-lost-ark/arabian-horse", "ref": 28961, "name": "Arabian Horse", "year": 1983, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/indianajonesraidersofthelostarkkenner/thumb_ArabianHorse-Front.jpg"}]},
-    {"id": "kenner/indiana-jones-raiders-of-the-lost-ark/belloq", "ref": 8509, "name": "Belloq", "year": 1983, "feature": "With Removable Map", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/indianajonesraidersofthelostarkkenner/thumb_Belloq-Front.jpg"}]},
-    {"id": "kenner/indiana-jones-raiders-of-the-lost-ark/belloq-ceremonial-robe-prototype", "ref": 23452, "name": "Belloq (Ceremonial Robe) (Prototype?)", "year": 1983, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/indianajonesraidersofthelostarkkenner/thumb_Belloq-S2-Front.jpg"}]},
-    {"id": "kenner/indiana-jones-raiders-of-the-lost-ark/german-mechanic", "ref": 8510, "name": "German Mechanic", "year": 1983, "feature": "With Wrench", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/indianajonesraidersofthelostarkkenner/thumb_GermanMechanic-Front.jpg"}]},
-    {"id": "kenner/indiana-jones-raiders-of-the-lost-ark/indy-as-german-soldier", "ref": 8508, "name": "Indy as German Soldier", "year": 1983, "feature": "In German Uniform", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/indianajonesraidersofthelostarkkenner/thumb_IndianaGerman-Front.jpg"}]},
-    {"id": "kenner/indiana-jones-raiders-of-the-lost-ark/sallah", "ref": 8511, "name": "Sallah", "year": 1983, "feature": "With Torch", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/indianajonesraidersofthelostarkkenner/thumb_Sallah-Front.jpg"}]}
-   ]
-  }
- ]
-},
-{
- "id": "international-velvet",
- "name": "International Velvet",
- "years": "1978",
- "blurb": "Kenner's figures based on the 1978 equestrian film. 2 catalogued pieces.",
- "subseries": [
-  {
-   "name": "Basic Series",
-   "year": 1978,
-   "figures": [
-    {"id": "kenner/international-velvet/arizona-pie", "ref": 85058, "name": "Arizona Pie", "year": 1978, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/internationalvelvet/thumb_ArizonaPie-Front.jpg"}]},
-    {"id": "kenner/international-velvet/sarah-velvet-brown", "ref": 23920, "name": "Sarah Velvet Brown", "year": 1978, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/internationalvelvet/thumb_SarahVelvetBrown-Front.jpg"}]}
-   ]
-  }
- ]
-},
-{
- "id": "its-ernest",
- "name": "It's Ernest",
- "years": "1989",
- "blurb": "Kenner's talking figure of comedy character Ernest P. Worrell. 1 catalogued piece.",
- "subseries": [
-  {
-   "name": "Talking",
-   "year": 1989,
-   "figures": [
-    {"id": "kenner/its-ernest/ernest", "ref": 90014, "name": "Ernest", "year": 1989, "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/itsernest/thumb_Ernest-Talking-Front.jpg"}]}
-   ]
-  }
- ]
-},
-{
- "id": "jurassic-park",
- "name": "Jurassic Park",
- "years": "1993",
- "blurb": "Kenner's line based on the 1993 film, featuring dinosaurs with Dino-Damage wounds and play-action attack features alongside the film's human characters. 29 catalogued pieces across nine subseries.",
- "subseries": [
-  {
-   "name": "Deluxe Dinos",
-   "year": 1993,
-   "figures": [
-    {"id": "kenner/jurassic-park/stegosaurus", "ref": 8681, "name": "Stegosaurus", "year": 1993, "feature": "With Removable Dino-Damage Wound and Whip-Action Spiked Tail", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Stegosaurus-DinoDamage-Front.jpg"}]},
-    {"id": "kenner/jurassic-park/triceratops", "ref": 8682, "name": "Triceratops", "year": 1993, "feature": "With Removable Dino-Damage Wound and Head-Ramming Attack", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Triceratops-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Triceratops1.jpg"}]},
-    {"id": "kenner/jurassic-park/young-trex", "ref": 8683, "name": "Young T-Rex", "year": 1993, "feature": "With Deadly Slashing Jaws", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_YoungTRex-DinoDamage-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Die-Cast Metal Dinosaurs",
-   "year": 1993,
-   "figures": [
-    {"id": "kenner/jurassic-park/ankylosaurus-and-hadrosaurus", "ref": 8883, "name": "Ankylosaurus & Hadrosaurus", "year": 1993, "feature": "Die Cast Metal Dinosaurs with 2 Exclusive Collectors Cards", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Ankyl-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Ankyl-1.jpg"}]},
-    {"id": "kenner/jurassic-park/brachiosaurus-and-velociraptor", "ref": 8877, "name": "Brachiosaurus & Velociraptor", "year": 1993, "feature": "Die Cast Metal Dinosaurs with 2 Exclusive Collectors Cards", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Brachio-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Brachio-1.jpg"}]},
-    {"id": "kenner/jurassic-park/ceratosaurus-and-triceratops", "ref": 8879, "name": "Ceratosaurus & Triceratops", "year": 1993, "feature": "Die Cast Metal Dinosaurs with 2 Exclusive Collectors Cards", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Cerato-Front.jpg"}]},
-    {"id": "kenner/jurassic-park/dilophosaurus-and-stegosaurus", "ref": 8878, "name": "Dilophosaurus & Stegosaurus", "year": 1993, "feature": "Die Cast Metal Dinosaurs with 2 Exclusive Collectors Cards", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Dilo-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Dilo-1.jpg"}]},
-    {"id": "kenner/jurassic-park/plesiosaurus-and-iguanodon", "ref": 8880, "name": "Plesiosaurus & Iguanodon", "year": 1993, "feature": "Die Cast Metal Dinosaurs with 2 Exclusive Collectors Cards", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Plesio-Front.jpg"}]},
-    {"id": "kenner/jurassic-park/pteranodon-and-gallimimus", "ref": 8881, "name": "Pteranodon & Gallimimus", "year": 1993, "feature": "Die Cast Metal Dinosaurs with 2 Exclusive Collectors Cards", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Pteran-Front.jpg"}]},
-    {"id": "kenner/jurassic-park/tyrannosaurus-and-dimetrodon", "ref": 8882, "name": "Tyrannosaurus & Dimetrodon", "year": 1993, "feature": "Die Cast Metal Dinosaurs with 2 Exclusive Collectors Cards", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_TRex-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_TRex-1.jpg"}]}
-   ]
-  },
-  {
-   "name": "Dino Screams",
-   "year": 1993,
-   "figures": [
-    {"id": "kenner/jurassic-park/dilophosaurus-dino-screams", "ref": 8680, "name": "Dilophosaurus", "year": 1993, "feature": "With Striking Jaw", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Dilophosaurus-DinoScreams-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Dilophosaurus1-DinoScreams.jpg"}]},
-    {"id": "kenner/jurassic-park/velociraptor-dino-screams", "ref": 8679, "name": "Velociraptor", "year": 1993, "feature": "With Slashing Claw", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Velociraptor-DinoScreams-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Velociraptor1-DinoScreams.jpg"}]}
-   ]
-  },
-  {
-   "name": "Dino-Strike",
-   "year": 1993,
-   "figures": [
-    {"id": "kenner/jurassic-park/coelophysis", "ref": 8678, "name": "Coelophysis", "year": 1993, "feature": "With Constrictor Bodies", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Coelophysis-DinoStrike-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Coelophysis1-DinoStrike.jpg"}]},
-    {"id": "kenner/jurassic-park/dilophosaurus-dino-strike", "ref": 8675, "name": "Dilophosaurus", "year": 1993, "feature": "With Dino-Strike Venom Spray", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Dilophosaurus-DinoStrike-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Dilophosaurus1-DinoStrike.jpg"}]},
-    {"id": "kenner/jurassic-park/dimetrodon", "ref": 8677, "name": "Dimetrodon", "year": 1993, "feature": "With Dino-Strike Clamping Jaws", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Dimetrodon-DinoStrike-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Dimetrodon1-DinoStrike.jpg"}]},
-    {"id": "kenner/jurassic-park/pteranodon-dino-strike", "ref": 8676, "name": "Pteranodon", "year": 1993, "feature": "With Dino-Strike Jaws and Wing Flap", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Pteranodon-DinoStrike-Front.jpg"}]},
-    {"id": "kenner/jurassic-park/velociraptor-dino-strike", "ref": 8674, "name": "Velociraptor", "year": 1993, "feature": "With Dino-Strike Slashing Jaws", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Velociraptor-DinoStrike-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Velociraptor1-DinoStrike.jpg"}]}
-   ]
-  },
-  {
-   "name": "Electronic",
-   "year": 1993,
-   "figures": [
-    {"id": "kenner/jurassic-park/tyrannosaurus-rex-electronic", "ref": 8684, "name": "Tyrannosaurus Rex", "year": 1993, "feature": "With Roar & Stomping Sound and Realistic Dinosaur Skin", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_TRex-Electronic-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_TRex1-Electronic.jpg"}]}
-   ]
-  },
-  {
-   "name": "Hatchlings",
-   "year": 1993,
-   "figures": [
-    {"id": "kenner/jurassic-park/raptor-hatchling", "ref": 8689, "name": "Raptor Hatchling", "year": 1993, "feature": "With Breakaway egg!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_RaptorHatchling-Front.jpg"}]},
-    {"id": "kenner/jurassic-park/triceratops-hatchling", "ref": 8690, "name": "Triceratops Hatchling", "year": 1993, "feature": "With Breakaway egg!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_TriceratopsHatchling-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Humans",
-   "year": 1993,
-   "figures": [
-    {"id": "kenner/jurassic-park/alan-grant-aerial-net-trap", "ref": 8669, "name": "Alan Grant (Aerial Net Trap)", "year": 1993, "feature": "With Aerial Net Trap", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_AlanAerialNet-Series1-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_AlanAerialNet1-S1.jpg"}]},
-    {"id": "kenner/jurassic-park/dennis-nedry", "ref": 8672, "name": "Dennis Nedry", "year": 1993, "feature": "With Tranq-Spray Gun & Dino-Damage Arm", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Dennis-Series1-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Dennis1-S1.jpg"}]},
-    {"id": "kenner/jurassic-park/ellie-sattler", "ref": 8670, "name": "Ellie Sattler", "year": 1993, "feature": "With Firing Grappling Hook", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Ellie-Series1-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Ellie1-S1.jpg"}]},
-    {"id": "kenner/jurassic-park/robert-muldoon", "ref": 8671, "name": "Robert Muldoon", "year": 1993, "feature": "With Firing Tranq-Bazooka", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Robert-Series1-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Robert1-S1.jpg"}]},
-    {"id": "kenner/jurassic-park/tim-murphy", "ref": 8673, "name": "Tim Murphy", "year": 1993, "feature": "With Retracting Snare", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Tim-Series1-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_Tim1-S1.jpg"}]}
-   ]
-  },
-  {
-   "name": "Playsets",
-   "year": 1993,
-   "figures": [
-    {"id": "kenner/jurassic-park/command-compound", "ref": 8688, "name": "Command Compound", "year": 1993, "feature": "With Electronic Talking Computer and Dino Damage Sections", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_CommandCompound-Front.jpg"}, {"label": "Loose", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_CommandCompound1.jpg"}]}
-   ]
-  },
-  {
-   "name": "Vehicles",
-   "year": 1993,
-   "figures": [
-    {"id": "kenner/jurassic-park/bush-devil-tracker", "ref": 8685, "name": "Bush Devil Tracker", "year": 1993, "feature": "With Firing Tranq-Missile and Dino Damage Windshield", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_BushDevil-Front.jpg"}]},
-    {"id": "kenner/jurassic-park/capture-copter", "ref": 8686, "name": "Capture Copter", "year": 1993, "feature": "With Dinosaur Net Trap and Firing Tranq-Missile", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_CaptureCopter-Front.jpg"}]},
-    {"id": "kenner/jurassic-park/jungle-explorer", "ref": 8687, "name": "Jungle Explorer", "year": 1993, "feature": "With Blood-Sampling Missile and Dino Damage", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicpark/thumb_JungleExplorer-Front.jpg"}]}
-   ]
-  }
- ]
-},
-{
- "id": "jurassic-park-chaos-effect",
- "name": "Jurassic Park - Chaos Effect",
- "years": "1997",
- "blurb": "Kenner's spin-off line of hybrid 'Chaos Genesis' dinosaurs created by splicing dino and animal DNA, alongside human characters and vehicles. 16 catalogued pieces across seven subseries.",
- "subseries": [
-  {
-   "name": "Dino-Strike",
-   "year": 1997,
-   "figures": [
-    {"id": "kenner/jurassic-park-chaos-effect/thrasher-trex", "ref": 8775, "name": "Thrasher T-Rex", "year": 1997, "feature": "With Dino-Strike Thrashing Action", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparkchaoseffect/thumb_ThrasherTRex-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Dinos",
-   "year": 1997,
-   "figures": [
-    {"id": "kenner/jurassic-park-chaos-effect/amargospinus", "ref": 8769, "name": "Amargospinus", "year": 1997, "feature": "With Attack Jaws & Ultra-Defense Neck Spikes", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparkchaoseffect/thumb_Amargospinus-Front.jpg"}]},
-    {"id": "kenner/jurassic-park-chaos-effect/ankyloranodon", "ref": 8770, "name": "Ankyloranodon", "year": 1997, "feature": "With Vicious Tail-Pounding Attack!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparkchaoseffect/thumb_Ankyloranodon-Front.jpg"}]},
-    {"id": "kenner/jurassic-park-chaos-effect/compstegnathus", "ref": 8771, "name": "Compstegnathus", "year": 1997, "feature": "With Lashing Assault Tongue", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparkchaoseffect/thumb_Compstegnathus-Front.jpg"}]},
-    {"id": "kenner/jurassic-park-chaos-effect/raptor-alpha", "ref": 8772, "name": "Raptor Alpha", "year": 1997, "feature": "With Attack Jaw and capture Gear!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparkchaoseffect/thumb_RaptorAlpha-Front.jpg"}]},
-    {"id": "kenner/jurassic-park-chaos-effect/tanaconda", "ref": 8773, "name": "Tanaconda", "year": 1997, "feature": "With Constrictor Neck Action!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparkchaoseffect/thumb_Tanaconda-Front.jpg"}]},
-    {"id": "kenner/jurassic-park-chaos-effect/tyrannonops", "ref": 8774, "name": "Tyrannonops", "year": 1997, "feature": "With Saber Strike Fangs!", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparkchaoseffect/thumb_Tyrannonops-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Electronic",
-   "year": 1997,
-   "figures": [
-    {"id": "kenner/jurassic-park-chaos-effect/omega-rex", "ref": 8776, "name": "Omega Rex", "year": 1997, "feature": "With Electronic Dino Sounds and Gulping Action", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparkchaoseffect/thumb_OmegaRex-Front.jpg"}]},
-    {"id": "kenner/jurassic-park-chaos-effect/paradeinonychus", "ref": 8777, "name": "Paradeinonychus", "year": 1997, "feature": "With Electronic Attack Roar", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparkchaoseffect/thumb_Paradeinonychus-Front.jpg"}]},
-    {"id": "kenner/jurassic-park-chaos-effect/velocirapteryx", "ref": 8778, "name": "Velocirapteryx", "year": 1997, "feature": "With Electronic Attack Shriek", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparkchaoseffect/thumb_Velocirapteryx-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Humans",
-   "year": 1997,
-   "figures": [
-    {"id": "kenner/jurassic-park-chaos-effect/ian-malcolm", "ref": 8779, "name": "Ian Malcolm", "year": 1997, "feature": "With \"Dino-Mech\" Armor Claw and T-rex Hatchling", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparkchaoseffect/thumb_IanMalcolm-ChaosEffect-Front.jpg"}]},
-    {"id": "kenner/jurassic-park-chaos-effect/roland-tembo", "ref": 8780, "name": "Roland Tembo", "year": 1997, "feature": "With Gatling Launcher and Ultimasaurus Hatchling", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparkchaoseffect/thumb_RolandTembo-ChaosEffect-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Playset",
-   "year": 1997,
-   "figures": [
-    {"id": "kenner/jurassic-park-chaos-effect/mobile-command-center", "ref": 8781, "name": "Mobile Command Center", "year": 1997, "feature": "With Electronic Sounds and Lights", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparkchaoseffect/thumb_MobileCommandCenter-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Vehicle / Figure Packs",
-   "year": 1997,
-   "figures": [
-    {"id": "kenner/jurassic-park-chaos-effect/air-sabre-with-dieter-stark", "ref": 8782, "name": "Air S.A.B.R.E. with Dieter Stark", "year": 1997, "feature": "With Launching Rocket and Heli-Blade Action", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparkchaoseffect/thumb_AirSabre-Front.jpg"}]},
-    {"id": "kenner/jurassic-park-chaos-effect/land-sabre-with-eddie-carr", "ref": 8783, "name": "Land S.A.B.R.E. with Eddie Carr", "year": 1997, "feature": "With Dino Grappling Arms", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparkchaoseffect/thumb_LandSabre-Front.jpg"}]}
-   ]
-  },
-  {
-   "name": "Vehicles",
-   "year": 1997,
-   "figures": [
-    {"id": "kenner/jurassic-park-chaos-effect/trike-dozer", "ref": 8784, "name": "Trike Dozer", "year": 1997, "feature": "With Giant Grappling Claw and Capture Crane", "images": [{"label": "Front", "url": "https://www.figurerealm.com/galleries/jurassicparkchaoseffect/thumb_TrikeDozer-Front.jpg"}]}
-   ]
-  }
- ]
-},
  ]
 }
